@@ -1,6 +1,21 @@
 var gncEventMed = new gncEventMediator(),
     gncFundFinder = new gncFundFinder(),
-    tabContent = new tabContent();
+    tabContent = new tabContent(),
+    gncAnalytics = new gncAnalytics();
+
+var gnc = {
+    /* Takes a URL String and returns an Object out of it
+    */
+    urlToObject: function(url){
+        var urlObj = {};
+        $.each(url.split('&'), function(ix,v){
+            var temp = v.split('=');
+            urlObj[temp[0]] = temp[1];
+        });
+        console.log('urlObj',urlObj);
+        return urlObj;
+    }
+};
 
 gncFundFinder.init();
 

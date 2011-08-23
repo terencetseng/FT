@@ -17,7 +17,15 @@ var tabContent = function(){
             
         // Render tabs
         $.each(tab_data, function(ix,v){
-            tab_HTML += '<li><a href="#'+v['id']+'"><span class="wrapper">' + v['title'] + '</span></a></li>';
+            var analyticsAttr_HTML = '';
+            if (v['analytics']) {
+                analyticsAttr_HTML = ' analytics="';
+                $.each(v['analytics'], function(ix,v){
+                    analyticsAttr_HTML += ix+'='+v+'&';
+                });
+                analyticsAttr_HTML += '"';
+            }
+            tab_HTML += '<li><a href="#"'+analyticsAttr_HTML+'><span class="wrapper">' + v['title'] + '</span></a></li>';
         });
         // Render additional tabs
         if ($('.pane.custom').length >= 0) {
@@ -49,7 +57,6 @@ var tabContent = function(){
                     
                     pane_HTML += '<div class="scrollable_'+v.id+'">';
                         
-                        //pane_HTML += '<h3>'+v['title']+'</h3>';
                         pane_HTML += '<h3>' +v['title']+'</h3>';
                         
                         pane_HTML += '<div class="blurb">';
@@ -136,6 +143,7 @@ var tabContent = function(){
         that.initTabsArea();
         that.initScrollableArea();
         that.initInfographic();
+        gncAnalytics.init();
         
         // init default answer if hash flag is set
         if (defaultAnswer === true) {
@@ -148,7 +156,7 @@ var tabContent = function(){
     
     that.getJSON = function() {
         $.ajax({
-            url: GL_WEB_PATH+'json/GNCTabs.min.json',
+            url: GL_WEB_PATH+'json/GNCTabs.json',
             dataType: 'json',
             success: renderTabs
         });
@@ -300,9 +308,6 @@ var tabContent = function(){
                 
                 // Store history pane in DOM
                 $('body').data('historyPane', currentPane );
-                
-                // Analytics
-                //ntptEventTag('location=InvestmentSolutions&content=Carousel&tab=-&subcontent='+title+'&drawer=-&drawertab=-&ev=StoryClicked&ev_value=StoryClick');
                 
                 // Move legal
                 var $legal = $('.scrollable_'+currentPane , $tab).find('.legal');

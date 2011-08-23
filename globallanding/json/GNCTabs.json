@@ -5,6 +5,9 @@
                 "id": "prospering",
                 "title": "The World is <br/>Prospering",
                 "order": 0,
+                "analytics": {
+                    "location": "GNCProspering"
+                },
                 "content": [
                     {
                         "id": 0,

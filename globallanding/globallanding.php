@@ -243,8 +243,12 @@
 <script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/lib/modernizr-1.7.min.js"></script>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
 
+<!-- Unica lib (returns errors) -->
+<!--script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/lib/ntpagetag.js"></script-->
+
 <script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/configs/constants.js"></script>
 <script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/models/gncTabContent.js"></script>
 <script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/models/gncEventMediator.js"></script>				
-<script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/models/gncFundFinder.js"></script>		
+<script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/models/gncFundFinder.js"></script>
+<script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/models/gncAnalytics.js"></script>
 <script type="text/javascript" src="<?php echo GL_WEB_PATH; ?>js/gncGlobal.js"></script>
