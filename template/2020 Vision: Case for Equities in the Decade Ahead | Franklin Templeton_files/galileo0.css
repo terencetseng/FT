@@ -1,0 +1,3143 @@
+.textsubclass{
+	font-family: arial;
+	font-weight: regular;
+	font-size: 13px;
+	color: #000000;
+	font-weight: bold;
+	line-height: 1.4 em;
+	padding-left: 5px;
+}
+ 
+.whatsNewBlurbStyle
+{
+	font-family: arial;
+	font-weight: regular;
+	font-size: 13px;
+	color: #000000;
+	line-height: regular;
+}
+
+.alertStyle { font-size: 12px;}
+ul {margin-left:15px;list-style-type: disc;}
+
+.tooltipfont{font-size:12px; }
+
+/* Style to change the Bullet in Unordered List*/
+ul {margin-left:15px;list-style-type: disc;}
+
+/*Vote My Proxy */
+.proxyStyle{
+	border-bottom : 1px solid #CCCCCC;
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+
+/*Site Search */
+.defaultTextActive{color:#666666;}
+
+/* Links style Class */
+table,td,tr{vertical-align:top;}
+.styleLink1 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #336699;
+	text-decoration: none;
+}
+
+.nofundsErrorMsg{
+	font-family: Arial;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	text-align:left;
+	padding-left:23px;
+}
+.styleLink1Hover {
+	font-family: Arial;
+	font-size: 11px;
+	color: #336699;
+	text-decoration: underline;
+}
+
+/*Primary contents style classes*/
+.primaryContainer {
+	position: relative;
+	float: left;
+	width: 442px;
+	padding: 15px 24px 0;
+	background: url('bg-hm-ar.png') right -892px no-repeat;
+	line-height: 1.4em;
+}
+
+.primaryEqual {
+	width: 197px;
+	margin-right: 48px;
+	padding-top: 25px;
+	overflow: visible;
+	margin: 1px solid #000000;
+}
+
+.primaryContentModule {
+	width: 197px;
+	margin-right: 48px;
+	padding-top: 25px;
+}
+
+.primaryContentModuleBlurb {
+	font-family: Arial;
+	font-size: 12px;
+	word-wrap :break-word;
+}
+
+ .primaryContentModuleLink {
+	font-family: Arial;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/*Billboard style classes*/
+.billBoardPUB {
+
+	width: 614px;
+	height: 300px;
+	vertical-align: top;
+	float: left;
+	background-color: #001155;
+	\\border: 1px solid #000000;
+	overflow: hidden
+}
+
+.billBannerPUB {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 614px;
+	height: 300px;
+	cursor: default;
+	cursor: pointer;
+}
+
+.billBoardTemplatePUB {
+
+	height: 300px;
+	width: 614px;
+	background-repeat: no-repeat;
+}
+
+.controls_pub_container {
+	float: left;
+	width: 490px;
+	height: 44px;
+	\\vertical-align: top;
+	background-color: #001155;
+}
+
+.activeControlPUB {
+	width:auto;
+	padding:8px 5px 0 5px;
+	height: 30px;
+	_height: 43px;
+	text-align: center;
+	font-style: italic;
+	font-family: GEORGIA;
+	font-size: 18px;
+	color: #FFFFFF;
+	cursor: default;
+	cursor: pointer;
+	background-color: #324466;
+	border-top: solid 5px #EFAB00;
+}
+
+.inactiveControlPUB {
+	width:auto;
+	padding:8px 5px 0 5px;
+	height: 30px;
+	_height: 45px;
+	text-align: center;
+	font-style: italic;
+	font-family: GEORGIA;
+	font-size: 18px;
+	color: #FFFFFF;
+	cursor: default;
+	cursor: pointer;
+	border-left: 1px solid #001155;
+	border-top: solid 5px #001155;
+	background-color: #142A58;
+	cursor: pointer;
+}
+
+.textControlPUBActive {
+	height: 25px;
+	_height: 45px;
+	text-align: center;
+	padding-top: 13px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-style: normal;
+	font-family: ARIAL;
+	font-size: 13px;
+	color: #99CCFF;
+	cursor: default;
+	cursor: pointer;
+	cursor: default;
+	cursor: pointer;
+  border-left: 1px solid #001155;
+	background-color: #324466;
+	border-top: solid 5px #EFAB00;
+	font-style: normal;
+}
+
+.textControlPUBinActive {
+	height: 25px;
+	_height: 45px;
+	width: auto;
+	text-align: center;
+	padding-top: 13px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-style: normal;
+	font-family: ARIAL;
+	font-size: 13px;
+	color: #99CCFF;
+	cursor: default;
+	cursor: pointer;
+	cursor: default;
+	cursor: pointer;
+	border-left: 1px solid #001155;
+	border-top: solid 5px #001155;
+	background-color: #142A58;
+	font-style: normal;
+}
+.inactiveControlPUB:hover, .textControlPUBinActive:hover { background-color:#001155; text-decoration:underline; }/*G2.1*/
+.activeControlPUB:hover, .textControlPUBActive:hover { text-decoration:underline; }/*G2.1*/
+
+
+.billBoardContainerFA {
+	width: 425px;
+	height: 177px;
+	position: relative;
+	/*border: 1px solid #000000;*/
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #CCCCCC;
+}
+
+.billBoardFA {
+	position: absolute;
+	vertical-align: baseline;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 176px;
+	/*border: 1px solid #000000;*/
+	border-bottom: 1px solid #FFFFFF;
+	cursor: default;
+	cursor: pointer;
+}
+
+.controlsContainer {
+	position: absolute;
+	vertical-align: baseline;
+	width: 37px;
+	z-index: 6;
+	height: 176px;
+	top: 0;
+	right: 3px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.activeControlFA {
+	width: 40px;
+	height: 25px;
+	text-align: center;
+	float: right;
+	font-weight: bold;
+	font-family: GEORGIA;
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: default;
+	cursor: pointer;
+	background-image: url("https://www.franklintempleton.com/retail/img/billboard/arrow-fabill-on-e.gif");
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+
+.inactiveControlFA {
+	width: 25px;
+	height: 25px;
+	text-align: left;
+	border-bottom: 1px solid #ABABAB;
+	float: right;
+	font-weight: bold;
+	font-family: GEORGIA;
+	font-size: 14px;
+	color: #336699;
+	cursor: default;
+	cursor: pointer;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	padding: 0px;
+}
+
+.billBoardTemplateFA {
+	top: 0;
+	left: 0;
+	height: 175px;
+	width: 400px;
+	background-repeat: no-repeat;
+}
+
+
+/* Sign In CSS */
+
+.signInColCss1{
+	vertical-align: middle;
+	padding: 0px;
+	padding-bottom: 3px;
+	padding-right: 1px;
+	}
+
+.signInColCss{
+	vertical-align: middle;
+	padding: 0px;
+	}
+.signInColCss3{
+	vertical-align: middle;
+	padding: 0px;
+	padding-bottom: 5px;
+	}
+
+.hm-leftBar {
+	float: right;
+	width: 366px;
+	background: url('https://www.franklintempleton.com/retail/img/billboard/bg-hm-array.png') 0 0
+		no-repeat;
+}
+
+#login {
+	padding: 5px 10px;
+	font-family: arial;
+	font-size: 12px;
+	font-size-adjust: none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+}
+
+#login .title {
+	font: 22px georgia;
+	color: #fff;
+	margin-bottom: 5px;
+	_margin-bottom: 2px;
+}
+
+#login .rememberMe {
+	font: 12px arial;
+	color: #222;
+	padding-left: 1px;
+}
+
+#login .rememberMePadding {
+	padding-left: 5px;
+}
+
+#login .fields {
+	float: left;
+	width: 170px;
+	padding-right: 15px;
+}
+
+#login .links {
+	float: right;
+	width: 170px;
+	_width: 160px;
+	vertical-align: top;
+	padding: 2px;
+}
+
+#login .linksSpacing{
+	padding-bottom: 3px;
+	padding-left: 10px;
+	}
+
+.userIdTxt {
+	padding-left: 14px;
+	padding-right: 2px;
+	font-size: 11px;
+}
+
+.pwdTxt {
+	padding-right: 2px;
+	font-size: 11px;
+}
+
+.textPadding{
+	padding-top: 4px;
+	}
+
+input.go {
+	-x-system-font: none;
+	background: transparent url(bg-btn01.png)
+		no-repeat scroll 0 -158px;
+	border: 0 none;
+	color: #FFFFFF;
+	cursor:pointer;
+	font-family: arial;
+	font-size: 12px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	height: 22px;
+	line-height: normal;
+	margin: 0 0 0 5px;
+	outline-color: -moz-use-text-color;
+	outline-style: none;
+	outline-width: 0;
+	padding: 0 0 1px;
+	text-align: center;
+	vertical-align: middle;
+	width: 23px;
+}
+
+input.signIn{
+border:0 none;
+color:#FFFFFF;
+cursor:pointer;
+display:inline-block;
+font-family:arial;
+font-size:13px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:700;
+height:22px;
+line-height:normal;
+overflow:visible;
+padding:0 0 0 12px;
+position:relative;
+vertical-align:middle;
+white-space:nowrap;
+}
+
+.userIdTxtBox,.password-default,.password {
+	margin: 0 3px 3px 0;
+	width: 120px;
+	-x-system-font: none;
+	border-color: #777777 #BBBBBB #BBBBBB;
+	border-style: solid;
+	border-width: 1px;
+	font-family: arial;
+	font-size: 11px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	padding: 3px 2px;
+	vertical-align: middle;
+	color: #000000;
+}
+
+.userIdTxtBox {margin-left:1px !important;}
+
+
+/* Links style Class */
+
+.defaultChkBokStyle {
+	float: left;
+	font-size: 13px;
+	padding-top: 5px;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.defaultSecLinkStyle {
+	float: right;
+	font-size: 13px;
+	padding-top: 5px;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+/* Operational updates  */
+
+.blurbStyle {
+	font:13px arial;
+}
+
+.opUpHeader {
+	font:400 24px georgia;margin-top:12px;margin-bottom:15px;display:block;
+}
+
+.keyOpUpHeader {
+	font:13px arial;
+	font-weight:bold;margin-left:10px;
+
+}
+
+.keyStartDatePanelGroup {
+	margin-top:5px;
+	margin-left:7px;
+	margin-bottom:5px;
+}
+
+.keyStartDatePanelbox {
+	border-top:1px solid #ccccca;
+	width:673px;
+}
+.keyStartDatebox {
+	border-top:1px solid #ccccca;
+	width:685px;
+}
+.archiveHeader {
+	font:13px arial;
+	font-weight:bold;
+}
+
+.margin_right {
+	margin-right:15px;
+}
+
+.margin_left {
+	margin-left:15px;
+}
+
+.startDatePanel {
+	display:inline-block;
+	margin-right:20px;
+}
+.startDateArchieve {
+	display:inline-block;
+	margin-right:20px;width:100px;
+}
+.startDatebox {
+	display:inline-block;
+
+}
+.startDate {
+	font:500 13px arial;
+}
+
+.keyStartDate {
+	font:500 13px arial;
+	font-weight: bold;
+}
+
+.alertClass{
+	width: 35px;
+	}
+
+.dateClass{
+	width: 100px;
+	}
+
+.dataClass{
+	width: 550px;
+	}
+
+.keyTitleLink {
+	color: #336699;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration:none;
+}
+
+.fileType {
+	font:400 11px arial;
+	color:#666;
+	margin-left:10px;
+}
+
+.titleText {
+	font:700 13px arial;
+	color:#336699;
+}
+
+.keyTitleText {
+	color: #000000;
+	font:700 13px arial;
+}
+
+.expand {
+	display:inline-block;
+	padding-left:12px;
+	background:url("https://www.franklintempleton.com/retail/img/opu/arrow-opRight.gif") 0 center no-repeat;
+}
+
+.active {
+	background:url("https://www.franklintempleton.com/retail/img/opu/arrow-opDown.gif") 0 center no-repeat;
+}
+
+.shade-tl .con {
+	background:#fff;
+	padding:10px;
+}
+.shade-tab {background:url("https://www.franklintempleton.com/retail/img/opu/shadow-bot-b.gif") -673px top no-repeat #f4f5ef;padding:20px 0px 10px 0px;}
+
+.tabContent .shade-tl {
+	background:url("https://www.franklintempleton.com/retail/img/opu/shadow-bot-b.gif") -700px top no-repeat #f4f5ef;
+	position:relative;
+}
+
+.shade-tlFunds {
+	background-image:url("https://www.franklintempleton.com/retail/img/opu/shadow.gif") ;
+	width:700px;
+	height:10px;background-color:#eeeeee;
+
+}
+
+.shadebottom-tlFunds{
+	/*background-image:url("/retail/img/opu/shadow-bot.gif") ;*/
+	width:711px;
+	height:11px;}
+	
+.scroll {
+	height:300px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	margin-top:10px;
+	width:700px;
+}
+
+.faOperUpdates .new {
+	background:url("https://www.franklintempleton.com/retail/img/opu/icon-new.png") 10px 4px no-repeat;
+}
+
+.opUpTabChkBox {
+	float: left;
+	font-size: 13px;
+	padding-top: 5px;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.opUpTabLink {
+	float: right;
+	font-size: 13px;
+	padding-top: 5px;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.opUpTabLinkTxt {
+	color: #0000FF;
+}
+
+.opUpArchLink {
+	color: #336699;
+}
+
+.toolTipStyle {
+      width: 100px;
+      height: auto;
+      text-decoration: none;
+      color: #000000;
+      background-color:#ffffff !important;
+      border: 3px solid #aaaaaa;
+      font-family: Arial;
+      font-size: 12px;
+}
+
+.validMsgStyle {
+	font-family: Arial;
+	font-size: 12px;
+	text-align:left;
+	padding-left:10px;
+}
+
+/* PPSS */
+
+.rowStyle1 {
+	font-weight: normal;
+}
+
+.rowStyle2 {
+	font-weight: normal;
+}
+
+.active-row {
+	background-color: #FFFFCC;
+}
+
+.inactive-row {
+	background-color: #FFFFFF;
+}
+
+.odd-row {
+	background-color: #ECF3FE;
+}
+
+.even-row {
+	background-color: #BBBBBB;
+}
+
+.filterlabels {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: candara;
+	padding-left: 4px;
+}
+
+.filterValues {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: candara;
+}
+
+.ratioStyle {
+	font-size: 9px;
+	font-family: verdana;
+}
+.FundFilterPanelGridStyle {
+	z-index:0;
+	text-align:left;
+	vertical-align:top;
+	width:970px;
+}
+.FundFilterPanelGridStyle1 {
+	text-align:left;
+	vertical-align:top;
+	width : 640px;
+}
+.KeywordSearchBlankStyle {
+	height:1px;
+	width:40px;
+}
+.KeywordSearchTextStyle {
+	font-size:9px;
+	width : 170px;
+}
+.TabStyle {
+	background-color:#F0F0F0;
+	border:0px;
+}
+.BottomAlignStyle {
+	vertical-align:bottom;
+}
+.FundLinkStyle {
+	font-weight: bold;
+	color: #336699;
+	text-decoration: none;
+}
+
+.NavStyle {
+	width: 50px;
+	text-align: center;
+}
+
+.YtdStyle {
+	white-space: normal;
+	text-align: center;
+	width: 60px;
+}
+
+.AATRStyle {
+	width: 70px;
+	text-align: center;
+}
+
+.AATRStyle1 {
+	width: 55px;
+	text-align: center;
+}
+
+.HeaderStyle1 {
+	border-top: 0px;
+	background-image: none;
+	background-color: #F2efe9;
+}
+
+.HeaderStyle3 {
+	font-weight: bold;
+	background-image: none;
+	background-color: #f6f7f1;
+}
+
+.HeaderStyle2 {
+	font-weight: bold;
+	background-Color: #E0E0E0;
+	background-image: none;
+}
+
+
+
+/*Rich Combo box styles*/
+.rich-combobox-shell {
+
+}
+
+.rich-combobox-list-position {
+	position: absolute;
+	left: 0;
+	top: 0px;
+}
+
+.rich-combobox-list-decoration {
+	background: #FFFFFF;
+}
+
+.rich-combobox-list-scroll {
+	line-height: normal;
+}
+
+input.rich-combobox-font {
+	color: #333;
+	font-size: 11px;
+
+}
+
+input.rich-combobox-font-inactive {
+	color: #333;
+	font-size: 11px;
+
+}
+
+input.rich-combobox-font-disabled {
+	color: #333;
+	font-size: 11px;
+
+}
+
+input.rich-combobox-input {
+	background: url('https://www.franklintempleton.com/retail/img/common/bg-select-l.png') left top
+		no-repeat;
+	_width:160px;
+	padding-top:4px;
+	text-align:left;
+	height: 22px;
+	border: none;vertical-align: middle;
+}
+
+input.rich-combobox-input-inactive {
+	background: url('https://www.franklintempleton.com/retail/img/common/bg-select-l.png') left top
+		no-repeat;
+	_width:160px;
+		padding-top:4px;
+	text-align:left;
+	height: 22px;
+	border: none;vertical-align: middle;
+}
+
+input.rich-combobox-input-disabled {
+	background: url('https://www.franklintempleton.com/retail/img/common/bg-select-l.png') left top
+		no-repeat;
+	height: 22px;
+	border: none;
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+		padding-top:4px;
+	text-align:left;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-moz-user-focus: ignore;
+	-moz-user-input: disabled;vertical-align: middle;
+}
+
+.rich-combobox-item {
+	background: #FFFFFF;
+	color: #000000;
+	font-weight: 12px;
+	text-align:left;
+}
+
+.rich-combobox-item-selected {
+	background: #336699;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align:left;
+}
+
+input.rich-combobox-button {
+	background: url('https://www.franklintempleton.com/retail/img/common/bg-select-lr.png') top no-repeat;
+	height: 22px;
+	width: 26px;
+	border: none;
+}
+
+input.rich-combobox-button-inactive {
+	background: url('https://www.franklintempleton.com/retail/img/common/bg-select-lr.png') right top
+		no-repeat;
+	height: 22px;
+	width: 26px;
+	border: none;
+}
+
+input.rich-combobox-button-disabled {
+	background: url('https://www.franklintempleton.com/retail/img/common/bg-select-lr.png') no-repeat;
+	height: 22px;
+	width: 26px;
+	border: none;
+}
+
+input.rich-combobox-button-hovered {
+	background: url('https://www.franklintempleton.com/retail/img/common/bg-select-lr.png') no-repeat;
+	height: 22px;
+	width: 26px;
+	border: none;
+}
+
+input.rich-combobox-button-background-disabled {
+
+}
+
+input.rich-combobox-button-background-inactive {
+
+}
+
+input.rich-combobox-button-background {
+
+}
+
+input.rich-combobox-button-pressed-background {
+
+}
+
+input.rich-combobox-button-icon {
+
+}
+
+input.rich-combobox-button-icon-inactive {
+
+}
+
+input.rich-combobox-button-icon-disabled {
+
+}
+
+.rich-combobox-shadow {
+	border: 0px;
+}
+
+.rich-combobox-shadow-tl {
+	border: 0px;
+}
+
+.rich-combobox-shadow-tr {
+	border: 0px;
+}
+
+.rich-combobox-shadow-bl {
+	border: 0px;
+}
+
+.rich-combobox-shadow-br {
+	border: 0px;
+}
+
+
+
+/*Input text box styles*/
+input.defaultText {
+	border: 1px solid #bbb;
+	padding: 2px;
+	vertical-align: middle;
+	border-top: 1px solid #777;
+	font: 11px arial;
+}
+
+.fundInputTextPanel{
+	height:105px;
+}
+
+
+.fundSearchPanelTitle{
+	font-family: Arial;
+	font-weight: Bold;
+	font-size: 12px;
+	color: #333333
+}
+.fundSearchDescription{
+	font-family: Arial;
+	font-weight: Regular;
+	font-size: 12px;
+	color: #333333
+}
+
+.LegalCopy{
+	font-family: Arial;
+	font-weight: Regular;
+	font-size: 13px;
+	color: #666666
+}
+.Prominence{
+	font-family:Arial;
+	font-weight: Regular;
+	font-size: 13px;
+	color: #776655
+}
+
+.rich-mpnl-mask-div{
+	background-color:#000;
+  	filter:alpha(opacity=50);0
+    -moz-opacity: 0.50;
+    opacity: 0.50;
+    z-index:900;
+}
+.dr-mpnl-pnl{
+	z-index:900;
+}
+.dr-mpnl-ovf-hd{
+	z-index:900;
+}
+.dr-mpnl-trim{
+	z-index:900;
+}
+.rich-mp-content{
+	z-index:900;
+}
+.errorLightboxPanel{
+	text-align:left;
+	width:450px;
+	height:180px;
+}
+.fundErrorTitle{
+	font-family: arial;
+	font-weight: Bold;
+	font-size: 18px;
+	color: #BB5500;line-height: 30px;
+}
+.fundErrorDescription{
+	font-family: Arial;
+	font-weight: Regular;
+	font-size:13px;
+	color: #000000;
+
+}
+.fundErrorInputPanel{
+	width:450px;
+	align:left;margin-top:20px;
+}
+.fundSearchErrorDescription{
+	font-family: Arial;
+	font-weight: bold;
+	font-size:13px;
+	color: #000000;
+	text-align:left;
+	line-height: 24px;
+
+}
+.fundSearchTextboxPanel{border-right:1px solid #dddddd;width:220px;}
+.fundSearchDropDownPanel{border-top:0px;padding-top:10px;}
+
+.fundErrorInputPanelshift{margin-right:15px;}
+
+/* styles for Primary landingpage STARTS here*/
+	.subItemContainer{position:relative;margin-top:-5px;padding:0px;border:none;width:335px;border:none;vertical-align:top;}
+	.spotlight_image{width:280px;display:-moz-inline-stack;display:inline-block;float:right;margin:0px 10px 0px 0px;height:183px;}
+	.rich-table {padding:0px;border:none;}
+	.dr-table-cell{margin:0px;padding:0px;border:none;}
+	.rich-panel{margin:0px;padding:0px;border:none;}
+	.rich-panel-body{margin:0px;padding:0px;border:none;}
+	.subItem{margin:0px 20px 37px 0px;width:335px;float:left;border:none;padding:0px;position:relative;}
+	.linkClass_header:hover{color:#BB5500;}
+	.subItemHeader{font:18px georgia;color:#BB5500;margin:0px;font-weight:regular;}
+	.divider{border:0px thin;background-color:#DDDDDD;height:1px;width:320px;overflow:hidden;}
+	.marginTop_10{margin-top:10px;}
+	.marginLBottom_10{margin-bottom:10px;}
+	.marginRight_25{margin-right:25px;}
+	.marginTop_30{margin-top:25px;}
+	.subItemDetails{font:400 13px/1.4em Arial;color:#000000;margin:0px;margin-bottom:5px;margin-top:5px;padding:0px;line-height:22px;font-weight:regular;position:relative;}
+
+	.custom_image{width:735px;height:200px;position:relative;margin-left:-24px;margin-top:-59px;z-index:30;}
+	.custom_flash{width:735px;height:200px;position:relative;margin-left:-24px;margin-top:-59px;z-index:30;}
+
+	.landPageTitle_SubItem{font-family:georgia;font-size:24px;color:#000000;font-weight:regular;position:relative;top:10px;}
+	.more_link{font-weight:regular;font-size:12px;text-decoration:none;font-family:Arial}
+
+
+	div.leavingCurrentSite{font-family:Arial;font-size:14px;text-align: left;color:#000000;font-weight:regular;padding-top:10px;}
+	div.leavingCurrentSite p{padding-top:10px;text-align:center;}
+	#restrictedToolTipContent{font-family:Arial;padding:5px;}
+	#restrictedToolTipContent p{padding-top:5px;}
+/*styles for Primary Landing page ENDS here */
+
+/* Secondary & Tertiary Landing Page style starts here */
+
+	.secLandPageTitle{font-family:georgia;font-size:24px;color:#000000;font-weight:regular;position:relative;display:block;margin-top:12px;margin-bottom:10px;}
+	#secLandPageContainer{margin-left:24px;}
+	.secLandPageDataGrid{padding:0px;margin-left:-25px;border:none;width:710px;}
+	.terColumns0{width:343px;border-bottom:10px solid #ffffff;border-right:10px solid #ffffff;background:#F2F2EB url(https://www.franklintempleton.com/retail/new/img/common/shadowlp-bot-w.gif) no-repeat scroll -50px bottom;padding-bottom:30px;}
+	.terColumns1{width:343px;border-bottom:10px solid #ffffff;border-left:16px solid #ffffff;background:#F2F2EB url(https://www.franklintempleton.com/retail/new/img/common/shadowlp-bot-w.gif) no-repeat scroll -50px bottom;padding-bottom:30px;}
+	#terContent{padding-bottom:30px;}
+	.terImage{width:343px;background:#ffffff;margin:0px;padding:0px;border:none;}
+	#terContentGroup{margin-left:15px;margin-top:15px;margin-bottom:5px;width:313px;margin-right:15px;}
+	.terTitleLink{text-decoration:none;margin-top:5px;margin-bottom:5px;}
+	.terTitleLink:hover{color:#BB5500;}
+	.terTitle{font:18px georgia;color:#BB5500;margin:0px;font-weight:regular;}
+	.terContentBlurb{font:400 13px/1.4em Arial;color:#000000;margin:0px;margin-bottom:5px;margin-top:5px;padding:0px;line-height:22px;font-weight:regular;}
+	#terDesc{padding-bottom:10px;font:400 13px/1.4em Arial;color:#000000;font-weight:regular;}
+	#terDescTitle{float:left;height:10px;padding-right:5px;}
+	.terDescContent{margin: 2px 0px 10px;}
+	.fullDetailsLink{margin-top:5px;margin-bottom:5px;color:#336699;cursor:pointer;font-size:13px;margin:0px;width:auto;padding-top:0px;font-family:Arial}
+
+/* Secondary & Tertiary Landing Page style ends here */
+
+
+
+ /* My Sales Team style */
+/* My Sales Team style */
+.tabContainer {
+	background-color: #F2F3EB;
+}
+
+.wholeSaler {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.wholeSlrName {
+	font-weight: bold;
+	font-size: 20px;
+	color: #CD3700;
+}
+
+.wholeSlrContact {
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.intrnlWholeSlrName {
+	font-weight: bold;
+	font-size: 20px;
+	color: #CD3700;
+}
+
+.intrnlWholeSlrContact {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.intrnlWholeSaler {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.panelWholesalersIdea {
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 0px solid #000000;
+	border-left: 0px solid #000000;
+	background: transparent;
+	vertical-align: top;
+	text-wrap: normal;
+	word-wrap: break-word;
+	color: #000000;
+	width: 470px;
+	height: 200px;
+	margin-left: 5px;;
+	vertical-align: top;;
+	border-left: 0px solid #000000;
+}
+
+.txtWholesalersIdea {
+	font-weight: bold;
+	font-size: 20px;
+	color: #CD3700;
+}
+
+.articleHdr {
+	font-weight: bold;
+	font-size: 12px;
+	color: #000000;
+}
+
+.articleDate {
+	color: #000000;
+}
+
+.articleBody {
+	color: #000000;
+}
+
+.mtrlsLnk {
+	color: #0000FF;
+}
+
+.panelSalesSupportTeam {
+	border-top: 1px solid #000000;
+	border-bottom: 0px solid #000000;
+	border-left: 0px solid #000000;
+	border-right: 0px solid #000000;
+	background: transparent;
+	padding-top: 3px;
+	vertical-align: top;
+	width: 210px;
+	height: auto;;
+	vertical-align: top;;
+	padding-top: 3px;
+}
+
+.txtSalesSupportTeam {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 13px;
+	color: #000000;
+	padding-left: 0px;
+}
+
+.salesSupContactNo {
+	font-family: arial;
+	font-weight: regular;
+	font-size: 13px;
+	color: #000000;
+	line-height: 1.4 em;
+	padding-left: 0px;
+}
+
+.salesSupContactHr {
+	font-family: arial;
+	font-weight: regular;
+	font-size: 13px;
+	color: #000000;
+	line-height: 1.4 em;
+	padding-left: 2px;
+}
+
+.salesSupService {
+	color: #000000;
+	padding-left: 0px;
+}
+
+.panelSalesSupService {
+	padding-left: 10px;
+}
+
+
+.moreideasPanel {
+	float: right;
+	font-size: 13px;
+	padding-top: 5px;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.moreIdeaTxt {
+	color: #336699;
+}
+
+.salesTeamScroll {
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 359px;
+}
+
+.wholeSaler {
+	font-size: 13px;
+	font-family: Arial;
+	font-weight: normal;
+
+}
+
+.wholeSlrName {
+	color: #BB5500;
+	font-size: 18px;
+	font-family: georgia;
+	font-weight: normal;
+}
+
+.wholeSalerInfo {
+	height: 115px;
+	width: 700px;
+	border-bottom: 1px solid #CCCCCC;
+
+}
+
+.wholeSalerInfoErr {
+	height: 340px;
+	width: 710px;
+	border-bottom: 1px solid #cdcec8;
+	padding-top:20px;
+}
+
+
+.wholeSalerClass {
+	padding: 10px;
+	width: 345px;
+}
+
+.wholeSalerIdeas {
+	width: 435px;
+	height: 225px;
+	vertical-align: top;
+	padding:10px;
+}
+
+.salesSupportTeam {
+
+	border-left: 1px solid #CCCCCC;
+	vertical-align: top;
+	padding: 5px;
+	padding-left:16px;
+}
+
+.salesTeamShade-tl {
+	background: url("https://www.franklintempleton.com/retail/img/opu/shadow-bot-b.gif") -700px top
+		no-repeat #F4F5EF;
+	position: relative;
+}
+
+.txtWholesalersIdea {
+	font-family: georgia;
+	font-size: 18px;
+	color: #BB5500;
+	font-weight: normal;
+}
+
+.articleHdr {
+	font-weight: bold;
+	font-size: 12px;
+	color: #000000;
+}
+
+.articleDate {
+	color: #000000;
+}
+
+.articleBody {
+	color: #000000;
+	font-size: 13px;
+}
+
+.mtrlsLnk {
+	color: #336699;
+	font-size: 13px;
+}
+
+.salesSprtTeam {
+	width:90%;
+	padding-bottom:10px;
+	border-bottom:2px solid #ffffff;
+}
+
+.txtSalesSupportTeam {
+	font-weight: bold;
+	font-size: 13px;
+	color: #000000;
+     	padding-left:0px;
+	display:block;
+	padding-bottom:8px !important;
+	padding-top:8px;
+}
+
+.salesSupContactNo {
+	color: #000000;
+	padding-left: 0px;
+}
+
+.salesSupContactHr {
+	color: #000000;
+	padding-left: 0px;
+}
+
+.salesSupService {
+	color: #000000;
+	margin-left:0px;
+	font-size: 13px;
+}
+
+.panelSalesSupService {
+	padding-left: 10px;
+}
+
+.addtnlCntctInfo {
+	color: #336699;
+	font-size: 13px;
+	line-height: 30px;
+	padding-left: 0px;
+}
+
+.moreideasPanel {
+	float: right;
+	font-size: 13px;
+	padding-top: 5px;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.team {
+	vertical-align: top;
+}
+
+.uiStyle {
+	list-style: none;
+}
+
+.salesTeamGenMessage {
+	padding: 5px;
+	width: 425px;
+	background-color: transparent;
+}
+
+.salesTeamGenMsgHdr {
+	font-weight: bold;
+	font-size: 12px;
+	color: #000000;
+}
+
+.salesTeamGenMsg {
+	font-size: 12px;
+}
+.marginTop3 {
+	margin-top:3px;
+}
+
+.marginLeft10 {
+	margin-top:10px;
+}
+
+.articleDateSalesPage {
+	color: #000000;
+	font-size: 12px;
+	font-weight: normal;
+
+}
+.articleHdrSalesPage  {
+	font-weight: bold;
+	font-size: 13px;
+	color: #000000;
+}
+.defaultTabPannelSalesTeam { /* float:centre;*//*G2.1*/
+	margin-top: 0px;
+	width: 710px;
+	height: 35px;
+	padding: 0px;
+	vertical-align: top;
+	float: left;
+	text-align: left;
+	position:relative;
+	top:0px;
+	border:0px;
+	border-top:1px solid #cdcec8;
+	background:url("https://www.franklintempleton.com/retail/img/opu/shadow-bot.gif") no-repeat scroll 0 bottom #FFFFFF !important;
+	padding-bottom:10px;
+}
+
+.noSalesStyle {
+	font-family: Arial;
+	font-size: 12px;
+	padding-left:10px;
+}
+
+.operationalTabPannel {
+	background:url("https://www.franklintempleton.com/retail/img/opu/shadow-bot.gif") no-repeat scroll 0 bottom #FFFFFF;
+	border-color:#CDCEC8 -moz-use-text-color -moz-use-text-color;
+	border-right:0 none;
+	border-style:solid none none;
+	border-width:1px 0 0;
+	float:left;
+	height:35px;
+	margin-top:0;
+	padding:0 0 10px;
+	position:relative;
+	text-align:left;
+	top:0;
+	vertical-align:top;
+	width:710px;
+}
+
+/* My Clients Style */
+
+
+
+.paddingTxt{
+	padding-top: 4px;
+		}
+
+.rich-sdt-header-cell :FIRST-CHILD {
+	background-color: transparent;
+	height: 100%;
+	border-bottom: 2px solid #C8C8C9;
+	border-top: 1px solid #FFFFFF;
+	padding-top: 9px;
+}
+
+.clientView {
+	position: relative;
+	height: 359px;
+	width: 710px;
+	background: url('https://www.franklintempleton.com/retail/img/common/shadow-bot-b.gif') -720px top
+		no-repeat #F4F5EF;
+	z-index: 0;
+
+}
+
+.cookiedClientView {
+	position: relative;
+	height: 359px;
+	width: 691px;
+	background-color: #F4F5EF;
+	overflow:hidden;
+}
+
+.cookiedClientViewCnt {
+	margin: 25px;
+}
+
+.clientViewMaxCntAndDate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 45px;
+	width: 463px;
+	background-color: transparent;
+	padding-bottom: 8px;
+	padding-top: 15px;
+}
+
+.clientViewtableContainer {
+	padding-top: 45px;
+	height: 300px;
+	width: 465px;
+	overflow: hidden;
+}
+
+.clientsTblBdr {
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px groove #ABABAB;
+	border-right: 1px solid #CCCCCC;
+}
+
+.clientViewtabletbl {
+	height: 280px;
+	width: 465px;
+	overflow: scroll;
+}
+
+.selectedClass {
+	color: #000000;
+}
+
+.myClientsHeader {
+	height: 28px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Regular;
+	text-align: left;
+	background-color: #EEEEEE;
+	z-index: -1;
+}
+
+.myClientsAsst {
+	height: 28px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: Regular;
+	text-align: left;
+	background-color: #EEEEEE;
+	z-index: -1;
+}
+
+.rowClassClient {
+	background-color: #F2F3EB;
+}
+
+.rowClassClient:HOVER {
+	background-color: #FDFCDC;
+}
+
+/*scroll header background color*/
+.dr-sdt-inlinebox {
+	background-color: #F2F3EB;
+}
+
+.clientColumnClassDum {
+	text-align: center;
+	height: 15px;
+	vertical-align: middle;
+	color: #000000;
+	font-family: arial;
+	font-weight: regular;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: normal;
+	background-image: none;
+	background-color: #EEEEEE;
+
+	height: 30px;
+}
+
+.clientColumnClassNameDum {
+	text-align: left;
+	height: 30px;
+	vertical-align: middle;
+	color: #000000;
+	font-family: arial;
+	font-weight: regular;
+	font-size: 12px;
+	text-decoration: none;
+	padding-left: 15px;
+	font-weight: normal;
+	background-image: none;
+	background-color: #EEEEEE;
+}
+
+.clientColumnClass {
+	width:52px;
+	vertical-align: middle;
+	text-align: center;
+
+	border-left:1px solid #DDDDDD;
+	border-bottom:1px solid #CCCCCC;
+}
+
+
+.clientColumnClassName {
+	text-align: left;
+	vertical-align: middle;
+	text-decoration: none;
+	width:255px;
+
+	border-right:1px solid #DDDDDD;
+	border-bottom:1px solid #CCCCCC;
+	padding:10px 5px;
+	font-family:arial;
+	font-size:13px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:400;
+	line-height:normal;
+	padding-right: 0px;
+}
+
+
+
+.rich-sdt-column-cell {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.clientColumnClassAsset {
+	width:125px;
+
+	border-left:1px solid #DDDDDD;
+	border-bottom:1px solid #CCCCCC;
+	padding:10px 5px;
+	text-align:right;
+	font-family:arial;
+	font-size:13px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:regular;
+	color:#000000;
+	line-height:normal;
+}
+
+.clientViewtableHdrName {
+	height: 28px;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+	table-layout: fixed;
+	background-image: none;
+	background-color: #EEEEEE;
+}
+
+.dr-sdt-c-f {
+	border: 0px;
+}
+
+.rich-sdt {
+	border: 0px;
+}
+
+.editLabel {
+	vertical-align: middle;
+	font-family: Arial;
+	color: #000000;
+	font-size: 13px;
+	font-weight:regular;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	line-height: normal;
+	padding-top: 3px;
+}
+
+.editErrorLabel {
+	color: #FF0000;
+	font-family: arial;
+	font-size: 11px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+}
+
+.editNameInput,.editPhoneInput {
+	margin: 0 7px 3px 0;
+	width: 120px;
+	-x-system-font: none;
+	border-color: #777777 #BBBBBB #BBBBBB;
+	border-style: solid;
+	border-width: 1px;
+	font-family: arial;
+	font-size: 13px;
+	color: #000000;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: regular;
+	line-height: normal;
+	padding: 2px;
+	vertical-align: middle;
+	color: #000000;
+}
+
+.errorInputStyle {
+	margin: 0 7px 3px 0;
+	background-color: #FFFF99;
+	width: 120px;
+	-x-system-font: none;
+	border-color: #FF0000;
+	border-style: solid;
+	border-width: 1px;
+	font-family: arial;
+	font-size: 11px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	padding: 2px;
+	vertical-align: middle;
+	color: #000000;
+	width: 120px;
+}
+
+.clientSearch {
+	position: absolute;
+	top: 0px;
+	right: 3px;
+	background-color: transparent;
+	height: 115px;
+	width: 240px;
+	z-index: 100;
+	overflow: hidden;
+	margin-top: 4px;
+}
+
+#containertop {
+	width: 100%;
+	height: 96%;
+}
+
+#containerbottom {
+	width: 100%;
+	height: 4%;
+}
+
+#clientSearchleft {
+	width: 4%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(https://www.franklintempleton.com/retail/img/myclient/shadow-lt.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 100%
+}
+
+#clientSearchright {
+	width: 96%;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(https://www.franklintempleton.com/retail/img/myclient/shadow-rt.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 100%
+}
+
+.closeLargeSearch {
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#clientSearchbotleft {
+	width: 4%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(https://www.franklintempleton.com/retail/img/myclient/shadow-lb.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	height: 100%;
+}
+
+#clientSearchbotright {
+	width: 96%;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	background-image: url(https://www.franklintempleton.com/retail/img/myclient/shadow-rb.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	height: 100%;
+}
+
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #303030;
+	z-index: 1001;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity =
+
+		    80);
+}
+
+.white_content {
+	display: none;
+	position: absolute;
+	top: 13%;
+	left:18%;
+	width: 65%;
+	height: 75%;
+	padding: 5px;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;padding-left:18px;padding-top:10px;
+}
+
+
+.clientListsContainer {
+	position: absolute;
+	_top: 145px;
+	right: 3px;
+	width: 230px;
+	margin-top:7px;
+	margin-bottom:7px;
+	margin-right: 5px;
+	padding-top:7px;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	top: 120px;
+	height: 115px;
+}
+
+.clientFundSearch {
+	position: absolute;
+	top: 250px;
+	right: 5px;
+	height: 80px;
+	width: 233px;
+	padding-top: 10px;
+}
+
+.clientSearchClose {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.myClientListSize {
+	width: 233px;
+	height: 40px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: left;
+	font-size: 13px;
+	color:#000000;
+	background-color: transparent;
+	padding-left: 10px;
+	vertical-align: top;
+}
+
+.myClientAsOfDate {
+	width: 230px;
+	height: 40px;
+	font-family: Arial;
+	font-weight: regular;
+	text-align: right;
+	color: #666666;
+	font-size: 11px;
+	background-color: transparent;
+	border-right: 1px solid #CCCCCC;
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+.clientNickNameCss {
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 10px;/*G2.1*/
+}
+
+.clientNickNameCss :HOVER{
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 2px;
+	}
+
+.clientSearchHdrCSS {
+	font-family:arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	padding-top:0;/*gwsus-1383*/
+	display:block;
+}
+
+.clientSrchComboCSS {
+	padding-bottom: 0px;
+}
+
+.searchInpTxtCss {
+
+}
+
+.srchLinkValue {
+	display: none;
+}
+
+.addToClientsListBtn {
+	display: none;
+}
+
+.clientLists {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.editClientHdrCss {
+	color: #000000;
+	font-size: 12px;font-weight:bold;
+}
+.editClientContentCss {
+	font-family: Arial;
+	color: #000000;
+	font-size: 13px;
+	font-weight:regular;
+	line-height:1.4em;
+}
+.byFundsDrpDwn {
+	padding-top: 3px;
+}
+
+.editValidationMsg {
+	padding-left: 10px;font-size: 12px;font-weight:bold;
+}
+
+.manageClientsLink {
+	color: #336699;	font-weight:400;
+}
+.defaultTabPannelSalesTeam .manageClientsLink {
+	display:block;
+position:relative;
+top:-30px;
+}
+
+
+.defaultTbLnk {
+	color: #0000FF;
+}
+
+.largeSearch {
+	width: 652px;/*G2.1*/
+	height: 263px;
+	overflow: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #ABABAB;
+}
+
+.clientNameCol {
+	height: 40px;
+	width: 375px;/*G2.1*/
+	font-size: 15px;
+	text-decoration: none;
+	border-bottom: 1px solid #ABABAB;
+	vertical-align: middle;
+	border-right: 0px;
+}
+
+.clientName{
+	cursor:pointer;
+	padding:7px 5px;border-left:1px solid #ccc;background:transparent;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	width:239px;
+	border-left:0 none;
+	border-right: 1px solid #ccc;
+	padding-left:20px;
+	padding-right:0;
+	text-align:left;
+	-x-system-font:none;
+	font-family:arial;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:regular;
+	color:#000000;
+	line-height:normal;
+	vertical-align:top;
+	font-weight: normal;
+}
+
+.clientAsset{
+	cursor:pointer;
+	padding:7px 5px;border-left:1px solid #ccc;background:transparent;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	width:130px;
+	border-left:0 none;
+	border-right: 1px solid #ccc;
+	padding-right:0;
+	text-align:center;
+	-x-system-font:none;
+	font-family:arial;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:regular;
+	color:#000000;
+	line-height:normal;
+	vertical-align:top;
+	font-weight: normal;
+}
+
+.clientDelHeader{
+	padding:7px 4px;background:#eee;
+	border-bottom:1px solid #ccc;
+	border-right: 1px solid #CCCCCC;
+	border-top:1px solid #ccc;
+	width:58px;
+	}
+
+tr#clientSortable th{background: #eee;}
+tr#clientSortable th.headerSortUp,
+tr#clientSortable th.headerSortDown {font-weight:700;}
+tr#clientSortable th.headerSortUp span {display: -moz-inline-stack;display:inline-block;width:11px;height:8px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrow-sort-th.gif') right -33px no-repeat;overflow:hidden; }
+tr#clientSortable th.headerSortDown span {display: -moz-inline-stack;display:inline-block;width:11px;height:8px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrow-sort-th.gif') right 0 no-repeat;overflow:hidden; }
+tr#clientSortable th.ignore {cursor:default;}
+
+.addLinkCol {
+	height: 40px;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: 1px solid #ABABAB;
+	vertical-align: middle;
+	border-right: 0px;
+}
+
+.removeToolTip {
+	border-color: #0000FF;
+	background-color: #FFFFFF;
+	text-wrap: normal;
+	white-space: nowrap;
+	word-wrap: break-word;
+	WORD-BREAK: BREAK-ALL;
+	white-space: nowrap;
+}
+
+.editClientToolTip {
+	border-color: #0000FF;
+	background: #FFFFFF;
+	text-wrap: normal;
+	word-wrap: break-word;
+	WORD-BREAK: BREAK-ALL;
+	white-space: nowrap;
+	height: auto;
+}
+
+.updatingImgStyle {
+	padding-top: 85px;
+	padding-left: 190px;
+	padding-bottom: 80px;
+}
+
+.editClientUpdateCss{
+	padding-left: 10px;font-size: 12px;font-weight:bold;
+	}
+
+.updateOkBtnCss{
+	float: right;
+	padding-right: 25px;
+	}
+
+.inactiveBtn {
+	display: none;
+	float: right;
+}
+
+.editSubBtn {
+	float: right;
+}
+
+.noClientsDiv {
+	background-color: #F4F5EF;
+	padding-left: 6px;
+	padding-top: 55px;
+	height: 210px;
+	width: 457px;
+	overflow: auto;
+	font-size: 13px;
+	color:#000000;
+	font-weight: Regular;
+	line-height: 1.4em;
+	font-family: Arial;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.clientListsStyle {
+	list-style-type: disc;
+	padding-top: 5px;
+
+}
+
+.clientListsStyle li {
+	font-size: 12px;
+	font-family: Arial;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.linkSeperator {
+	padding-left: 3px;
+	padding-right: 3px;
+	font: 11px arial;
+	color: #222;
+}
+
+.basicInpStyle {
+	margin: 0 7px 3px 0;
+	-x-system-font: none;
+	border-color: #777777 #BBBBBB #BBBBBB;
+	border-style: solid;
+	border-width: 1px;
+	font-family: arial;
+	font-size: 11px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	padding: 2px;
+	vertical-align: middle;
+	color: #000000;
+}
+
+.clientListLoadingImg {
+	display: none;
+	padding-left: 30px;
+}
+
+.clientByFndNameLoadingImg {
+	display: none;
+	padding-left: 40px;
+}
+
+.hideOnLoad {
+	display: none;
+}
+
+.addToKeyClientsList {
+	font-family: Arial;
+	text-decoration: underline;
+}
+
+.inKeyClientsLstLnk {
+	color: #ABABAB;
+	font-family: Arial;
+	font-weight: bold;
+       font-size:12px;
+}
+
+.clientAddErrorTxt {
+	color: red;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.srchInpSpc {
+	width: 150px;
+	border: 0;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+
+input.command_button_ok {
+	width: 159px;
+	height: 22px;
+	background: url('https://www.franklintempleton.com/retail/img/common/cmdbtn_blue.gif') no-repeat
+		transparent;
+	border: 0;
+	color: #ffffff;
+	font: 700 12px ariel;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.noSrchResultTxt {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.srchInpValidationErrTxt {
+	color: red;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*My Clients style ends*/
+
+
+
+/*My Clients style ends*/
+
+ /* SH home page css */
+/* DHTML Combo Box*/
+.dhtmlselect {
+
+	border: 0px;
+	position: relative;
+	text-indent: 3px;
+	padding: 0px 0;
+	height: 22px;
+	color: #333;
+	font-size: 12px;
+	background-image: url('https://www.franklintempleton.com/retail/img/common/bg-select-l.png');
+	 vertical-align:middle;line-height:21px;
+	left:0px;
+}
+
+.downimage {
+	/*style of "down" image to the right of the DHTML Select Menu*/
+	position: absolute;
+	right: -21px;top:0px;
+}
+
+.dhtmlselecta { /*style of DHTML Select Menu, main box */
+	width: 100px; /*default  width of main box */
+	height: 24px;
+	position: relative;
+	text-indent: 3px;
+	padding: 1px 0;
+	background-color: #FFFFFF;
+
+}
+
+.downimage1 {
+	/*style of "down" image to the right of the DHTML Select Menu*/
+	position: absolute;
+	top: -1px;
+	right: -29px;
+}
+
+.frontImage {
+	position: relative;
+	top: 2px;
+}
+
+.otherCountry {
+	width: 200px;
+	height: 30px;
+	background-color: #00008B;
+}
+
+.dhtmlselect .dropdown {
+	/*style of Drop Down Menu that appears onMouseover */
+	position: absolute;
+	left: 0;
+	/*default width of drop down menu*/
+	border: 1px solid #c4c0b9;
+	-moz-box-shadow: black 10px 5px 5px;
+	display: none;
+	z-index: 5;
+	font-weight: normal;top:20px;
+	padding-bottom: 3px;
+
+}
+*:first-child+html .dhtmlselect .dropdown {
+	/*style of Drop Down Menu that appears onMouseover */
+
+	left: 0px;
+	 /*default width of drop down menu*/
+	border: 1px solid #c4c0b9;
+
+	display: none;
+	z-index: 5;
+	font-weight: normal;margin-top:24px;
+}
+.dhtmlselect .dropdown a { /*style of Drop Down Menu's links */
+	width: auto;
+	display: block;
+	background: #ffffff;
+	border: 0px;
+	padding: 2px 0;
+	text-indent: 2px;
+	text-decoration: none;
+	color: #000000;
+	font-size: 12px;
+
+}
+
+* html .dhtmlselect .dropdown a { /*IE 6 (and below) hack */
+	width: 100%;
+	color: #000000;
+	font-size: 12px;
+}
+
+.dhtmlselect .dropdown a:hover {
+	background: #336699;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	width: 100%;
+}
+
+/*select a*/
+.dhtmlselecta .dropdown {
+	/*style of Drop Down Menu that appears onMouseover */
+	position: absolute;
+	left: 0;
+	width: 180px; /*default width of drop down menu*/
+	border: 1px solid #ABABAB;
+	border-bottom-width: 0;
+	display: none;
+	z-index: 5;
+	font-weight: normal;
+}
+
+.dhtmlselecta .dropdown a { /*style of Drop Down Menu's links */
+	width: auto;
+	display: block;
+	background: #FFFFFF;
+	border-bottom: 1px solid black;
+	padding: 1px 0;
+	text-indent: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+* html .dhtmlselecta .dropdown a { /*IE 6 (and below) hack */
+	width: 100%;
+}
+
+.dhtmlselecta .dropdown a:hover {
+	background: #336699;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.columntextContent {
+
+	background-color: #ffffff;
+}
+
+.columntextContentgroup {
+	width: 222px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #ffffff;
+	vertical-align: top;
+	height: 200px;margin-right:5px;float:left;
+}
+.columntextContentgrouplast {
+	width: 210px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #ffffff;
+	vertical-align: top;
+	height: 200px;float:right;
+}
+.subItemLandingpageHead {
+	font: 18px georgia;
+	color: #BB5500;
+	margin: 0px;
+}
+
+.subItemLandingpageDetail {
+	font: 400 13px/ 1.4em arial;
+	color: #000;
+	margin: 0px;
+}
+
+.subItemLandingpageHeadcontainer {
+	margin: 0px;
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	width: 205px;
+}
+
+.subItemLandingpageDetailcontainer {
+	margin: 0px;
+	margin-left: 10px;
+	width: 185px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+.sh_itemcontainer {
+	padding: 0px;
+	margin: 10px;
+	border: 0px;
+	width:680px;
+}
+
+.sh_datacontainer {
+	padding: 0px;
+	margin: 0px;
+}
+
+.sh_container {
+	background-color: #ffffff;
+	width: 700px;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.sh_columntextContentleft {
+	background-color: #ffffff;
+	width: 481px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sh_columntextContentright {
+	margin-left: 15px;
+	padding: 0px;
+	background-image: url('https://www.franklintempleton.com/retail/img/common/sh_spotlight_bg.gif');
+	width: 209px;
+	background-repeat: no-repeat;
+	height: 341px;
+}
+
+.sh_columntextContentleftgroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sh_columntextContentrightgroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sh_subItem {
+	margin: 0px;
+	width: 481px;
+	float: left;
+	border: none;
+	padding: 0px;
+}
+
+.sh_subheader {
+	font: 15px Arial;
+	color: #000000;
+	font-weight: bold;
+}
+
+.sh_subtitleheader {
+	font: 13px Arial;
+	color: #000000;
+	font-weight: bold;
+}
+
+.sh_subItemLandingpageHeadercontainer {
+	margin: 0px;
+	margin-left: 15px;
+	width: 184px;
+	margin-top: 10px;
+}
+
+.sh_details {
+	font: 400 13px/ 1.4em arial;
+	color: #000;
+}
+
+.sh_subItemLandingpageImage {
+	width: 118px;
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+.sh_subItemLandingpageHeader {
+	font: 18px georgia;
+	color: #BB5500;
+	margin: 0px;
+	padding-right: 5px;
+}
+
+.sh_subItemheadcontainer {
+	margin: 0px;
+	margin-left: 11px;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+
+}
+
+.sh_subItemLandingpageDetails {
+	font: 400 13px/ 1.4em arial;
+	color: #000;
+	margin: 0px;
+}
+
+.sh_subItemLandingpageDetailscontainer {
+	margin: 0px;
+	margin-left: 15px;
+}
+
+.sh_subItemLandingpageImagecontainer {
+	margin-left: 15px;
+}
+
+.sh_datacontainersub {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sh_secondaryclass {
+	color: #336699;
+	font-size: 13px;
+}
+
+.closeLargeSearch {
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+/* SH Home page Css end */
+
+/*Emergency Banner */
+
+
+.faEmgcy {
+margin-left:-24px;
+margin-top:-15px;
+width:687px;
+}
+.pubEmgcy {
+margin-top:-6px;
+}
+
+
+
+
+.fundcheckbox{width: 20px;padding-left:8px;}
+
+.selectradio{margin-left:12px;}
+
+.fundsdefaultTabPannel { /* float:centre;*//*G2.1*/
+	width: 711px;
+	height: 35px;
+	padding: 0px;
+	vertical-align: top;
+	float: left;
+	text-align: left;
+	background-color:#ffffff;
+	border:0px;border-top:1px solid #cdcec8;border-bottom:1px solid #cdcec8;
+	background:url("https://www.franklintempleton.com/retail/img/opu/shadow-bot.gif") no-repeat scroll 0 bottom #FFFFFF;
+	border-bottom:0px;
+	padding-bottom:10px;
+}
+
+
+.fundhdrtext{margin-top:10px;width:100%;text-align:center;}
+.fundhdrtext td{text-align:center;}
+.FundNameHdrTxt .fundhdrtext td{text-align:left;}
+.selectFontType td {padding-right:10px;padding-left:7px;}/*GWSUS-1381*/
+
+.rich-tool-tip {
+	width: 400px;
+	background-color:#f4f5ef;
+	color:#000000;
+	border:1px solid #000000;
+}
+
+.rowClass {
+	background-color: #F2F2EB;
+	color:#1d1e19;
+}
+
+.fundNameStyle {
+	color: #38658f;
+	margin-left: 0px;
+	cursor: pointer;
+	cursor: hand;
+	text-wrap: normal;
+	word-wrap: break-word;
+	WORD-BREAK: BREAK-ALL;
+	padding: 0px;text-align:left;font-size:13px;font-weight:bold;
+}
+.fundNameStyle a{
+	color: #38658f;
+	margin-left: 0px;
+	cursor: pointer;
+	cursor: hand;
+	text-wrap: normal;
+	word-wrap: break-word;
+	WORD-BREAK: BREAK-ALL;
+	padding: 0px;text-align:left;font-size:13px;font-weight:bold;
+}
+.fundNameStyle a:hover{text-decoration:underline; }
+.fundAlertToolTip {
+	border-color: #0000FF;
+	width: 235px;
+	height : auto;
+	background : #FFFFFF;
+	text-wrap: normal;
+	word-wrap: break-word;
+	WORD-BREAK: BREAK-ALL;
+	white-space: nowrap;
+	height: auto;
+}
+
+.removeToolTip {
+	width: 127px;
+	border-color: #0000FF;
+	background-color: #FFFFFF;
+	text-wrap: normal;
+	word-wrap: break-word;
+	WORD-BREAK: BREAK-ALL;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.tabContainerMyFunds1 {
+	width: 711px;
+	height: 299px;
+	padding: 0px;
+	overflow: auto;
+	vertical-align: top;
+	float: left;
+	text-align: center;
+	background-color: transparent;
+	border: 0px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	border-bottom:1px solid #cdcec8;
+}
+
+.tabContainerMyFunds2 {
+	background-color: transparent;
+	width: 711px;
+	height: 269px;
+	padding: 0px;
+	overflow: auto;
+	vertical-align: top;
+	float: left;
+	text-align: center;
+	border: 0px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	border-bottom:1px solid #cdcec8;
+}
+
+.resetTxt {
+	border: 1px solid #ABABAB;
+	margin: 2px;
+	padding: 2px;
+}
+
+.defaultTabPannel { /* float:centre;*/
+	margin-top: 0px;
+	width: 710px;
+	height: 35px;
+	padding: 0px;
+	vertical-align: top;
+	float: left;
+	text-align: left;
+	position:relative;
+	top:-4px;
+	/*background:url("/retail/img/opu/shadow-bot.gif") no-repeat scroll 0 bottom #FFFFFF !important; 
+	border-top:1px solid #cdcec8; */
+}
+/*operations tab only*/
+.rich-tabpanel-content span span.noimage {
+	margin-top: 0px;
+	width: 710px;
+	height: 35px;
+	padding: 0px;
+	vertical-align: top;
+	float: left;
+	text-align: left;
+	position:relative;
+	top:0px;
+	border:0px;
+	border-top:1px solid #cdcec8;
+	background:url("https://www.franklintempleton.com/retail/img/opu/shadow-bot.gif") no-repeat scroll 0 bottom #FFFFFF !important;
+	padding:0 0 10px ;
+}
+
+.fundname_Style {
+	text-align: left;
+	width: 333px;
+	padding: 0px;
+	margin: 0px;
+	border-right: 1px solid #ababab;
+}
+
+.tableHdr_Style {
+	background-color:#eeeeee;
+	width: 712px;
+	height:50px;
+	overflow: auto;
+	vertical-align: center;
+	float: left;
+	text-align: center;
+	border-bottom:2px solid #CCCCCC;border-top:1px solid #CCCCCC;
+
+}
+.tableHdr_Style td {font:12px arial;}
+
+.cNAVcolumn {
+	width: 40px;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+	padding-right: 4px;
+	float: right;
+}
+
+.cNAVChangescolumn {
+	width: 40px;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+	padding-right: 4px;
+	float: right;
+}
+
+.cYTDcolumn {
+	width: 20px;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+	padding-right: 4px;
+	float: right;
+}
+
+.deleteColumn {
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+.alertCol {
+	padding: 0px;
+	margin: 0px;
+}
+
+.NavHdr {
+	width: 81px;/*GWSUS-1381*/
+	background-image: none;
+	background-color: #eeeeee;
+	text-align: center;
+	border-right: 1px solid #DDDDDD;
+	vertical-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.NavChangeHdr {
+	width: 76px;/*GWSUS-1381*/
+	border-right: 1px solid #DDDDDD;
+	text-align: center;
+	background-image: none;
+	background-color: #eeeeee;
+	vertical-align: center;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.YtdHdr {
+	width: 81px;/*GWSUS-1381*/
+	border-left:0px;
+	text-align: center;
+	background-image: none;
+	background-color: #eeeeee;
+	vertical-align: center;
+	padding: 0px;
+	word-wrap: break-word;
+	WORD-BREAK: BREAK-ALL;
+	white-space: wrap;
+	margin: 0px;
+	border-right: 0px;
+}
+ 
+
+.DistributionRateHdr {
+	border-left: 1px solid #eeeeee;
+	text-align: center;
+	background-image: none;
+	background-color: #eeeeee;
+	padding: 0px;
+	margin: 0px;
+}
+
+.scrollHdrCss {
+	width: 80px;
+	border-right: 1px solid #DDDDDD;
+	text-align: center;
+	background-image: none;
+	background-color: #eeeeee;
+	padding: 0px;
+	margin: 0px;
+}
+
+.distributionGridHdr {
+	border-left: 1px solid #DDDDDD;
+	padding-top:10px;/*G2.1*/
+	height: 60px;
+	text-align: center;
+	background-image: none;
+	background-color: #eeeeee;
+	width:93px;/*GWSUS-1381*/
+}
+
+.deleteGridHdr {
+	border-left: 1px solid #DDDDDD;
+	width:44px;/*GWSUS-1381*/
+	height: 60px;
+	background-image: none;
+	background-color: #eeeeee;
+}
+
+.distributionGridHdr1 {
+	border-left: 1px solid #DDDDDD;
+	height: 60px;
+	text-align: center;
+	background-image: none;
+	background-color: #eeeeee;
+	padding-top:10px;
+	width:132px;/*GWSUS-1381*/
+}
+
+.fundNameHdr {
+	width: 335px;/*GWSUS-1381*/
+	border-right: 1px solid #DDDDDD;
+	background-image: none;
+	background-color: #eeeeee;
+	padding: 0px;
+	margin: 0px;
+}
+.FundNameHdrTxt {
+	font-weight: normal;
+	font-size: 14px;
+	vertical-align: top;
+	float: left;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+.FundNameHdrTxt1 {
+	width: 120px;
+	font-size: 14px;
+	vertical-align: top;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+.FundNameHdrTxt2 {
+	width: 205px;
+	font-size: 14px;
+	vertical-align: top;
+	float: right;
+	color: #696969;
+	font-weight: bold; padding : 0px;
+	margin: 0px;
+	border: none;
+
+}
+
+.cdistributionRatecolumn {
+	width: 138px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.distributionGrid {
+	width:90px;
+	text-align: right;
+	padding:10px 0; 
+	border-right:1px solid #CCCCCC;
+	padding:20px 0;
+}
+
+.deleteGrid {
+
+	text-align: left;
+}
+
+.distributionGrid1 {
+	padding: 0px;
+	margin: 0px;
+		width: 137px;
+	text-align: right;
+}
+
+.fontStyle {
+	font-weight:400;
+}
+
+.chooseViewStyle {
+	font-weight: bold;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	width: 120px;
+	font-size: 13px;
+	padding-left:8px;
+	display:block;margin-bottom:10px;
+}
+
+.dateStyle {
+	font-weight: normal;
+	text-align: right;
+	padding: 0 10px 0 0;
+	margin: 0px;
+	font-size: 11px;
+}
+
+.dataDispStyle {
+	cursor:default;
+	font-size: 12px;
+	text-align: right;
+	float: right;
+}
+.dataDisp{
+	cursor: default;
+	font-size: 12px;color:#1d1e19;
+
+}
+.fundToolTip {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.quickAddFund {
+	color: #000000;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.viewPerfStyle{
+	color: #336699;
+	font-weight: 400;
+}
+
+.viewFundsISellStyle{
+	color: #336699;
+	font-size: 13px;
+}
+
+
+
+/* new styles */
+.rich-tabpanel-content {
+	background-color: #eeeeee;border:0px;
+}
+.rich-tabhdr-side-border{border:0px;}
+.rich-tabpanel{border:0px;}
+.rich-tabhdr-side-cell{border:0px;}
+.rich-tabhdr-cell-active{border:0px ;}
+.rich-tabhdr-cell-inactive{border:0px;}
+.rich-tabpanel-content-position{border:0px;}
+.rich-tabhdr-side-border{border:0px;}
+.subBorderColor{color:#ffffff;}
+.rich-tab-header{
+        border:0px ;
+}
+
+.Quickaddbox {
+	background-color: #eeeeee;
+	border-top: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+	width: 711px;
+	height: 30px;
+}
+
+.quickAdd {
+	background-color: #eeeeee;
+}
+
+.fundCaveats {
+	border-bottom: 2px solid #cdcec8;
+	height:37px;
+}
+
+.Quickaddtext {
+	color: #000000;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.defaultTabChkTxt {
+	color: #000000;
+	font-size: 13px;
+	font-weight: 400;
+	padding-right: 10px;
+	margin-top: 4px;
+}
+
+.Quickaddtextbox {
+	margin-top: 2px;
+}
+
+.alignRight {
+	text-align: right;
+}
+.alignLeft {
+	text-align: left;
+}
+.align{
+	border:0px;padding:0px;margin:0px;}
+.floatR{float:right;}
+.margin{padding:0px;margin:0px;}
+.YTD{width: 74px;}
+.txtgrey{color:#eeeeee;}
+.navcolumn{padding:10px 0;margin:0px;border-right:1px solid #DDDDDD;width:81px;text-align:right;border-bottom:1px solid #CCCCCC;vertical-align:middle;}
+.navgrid{margin:0px;float:right;width:81px;text-align:right;}
+.group{padding:0px;margin:0 5px 0 0;}
+.navchangecolumn{padding:10px 0;margin:0px;border-right:1px solid #DDDDDD;width:75px;text-align:right;border-bottom:1px solid #CCCCCC;vertical-align:middle;}
+.navchangegrid{margin:0px;float:right;width:76px;text-align:right;}
+.tblcolbg{background-color: #FFFFFF;border:0px;}
+.fundnamecol{vertical-align:middle;padding:10px 0;margin:0px;border-right:1px solid #DDDDDD;width:335px;text-align:left;border-bottom:1px solid #CCCCCC;}
+.fundnamecolumn{margin:0px;width:335px;float:left;text-align:left;}
+.paddingRight{padding-right:3px;}
+.ytdcolumn{padding:10px 0;margin:0px;border-right:1px solid #DDDDDD;width:83px;text-align:right;border-bottom:1px solid #CCCCCC;vertical-align:middle;}
+.ytdgrid{margin:0px;float:right;width:82px;text-align:right;}
+.distcolumn{padding:0 0 0;width:138px;border-right:0px;border-bottom:1px solid #CCCCCC;}
+.distgrid{width:138px;border-right:0px ;text-align:right;}
+.distgroup{margin:0px;width:110px;float:left;padding-right:3px;text-align:right;}
+.distcol{margin:0px;width:70px;padding-right:5px;text-align:right;float:right;}
+.navgrid td,
+.navchangegrid td,
+.ytdgrid td {padding-right:5px;padding-left:5px;}
+
+.paddingRight2{padding-right:2px;}
+.paddingRight22{margin-right:15px;}
+.paddingRight22 td {padding:20px 0;}
+.paddingRight22 .restrictedBtn {padding-top:0 !important;}
+.distcontainer{width:138px;}
+.fundnametextpadding{width:280px;float:left;margin-left:0px;padding-left:0px;}
+.fundnameimagepadding{width:18px;float:left;margin:2px 4px;}
+.defaultpanelpadding{margin-top:4px;margin-bottom:4px;}
+.quickaddtextpadding{padding-left: 27px;padding-right: 15px;}
+.paddingT7{padding-top: 7px;}
+.borderLgrey{border-left:3px solid #eeeeee;}
+.marginL40{margin-left:40px;}
+.Valignment{vertical-align:middle;}
+table,tr,td{valign:top;vertical-align:top;}
+.fontBold{font-weight:bold;}
+.editCancelBtn{	font-family: arial;font-weight: regular;font-size:13px;color:#336699;}
+.editCancelBtn:hover{text-decoration:underline;}
+.fontgrey{color:#737173;}
+.marginLeft5{margin-left:5px;}
+.editClientContentwidth{width:400px;}
+.editClientName{
+	font-family: arial;
+	font-weight: regular;
+	color:#000000;
+	margin-top:3px;
+	vertical-align: middle;}
+.marginL{width:123px;margin-left:10px;float:left;}
+.portAlign{text-align:right;width:90px;float:left;}
+.marginT{width:123px;float:left;margin-top:10px;}
+.marginTopAlign{text-align:right;width:90px;float:right;margin-top:10px;}
+.marginTop5{margin-top:5px;}
+.caveatHeader{color:#666666;font-weight:bold;}
+.delBtnStyle{padding:1px 5px;}
+.marginTop30{margin-top:30px;}
+
+div.anchor a{line-height:1.13em;}
+
+
+.shcontentStyle{margin-top:12px;margin-left:10px;font-size:13px;}
+.secondarycontent1{}
+.secondarycontent2{padding-left: 30px; border-left: 1px solid #DDDDDD;}
+.sh_secondary_padding {
+	color: #336699;
+	font-size: 13px;
+	padding-left:2px;
+}
+
+.wrapword{word-wrap :break-word;}
+.listStylenone{list-style-type: none;}
+
+.selectFontType{
+	font-size: 12px;
+}
+.inputTextBox{height:17px;line-height:17px;}
+.bulletedCaveat{margin-bottom:3px;}
+.bulletedLegalInfo{color:#666;margin-top:10px;}
+.rich-list-item {margin-bottom:5px;}
+.rich-list-item label {vertical-align:baseline;}
+.legalSpacing {padding-bottom:8px;}
+
+.rich-orderedlist{margin-left:31px;}
+
+.addtnlCntctInfoUrl{
+ padding-left:0px;
+ padding-top:4px;
+ display:block;
+}
+
+.operationfileType {
+	font:400 11px arial;
+	color:#666;
+	margin-left:0px;
+}
+
+.myfundsalertImg{display:block; margin:0 0 0 5px; padding:0; width:20px;}
+
+.wholeSalerImage{
+	margin-right:10px;
+}
+
+.wholeSalerHeader{
+ vertical-align: top;
+}
+.internalWholeSalerImage{
+ margin-right:10px;margin-left:24px;
+}
+.salesTeamService{
+ margin-top:10px;margin-left:1px;
+}
+.salesTeamTab{
+ width: 480px; padding-left: 0px; padding-top: 1px;}
+ 
+ /*G2.1 new*/
+.unorderedListStyle {margin-left:0 !important;}
+table {border-collapse: collapse;}
+table td, table th, table tr {padding:0px;border: 0px;}

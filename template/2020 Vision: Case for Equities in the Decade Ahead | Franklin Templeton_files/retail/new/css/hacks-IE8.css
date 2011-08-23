@@ -1,0 +1,28 @@
+è©¿/*********************
+author: ggao
+
+IE 8.0 hacks
+*********************/
+
+
+span.button input {padding-top:4px;}
+
+button {outline:0;zoom:1;}
+
+input.cancel {vertical-align:baseline;}
+
+
+
+/*used for anchors on core pages*/
+ul.anchor {padding:0;list-style:none;}
+
+
+#hmBodyLow {background:url('../img/common/bg-hmBodyLow.gif') 0 top repeat-x;}
+
+
+#hmBodyLow {zoom:1;}
+
+/*all funds hacks*/
+.tip { border: 1px solid #999; border-right: 7px solid #ccc; border-bottom: 7px solid #ccc;background:#fff;z-index:1000;} 
+.tip .pointer { background: #fff; border-width: 10px 20px 10px 0; border-color: #999; border-style: solid; width: 0; height: 0; display: none; }
+.tip .pointer-flipped { background: #fff; border-width: 10px 20px 10px 0; border-color: #999; border-style: solid; width: 0; height: 0; display: none; }

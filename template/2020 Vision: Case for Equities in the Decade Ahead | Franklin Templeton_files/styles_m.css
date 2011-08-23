@@ -1,0 +1,501 @@
+
+/********************************************************************************************************************************************************************************/
+/********************************************************* MY Home Table -- applies to all my home  tables ******************************************************/
+/********************************************************************************************************************************************************************************/
+
+/******************************************************************************/
+/** My Home Container *******************************************************/
+/******************************************************************************/
+.pageTitleRow{margin:20px 10px 3px 10px;}/**controls container for page head only**/
+.pageTitleRowHeader{padding:0px 5px 0px 0px;font-family:arial,sans-serif;font-size:18px;color:#000000;font-weight:bold;}
+.pageTitleRowLinks{width:17%;padding:0px 7px 0px 5px;}
+.pageTitleRowAsOfDate{width:17%;padding:0px 7px 0px 5px; text-align:right;}
+
+/**page main content begins**/
+TABLE.MyHomeContainer {BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #F2E9D7}/**background color for the pg**/
+TABLE.MyHomeContainer DIV.MHInfoText {font-size: 11px; font-family: verdana; vertical-align: middle; padding-bottom: 10px;} /** informational text for my home area **/
+TABLE.MyHomeContainer SPAN.MHprint {font-size: 9px; font-family: verdana; vertical-align: middle; text-align: right; padding: 0px; margin: 0px;} /** print text content **/
+TABLE.MyHomeContainer DIV.MHprint2 {font-size: 9px;font-family: verdana;vertical-align: text-top;text-align: right; padding: 5px 6px 0px 0px; margin: 0px;} /** print text content outside of container**/
+a.printText{vertical-align:top;font-size: 9px;font-family: verdana;text-align: right; padding: 5px 10px 0px 0px; margin: 0px;} /** print text content outside of container**/
+
+/**div container**/
+DIV.Paddingfix{padding: 0px;}
+FORM {padding: 0px; margin:0px;}/**added 5/19/05 as a fix for FTT adding form elements to the page**/
+
+TABLE.MyHomeContainer TD.MHcontainer {padding: 10px 10px 10px 10px; vertical-align: top;} /** Padding for the container **/
+TABLE.MyHomeContainer TD.MHcontainerA {width:10%; BACKGROUND-COLOR: #DBD2B5; padding: 10px 10px 10px 10px; vertical-align: top;} /** Padding for the container **/
+TABLE.MyHomeContainer TD.MHcontainer DIV.MyHome  {margin-top: 5px; margin-bottom: 0;} /** My home table padding **/
+TABLE.MyHomeContainer TD.MHcontainer DIV.MyHomeB {margin-top: 5px; margin-bottom: 5px;} /** My home style 2 table padding **/
+TABLE.MyHomeContainer TD.MHcontainer DIV.backTop  {padding: 2px 0px 15px 0px; vertical-align: top; text-align: right;} /** Back to Top button padding **/
+TABLE.MyHomeContainer TD.MHcontainer TABLE.tableBottomConent {padding: 0px 0px 0px 0px;} /**back to top and text bottom of table**/
+TABLE.MyHomeContainer TD.MHcontainer TABLE.tableBottomConent TD.TBbackTop {padding: 2px 0px 5px 0px;  text-align: right;} /**back to top and text bottom of table**/
+TABLE.MyHomeContainer TD.MHcontainer TABLE.tableBottomConent TD.TBtext {font-family: verdana; padding: 2px 0px 0px 0px; font-size: 11px; vertical-align: top; text-align: left;}	/**back to top and text bottom of table**/
+TABLE.MyHomeContainer TD.MHcontainer DIV.Jumplinks {font-size: 11px; font-family: verdana; vertical-align: middle; padding-bottom: 5px;} 
+/******************************************************************************/
+/** MyHomeTable **********************************************************/
+/******************************************************************************/
+TABLE.MyHome {width:100%;border-bottom: 1px solid #888888; border-right: 1px solid #888888; border-left: 1px solid #888888; border-collapse: collapse; background-color : #FFFFFF; empty-cells: show;} /** Main Table inside container **/
+
+TABLE.MyHome TD.MHtitlePadding {padding: 5px 15px 2px 5px; border-top: 1px solid #888888; vertical-align: bottom;} /** Padding for the title information with a 1px line top border**/
+TABLE.MyHome TD P.MHtableHeaderSpacer {margin-top: 20px;} /** table spacer used for top margin spacing **/
+TABLE.MyHome TD.MHheaderSpacer {height: 15px;} /** table spacer**/
+
+
+/** Table column header *******************************************************/
+/******************************************************************************/
+
+TABLE.MyHome TR.MHcolHeader {background-color : #ECECEC;} /** Background color for column headers **/
+TABLE.MyHome TD.MHcolSpacer {width: 10px; } /** col padding **/
+TABLE.MyHome TD.MHcolHeaderA {padding: 5px 0px 5px 0px; font-size: 9px; color: #000066; font-family: verdana; font-weight: bold; text-align: left; vertical-align: bottom;} /** left aligned, bold header **/
+TABLE.MyHome TD.MHcolHeaderAB {padding: 5px 0px 5px 0px; font-size: 9px; color: #000066; font-family: verdana; font-weight: bold; text-align: center; vertical-align: bottom;} /** center aligned, bold header **/
+TABLE.MyHome TD.MHcolHeaderAC {padding: 5px 5px 5px 0px; font-size: 9px; color: #000066;  font-family: verdana; font-weight: bold; text-align: right; vertical-align: bottom;} /** right aligned, bold header **/
+TABLE.MyHome TD.MHcolHeaderB {padding: 5px 5px 5px 5px; font-size: 9px; color: #000066; border-left: 1px solid #888888; font-family: verdana; font-weight: bold; text-align: center; vertical-align: bottom;} /** center aligned, border left bold header **/
+
+TABLE.MyHome DIV.MHAcctSpacing {height: 1px; padding-top: 4px;}
+TABLE.MyHome SPAN.MHAcctSpacingA {padding: 0px 15px 0px 0px; font-size: 11px; color: #000000; font-family: verdana; font-weight: normal; text-align: left; vertical-align: bottom;} /** left aligned, padding between data  content **/
+
+/** Table data ****************************************************************/
+/******************************************************************************/
+TABLE.MyHome TR.MHdata {} /** For default data TRs **/
+TABLE.MyHome TR.MHdata TD {font-size: 11px;}
+TABLE.MyHome TR.MHdata9 {} /** For size 9 data TRs **/
+TABLE.MyHome TR.MHdata9 TD {font-size: 9px; color: #000000;}
+
+TABLE.MyHome TD.MHdataA {border-bottom: 1px solid #CCCCCC; padding: 3px 5px 3px 0px; vertical-align: top; font-size: 11px; font-family: verdana; } /** Left column data with additional left padding **/
+TABLE.MyHome TD.MHdataB {border-bottom: 1px solid #CCCCCC; border-left: 1px solid #888888; padding: 5px 5px 5px 5px; text-align: right; vertical-align: top; font-size: 11px; font-family: verdana; } /** Dark left border, center aligned data **/
+TABLE.MyHome TD.MHdataC {border-bottom: 1px solid #CCCCCC; border-left: 1px solid #888888; padding: 5px 5px 5px 5px; text-align: right; vertical-align: top;font-size: 11px; font-family: verdana; } /** Light left border, right aligned data **/
+TABLE.MyHome TD.MHdataCA {border-bottom: 1px solid #CCCCCC; border-left: 1px solid #888888; padding: 5px 5px 5px 5px; vertical-align: top; font-size: 11px; font-family: verdana;} /** Dark left border, left aligned data **/
+TABLE.MyHome DIV.MHdataCAA {vertical-align: top; font-size: 11px; font-family: verdana; text-align:right; padding: 0px;} /** controls contribution amounts only **/
+TABLE.MyHome TD.MHdataD {border-bottom: 1px solid #CCCCCC; border-left: 1px solid #888888; padding: 5px 5px 5px 5px; vertical-align: top; font-size: 9px; font-family: verdana;} /** Dark left border, left aligned data Market Value Column**/
+
+TABLE.MyHome TD.MHdataE { padding: 0px 5px 0px 0px; text-align: left; vertical-align: top; font-size:11px; font-family: verdana;font-weight: bold;} /** eft aligned data **/
+TABLE.MyHome TD.MHdataEA { border-left: 1px solid #DBDBDB; padding: 0px 10px 0px 10px; font-size:11px; text-align: left; vertical-align: top; font-family: verdana;} /** light grey border, left aligned data **/
+TABLE.MyHome SPAN.MHdataEAB { padding: 0px 0px 0px 0px; font-size:11px; text-align: left; font-weight: bold; vertical-align: top; font-family: verdana;} /** light grey border, left aligned data **/
+TABLE.MyHome TD.MHdataEABA {text-align:right; font-weight:bold;padding: 0px 0px 0px 0px; font-size:11px;vertical-align: top; font-family: verdana;} /** light grey border, left aligned data **/
+TABLE.MyHome TD.MHdataEB { padding: 0px 5px 0px 0px; text-align: left; vertical-align: top; font-size:11px; font-family: verdana;font-weight: normal;} /** eft aligned data **/
+
+
+/** The last data row w/o border-bottom **/
+TABLE.MyHome TD.MHlastDataA {padding: 3px 5px 3px 0px; vertical-align: top; font-size: 11px; font-family: verdana;} /** Left column data **/
+TABLE.MyHome TD.MHlastDataB {border-left: 1px solid #888888; padding: 5px 5px 5px 5px; text-align: right; vertical-align: top;font-size: 11px; font-family: verdana;} /** Dark left border, left aligned data **/
+TABLE.MyHome TD.MHlastDataC {border-left: 1px solid #888888; padding: 5px 5px 5px 5px; text-align: right; vertical-align: top; font-size: 11px; font-family: verdana;} /** Dark left border, center aligned data **/
+TABLE.MyHome TD.MHlastDataCA {border-left: 1px solid #888888; padding: 5px 5px 5px 5px; text-align: left; vertical-align: top; font-size: 11px; font-family: verdana;} /** Dark left border, center aligned data **/
+TABLE.MyHome TD.MHlastDataD {border-left: 1px solid #888888; padding: 5px 5px 5px 5px; vertical-align: top; font-size: 9px; font-family: verdana;} /** Dark left border, center aligned data **/
+
+
+TABLE.MyHome TD.MHDivider {height: 11px; vertical-align: middle;} /** table divider  **/
+TABLE.MyHome TD.MHDivider DIV.MHDividerA { width:100%; height: 1px; background:#CCCCCC; } 
+TABLE.MyHome TD.MHDivider DIV.MHDividerB { width:100%; height: 2px; background:#000000; }
+TABLE.MyHome TD.MHbottomSpacer {height: 20px;} /** Space between the last data and the table border **/
+
+/******************************************************************************/
+/** Fund Perf Table B & C ,D, E*********************************************************/
+/******************************************************************************/
+TABLE.MyHomeB {padding: 0px 0px 0px 0px; margin-bottom:20px;border: 1px solid #99A9C4; border-collapse: collapse; background-color: #FFFFFF; vertical-align: top;} /** Table class **/
+TABLE.MyHomeBB {background-color: #FFFFFF; padding: 7px; vertical-align: top; margin-right: 10px;} /** Table class **/
+
+TABLE.MyHomeB TD.MHtitleHeaderB{padding:7px; background-color:#D0DCE8; font-weight:bold;font-size:15px; font-family:arial,san-serif; color:#000000;}
+TABLE.MyHomeB TD.MHtitleHeaderBA{padding:7px; background-color:#D0DCE8; font-weight:bold;font-size:15px; font-family:arial,san-serif; color:#000000;text-align: right;}
+
+TABLE.MyHomeB TD.MHtitleHeaderBAB{padding:7px; background-color:#FFFFFF; font-weight:bold;font-size:13px; font-family:arial,san-serif; color:#000000;}
+TABLE.MyHomeB TD.MHtitleHeaderBABA{padding:0px 7px 0px 7px; background-color:#FFFFFF; font-weight:normal;font-size:9px; font-family:verdana; color:#000000; text-align:right;}
+TABLE.MyHomeB TD.MHtitleHeaderBABB{padding:0px 7px 7px 7px; background-color:#FFFFFF; font-weight:normal;font-size:9px; font-family:verdana; color:#000000;}
+
+TABLE.MyHomeB TD.MHcolSpacerB{padding:5px;}
+TABLE.MyHomeB DIV.MHSpacerB{height:5px;}
+
+TABLE.MyHomeB TD.MHdataRowB{vertical-align:top; border-right: 1px solid #CCCCCC;padding:0px 7px 7px 7px; font-weight:normal;font-size:11px; font-family:verdana; color:#000000;}
+TABLE.MyHomeB TD.MHdataRowBA{border-bottom: 1px solid #CCCCCC;padding:0px 5px 3px 0px; font-weight:bold;font-size:11px; font-family:verdana; color:#000000;}
+TABLE.MyHomeB TD.MHdataRowBAB{border-bottom: 1px solid #CCCCCC;padding:0px 5px 3px 0px; font-weight:bold;font-size:11px; font-family:verdana; color:#000000; text-align:right;}
+TABLE.MyHomeB TD.MHdataRowBB{border-bottom: 1px solid #CCCCCC;padding:3px 5px 3px 0px; font-weight:normal;font-size:11px; font-family:verdana; color:#000000;}
+TABLE.MyHomeB TD.MHdataRowBBA{border-bottom: 1px solid #CCCCCC;padding:3px 5px 3px 0px; font-weight:normal;font-size:11px; font-family:verdana; color:#000000; text-align:right;}
+
+TABLE.MyHomeB TD.MHlastDataRowBB{padding:3px 5px 10px 0px; font-weight:normal;font-size:11px; font-family:verdana; color:#000000;}
+TABLE.MyHomeB TD.MHlastDataRowBBA{padding:3px 5px 10px 0px; font-weight:normal;font-size:11px; font-family:verdana; color:#000000; text-align:right;}
+
+TABLE.MyHomeB TD.MHlastDataBB{padding:0px 5px 0px 5px; font-weight:normal;font-size:11px; font-family:verdana; color:#000000;}
+TABLE.MyHomeB TD.MHlastDataBBA{border-left: 1px solid #000000; padding:0px 5px 0px 5px; font-weight:normal;font-size:11px; font-family:verdana; color:#000000;}
+
+TABLE.MyHomeB TD.MHdividerLineB{	height: auto;	background-image: url(https://www.franklintempleton.com/share/img/black-dot.gif); padding: 0px;}
+
+TABLE.MyHomeB TD.MHheightSpacerB{height:15px;}
+
+
+
+/**Table MyHomeBA right side table**/
+TABLE.MyHomeBA TD.MHtitlePaddingB {padding: 3px 5px 5px 5px;} /** Padding for the title information **/
+TABLE.MyHomeBA TD SPAN.MHtableTitle {font-family: arial,sans-serif; font-size: 15px; color: #000000; font-weight: bold;} /** Table title **/
+
+TABLE.MyHomeBA TD.MHTextInfoB{padding: 0px 5px 0px 5px; font-size: 11px; text-align: left; font-family:verdana; } /** Top date **/
+TABLE.MyHomeBA DIV.MHdividerLineB {border-bottom: 1px solid #818181; height:1px;margin-bottom:7px; margin-top:7px;}
+
+/** data myhomeBA****************************************************************/
+/******************************************************************************/
+DIV.MyHomeBA {border: 1px solid #888888; border-collapse: collapse; background-color: #FFFFFF; padding: 7px; vertical-align: top;} /** Table class **/
+
+TABLE.MyHomeBA SPAN.MHTotDataBB{padding: 5px 5px 5px 3px; color:#000000; font-weight:bold; font-family:verdana; font-size:9px;}
+TABLE.MyHomeBA SPAN.MHTotDataBBA{padding: 5px 0px 5px 3px; color:#000000; font-weight:normal; font-family:verdana; font-size:9px;}
+TABLE.MyHomeBA TD.MHFundDataB{vertical-align:top; padding: 3px 3px 3px 3px;}
+TABLE.MyHomeBA TD.MHFundDataBA{ padding: 3px 3px 3px 3px; color:#000000; font-weight:normal; font-family:verdana; font-size:9px;}
+TABLE.MyHomeBA TD.MHFundChartB{text-align:center; padding: 3px 3px 3px 3px;}
+
+
+
+
+/******************************************************************************/
+/** Fund Perf Table C *********************************************************/
+/******************************************************************************/ 	
+TABLE.MyHomeContainer TD.MHcontainer TD.MHcols {border:1px solid #888888; background-color:#FFFFFF; padding: 5px; vertical-align: top;}		
+TABLE.MyHomeContainer TD.MHcontainer DIV.MHCSpacer {margin-bottom: 10px;}
+
+DIV.MyHomeC {border:1px solid #888888; background-color:#FFFFFF; padding: 7px; vertical-align: top; margin-right: 10px;}/**Table "MyHomeC" class for left col tables**/
+DIV.MyHomeC TABLE.MyHomeC TD.MHCHeaderA {font-family: Arial; font-size: 15px; color: #000000; font-weight: bold; text-align: left;}
+DIV.MyHomeC TABLE.MyHomeC TD.MHCcontentText{padding: 5px 0px 10px 0px; font-size: 11px; color: #000000; font-family: verdana; font-weight: normal; text-align: left;}
+DIV.MyHomeC TABLE.MyHomeC TD.MHlabel {font-weight: bold; font-size: 11px; font-family: verdana; vertical-align: top;}
+DIV.MyHomeC TABLE.MyHomeC input,
+DIV.MyHomeC TABLE.MyHomeC select {font-weight: normal; margin-left: 0px; margin-top: 3px; margin-right: 2px; font-size: 11px; font-family: verdana; padding: 0px;}	  
+
+DIV.MyHomeC TABLE.MyHomeC TD.MHCHeaderB {margin-top: 5px; padding: 0px 5px 3px 0px; font-size: 11px; color: #000000; font-family: verdana; font-weight: bold; text-align: left; vertical-align: top;}
+DIV.MyHomeC TABLE.MyHomeC TD.MHCHeaderC {margin-top: 5px; padding: 0px 5px 3px 10px; border-left: 1px solid #CECECE; font-size: 11px; color: #000000; font-family: verdana; font-weight: bold; vertical-align: top;}
+
+DIV.MyHomeC TABLE.MyHomeC TD.MHCListdata {padding: 3px 5px 0px 0px;font-size: 11px; color: #000000; font-family: verdana; font-weight: normal; text-align: left; vertical-align: bottom;}
+DIV.MyHomeC TABLE.MyHomeC TD.MHCListdataA {padding: 3px 5px 0px 10px; border-left: 1px solid #CECECE; font-size: 11px; color: #000000; font-family: verdana; font-weight: normal; vertical-align: bottom;}
+
+DIV.MyHomeC TABLE.MyHomeC TD.bottomSpacer {height: 10px;} /** Space between the last data and the table border **/
+/******************************************************************************/
+/** Fund Perf Table CA *********************************************************/
+/******************************************************************************/
+DIV.MyHomeCA {vertical-align: top; padding: 3px 7px 7px 7px;} /** Table class "MyHomeCA" for far right col **/
+DIV.MyHomeCA TABLE.MyHomeC {} /** Table class Table class for far right col  **/
+
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCHeaderAB {font-family: Arial; font-size: 15px; color: #000000; font-weight: bold; text-align: left;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCcontentText{padding: 5px 0px 5px 0px; font-size: 11px; color: #000000; font-family: verdana; font-weight: normal; text-align: left;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCDate {font-size: 9px; color: #000000;  font-family: verdana; font-weight: normal; text-align: right; vertical-align: bottom;}
+
+
+DIV.MyHomeCA TABLE.MyHomeC TR.MHCcolHeader {} /** Background color for column headers **/	 
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCsubHead {padding-bottom:5px; font-size: 9px; font-family: verdana; font-weight: normal; text-align: left; vertical-align: top;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCcolHead {padding: 3px 5px 3px 0px; font-size: 9px; color: #000066; font-family: verdana; font-weight: bold; text-align: left; vertical-align: bottom;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCcolHeadA {padding: 3px 5px 3px 5px; font-size: 9px; font-family: verdana; font-weight: bold; text-align: left; vertical-align: bottom;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCcolHeadAB {padding: 3px 5px 3px 5px; font-size: 9px; font-family: verdana; font-weight: bold; text-align: center; vertical-align: bottom;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCcolHeadAC {padding: 3px 5px 3px 5px; font-size: 9px; font-family: verdana; font-weight: bold; text-align: right; vertical-align: bottom;}
+
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCdata {font-size: 9px; font-family: verdana; padding: 3px 5px 3px 0px; border-bottom: 1px solid #CECECE; color:#000000; text-align: left;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCdataA {font-size: 9px; font-family: verdana; padding: 3px 5px 3px 0px; border-bottom: 1px solid #CECECE; border-left: 1px solid #CECECE; color:#000000; text-align: left;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCdataAB {font-size: 9px; font-family: verdana; padding: 3px 5px 3px 0px; border-bottom: 1px solid #CECECE; border-left: 1px solid #CECECE; color:#000000; text-align: center;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCdataAC {font-size: 9px; font-family: verdana; padding: 3px 5px 3px 0px; border-bottom: 1px solid #CECECE; border-left: 1px solid #CECECE; color:#000000; text-align: right;} 
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCdataB {font-size: 9px; font-family: verdana; padding: 0px 5px 0px 0px; color:#000000; text-align: left;} 
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCdataBA {font-size: 9px; font-family: verdana; padding: 0px 5px 0px 10px; border-left: 1px solid #CECECE; color:#000000; text-align: left;} 
+
+
+DIV.MyHomeCA TABLE.MyHomeC TD.MHClastData {font-size: 9px; font-family: verdana; padding: 3px 5px 3px 0px;  color:#000000; text-align: left;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHClastDataA {font-size: 9px; font-family: verdana; padding: 3px 5px 3px 0px;  border-left: 1px solid #CECECE; color:#000000; text-align: left;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHClastDataAB {font-size: 9px; font-family: verdana; padding: 3px 5px 3px 5px;  border-left: 1px solid #CECECE; color:#000000; text-align: center;}
+DIV.MyHomeCA TABLE.MyHomeC TD.MHClastDataAC {font-size: 9px; font-family: verdana; padding: 3px 5px 3px 5px;  border-left: 1px solid #CECECE; color:#000000; text-align: right;} 
+
+
+DIV.MyHomeCA TABLE.MyHomeC TD.MHCDate {font-size: 9px; color: #000000;  font-family: verdana; font-weight: normal; text-align: right; vertical-align: bottom;}
+
+/******************************************************************************/
+/** Table D *********************************************************/
+/******************************************************************************/
+
+/** Tabs **********************************************************************/
+/******************************************************************************/
+TABLE.MyHomeTab  {background-color : #F1EAD7; empty-cells: show;} /** Table class **/
+
+TABLE.MyHomeTab TR.MyHomeTabBG{background-color : #FFFFFF;}
+TABLE.MyHomeTab TD.tabOnL {height: 22px; border-top: 1px solid #99A9C4; border-left: 1px solid #99A9C4; padding: 3px 5px 5px 7px; font-family:verdana;font-size:11px;color:#000000;font-weight:bold; background-color : #FFFFFF;}
+TABLE.MyHomeTab TD.tabOnLB{height: 22px; padding: 0px;}
+TABLE.MyHomeTab TD.tabBlank {padding: 0px; border-bottom: 1px solid #99A9C4;}
+
+DIV.MyHomeD {vertical-align:top; border-bottom:1px solid #99A9C4; border-left:1px solid #99A9C4; border-right: 1px solid #99A9C4;border-collapse: collapse; background-color: #FFFFFF; padding: 7px; } /** Table class **/
+
+TABLE.MyHomeD TD.MHLinks{font-size:11px; font-family:verdana; vertical-align: top;}
+TABLE.MyHomeD SPAN.MHlgText{font-size:15px; font-family:arial; font-weight:bold; padding-top:20px;}
+TABLE.MyHomeD SPAN.MHlgTextA{font-size:13px; font-family:arial; font-weight:bold;}
+TABLE.MyHomeD SPAN.MHsmText{font-size:9px; font-family:verdana; vertical-align:middle;}
+
+DIV.MyHomeDA {border: 1px solid #898989;padding: 5px; margin-left: 40px;}
+TABLE.MyHomeDA{width:326px;}
+TABLE.MyHomeDA TD.MHHeaderD{font-family:verdana; font-size:11px; padding:0px 0px 5px 0px; font-weight:bold;}
+TABLE.MyHomeDA TD.MHdataD{border-bottom: 1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:3px 10px 3px 0px; vertical-align:top;}
+TABLE.MyHomeDA TD.MHdataDA{border-bottom: 1px solid #C8C8C8; text-align:right;font-family:verdana; font-size:9px; padding:3px 0px 3px 0px;font-weight:bold;}
+TABLE.MyHomeDA TD.MHlastdataD{font-family:verdana; font-size:9px; padding:3px 10px 5px 0px;}
+TABLE.MyHomeDA TD.MHlastdataDA{text-align:right;font-family:verdana; font-size:9px; padding:3px 0px 5px 0px;font-weight:bold;}
+
+
+TABLE.MyHomeDB {margin-top: 10px; vertical-align:top;}
+TABLE.MyHomeDB SPAN.MHHeaderDB{font-family:verdana; font-size:12px; padding:0px 0px 5px 0px; font-weight:bold;}
+TABLE.MyHomeDB SPAN.MHHeaderDateDB{font-family:verdana; font-size:9px; padding:0px 0px 5px 0px;  text-align:right; padding-left: 30px;}
+
+TABLE.MyHomeDB TD.MHcolHeadDB{font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000066;font-weight:bold; text-align:left; vertical-align:bottom;}
+TABLE.MyHomeDB TD.MHcolHeadDBA{font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000066;font-weight:bold; text-align:right; vertical-align:bottom;}
+
+TABLE.MyHomeDB TD.MHdataDB{border-bottom:1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000000;font-weight:bold; text-align:left;}
+TABLE.MyHomeDB TD.MHdataDBA{border-bottom:1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000000;font-weight:normal; text-align:right;}
+
+TABLE.MyHomeDB TD.MHlastdataDB{border-bottom:1px solid #000000;font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000000;font-weight:bold; text-align:left;}
+TABLE.MyHomeDB TD.MHlastdataDBA{border-bottom:1px solid #000000;font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000000;font-weight:normal; text-align:right;}
+
+TABLE.MyHomeDB TD.MHtotaldataDB{font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000000;font-weight:bold; text-align:left;}
+TABLE.MyHomeDB TD.MHtotaldataDBA{font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000000;font-weight:bold; text-align:right;}
+
+
+TABLE.MyHomeDC {margin-top:10px;padding-top: 10px;vertical-align:top;}
+TABLE.MyHomeDC SPAN.MHHeaderDC{font-family:verdana; font-size:12px; padding:0px 0px 5px 0px; font-weight:bold;}
+
+TABLE.MyHomeDC TD.MHcolHeadDC{font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000066;font-weight:bold; text-align:left; vertical-align:bottom;}
+TABLE.MyHomeDC TD.MHcolHeadDCA{font-family:verdana; font-size:9px; padding:5px 0px 5px 0px; color:#000066;font-weight:bold; text-align:center; vertical-align:bottom;}
+
+TABLE.MyHomeDC TD.MHdataDC{border-right:1px solid #C8C8C8;border-bottom:1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:5px 3px 5px 0px; color:#000000; vertical-align:top;text-align:left;}
+TABLE.MyHomeDC TD.MHdataDCA{border-right:1px solid #C8C8C8;border-bottom:1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:5px 3px 5px 3px; color:#000000; text-align:right;}
+TABLE.MyHomeDC TD.MHdataDCAA{border-bottom:1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:5px 3px 5px 3px; color:#000000; text-align:center;}
+TABLE.MyHomeDC TD.MHdataDCAB{border-bottom:1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:5px 3px 5px 0px; color:#000000; text-align:right; vertical-align: top;}
+
+TABLE.MyHomeDC TD.MHlastdataDC{border-right:1px solid #C8C8C8;border-bottom:1px solid #000000;font-family:verdana; font-size:9px; padding:5px 3px 5px 0px; color:#000000; text-align:left;}
+TABLE.MyHomeDC TD.MHlastdataDCA{border-right:1px solid #C8C8C8;border-bottom:1px solid #000000;font-family:verdana; font-size:9px; padding:5px 3px 5px 3px; color:#000000;font-weight:normal; text-align:right;}
+TABLE.MyHomeDC TD.MHlastdataDCAA{border-bottom:1px solid #000000;font-family:verdana; font-size:9px; padding:5px 3px 5px 3px; color:#000000;font-weight:normal; text-align:center;}
+TABLE.MyHomeDC TD.MHlastdataDCAB{border-bottom:1px solid #000000;font-family:verdana; font-size:9px; padding:5px 3px 5px 0px; color:#000000;font-weight:normal; text-align:left;}
+
+TABLE.MyHomeDC TD.MHtotaldataDC{border-right:1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:5px 3px 5px 0px; color:#000000;font-weight:bold; text-align:left;}
+TABLE.MyHomeDC TD.MHtotaldataDCA{border-right:1px solid #C8C8C8;font-family:verdana; font-size:9px; padding:5px 3px 5px 3px; color:#000000;font-weight:bold; text-align:right;}
+TABLE.MyHomeDC TD.MHtotaldataDCAA{font-family:verdana; font-size:9px; padding:5px 0px 5px 3px; color:#000000;font-weight:bold; text-align:center;}
+TABLE.MyHomeDC TD.MHbottomSpacerDCAA{height:30px;}
+
+TABLE.MyHomeDD {margin-top: 20px;margin-left:10px;}
+TABLE.MyHomeDD TD.MHInfoTextDD{font-family:verdana; font-size:11px; padding:5px 5px 5px 0px; color:#000000; text-align:center;}
+TABLE.MyHomeDD TD.MHdataDDA{font-family:verdana; font-size:9px; vertical-align:top;padding:2px 5px 0px 0px; color:#000000; text-align:left;}
+
+/*****************************************on edj page***********************************/
+td.leftNav {background-color: #CBCBCB;}
+table.Messages{border: 1px solid #CDDAEB;margin:10px 0px 15px 0px;}
+td.MsgHead{background-color: #CDDAEB; font-size:10pt;font-weight:bold;text-align:left;font-family:arial, san-serif;padding:5px 5px 5px 5px;}
+td.MsgConent{background-color: #ffffff;font-size:8pt;font-family:verdana, san-serif;padding:5px 10px 5px 10px;}
+td.MsgSpacer{height:10px; empty-cells:show;}
+
+/**EDJ Perf Tables**/
+table.EDJfundPerf {border: 1px solid #888888;margin:0px 0px 10px 0px;}
+tr.fpcolHeader{background-color:#ECECEC;}
+tr.fpcolHeaderA{background-color:#F8F8F8;}
+th.fpHead{font-family:arial, san-serif; font-size:10pt; text-align:left; padding:10px 5px 10px 5px;}
+th.fpsubHead{width:250px;vertical-align:bottom; border-top:1px solid #DBDBDB; border-bottom:1px solid #DBDBDB;font-family:verdana, san-serif; font-size:7pt; color:#000066; text-align:left; padding:5px;}
+th.fpsubHeadA{vertical-align:bottom; border-left:1px solid #888888;border-top:1px solid #DBDBDB; border-bottom:1px solid #DBDBDB;font-family:verdana, san-serif; font-size:7pt; color:#000066; text-align:center; padding:5px;}
+
+td.fpdata{width:250px;border-bottom:1px solid #DBDBDB;font-family:verdana, san-serif; font-size:7pt;text-align:left; padding:5px;}
+td.fpdataA{border-left:1px solid #888888;border-bottom:1px solid #DBDBDB;font-family:verdana, san-serif; font-size:7pt; text-align:center; padding:5px;}
+
+td.fpLastData{font-family:verdana, san-serif; font-size:7pt;text-align:left; padding:5px;}
+td.fpLastDataA{border-left:1px solid #888888;font-family:verdana, san-serif; font-size:7pt; text-align:center; padding:5px;}
+td.fpLastRow{height:20px; empty-cells:show;}
+span.fpPDFText{color:#9C9C9C;}
+
+
+/******************************************************************************MyHome Exchange************************************************************************************************************/
+TABLE.MyHomeExchButtons { margin:0px 10px 0px 10px;}
+td.TransSectMark {padding:5px 15px 5px 15px;text-align: right;border-right: 1px solid #d9c8bd; font-size:10pt; font-weight: bold; font-family: arial; color: #DBDBDB;}
+td.ExchButData { width: 200px; text-align:right; padding:0px; }
+input.ExchButton {margin-left:10px; }
+
+TABLE.MyHomeExchange{margin:10px; vertical-align:top;border: 1px solid #919191; background-color: #FFFFFF; }
+th.MHExchHead { padding: 7px 10px 7px 10px; font-family: arial, san-serif; font-size:10pt; text-align: left;background-color: #C1C5DC; }
+td.MHExchData{ padding: 15px 10px  5px 10px; font-family: verdana, san-serif; font-size:8pt; }
+td.MHExchBottomRow {empty-cells: show; height:20px; background-color:#E7E9F6;}
+p.MHExchRadio {margin: 10px 10px 20px 25px;}
+span.MHExchLabel {margin: 5px 5px 5px 5px; vertical-align:middle; }
+input.MHExchRadioBut {margin: 5px 0px 5px 5px; vertical-align:middle; }
+
+/**cr 21453**/
+table.acctBalance{border:1px solid #8E8E8E; font-size:11px; font-family:verdana, san-serif;margin-right:20px;}
+table.acctBalance tr.acctBalHeaderColor {background-color:#D4DFEF;height:32px;}
+table.acctBalance span.acctBalHeader {width:250px;font-size:15px; font-weight:bold; font-family:arial, san-serif;padding-left:10px;}
+table.acctBalance span.acctBalAsOf {width:250px;font-size:11px; font-family:arial, san-serif; text-align:right; padding-right:10px;}
+table.acctBalance td.acctBalTableHeader {padding:10px 10px 3px 10px;}
+table.acctBalance td.acctBalAmnt {padding:0px 10px 5px 10px;font-size:15px; font-weight:bold; font-family:arial, san-serif;}
+table.acctBalance td.acctBalCaveat {padding:10px 10px 20px 10px;}
+table.acctBalance tr.acctBalFooterRow {background-color:#EFF2FB; padding:0px; height:15px;}
+
+table.fees {border:2px solid #C05706;font-size:11px; font-family:verdana, san-serif;margin-top:25px;margin-right:20px; width:98%;}
+table.fees td.feeHeader {font-size:15px; font-family:arial, san-serif; font-weight:bold;padding: 8px;}
+table.fees td.feeCaveat {color:#8E3400;padding: 8px;}
+table.fees td.feeCaveatA {color:#000000;padding: 8px;font-weight:bold;}
+table.fees td.feeContent {padding: 8px;}
+table.fees td.feeContent span.feesNextBtn {border:1px solid #888888; margin-left:50px;padding:3px 3px 3px 3px;}
+table.discolsureFees {margin:5px 10px 15px 10px;border-top:1px solid #DADADA; font-size:11px;font-family:verdana, san-serif;}
+table.discolsureFees td.discFeeHeader {width:191px;vertical-align:top;background-color:#ECECEC; color:#000066; padding:10px 5px; font-size: 9px; font-weight: bold;}
+table.discolsureFees td.discFeeHeaderA {width:108px;vertical-align:top; text-align:center;border-left:1px solid #B1B1B1;background-color:#ECECEC; color:#000066; padding:10px 10px; font-size: 9px; font-weight: bold;}
+
+table.discolsureFees td.discFeeData {padding:10px 5px;border-top:1px solid #DADADA;}
+table.discolsureFees td.discFeeDataA {text-align:right;padding:10px 5px;border-top:1px solid #DADADA;border-left:1px solid #B1B1B1;}
+table.needHelp {margin-top:25px; vertical-align:top;}
+/**cr 21453**/
+
+/*STAX FP*/
+	table.specialInstrContainer {border:1px solid #8E8E8E; font-size:11px; font-family:verdana, san-serif;}
+	table.specialInstrContainer tr.spInstrHeaderColor {background-color:#D4DFEF; height:32px;}
+	table.specialInstrContainer span.spInstrBalHeader {width:250px; font-size:15px; font-weight:bold; font-family:arial, san-serif;padding-left:10px;}
+	table.specialInstrContainer tr.spInstrFooterRow {background-color:#EFF2FB; padding:0px; height:15px;}
+	table.specialInstrContainer table.specialInstructions {margin-left:10px;}
+	table.specialInstrContainer table.specialInstructions td.specialInstructionsContent {padding:5px 10px 5px 0px; color:#000066;vertical-align: top; font-size:11px;}
+	table.specialInstrContainer table.specialInstructions td.specialInstructionsContent p span.spRadioLbl{color:#000;}
+
+	table.specialInstrContainer table.specialInstructions p.specialInstructionRadio {padding:0px 0px 0px 25px; margin:5px 0 0 0; color:#000000;}
+	table.specialInstructions p {padding:5px 0px 10px 25px;}
+	table.specialInstrContainer table.specialInstructions input.spRadioBut {padding:0px 0px;}
+	table.specialInstrContainer table.specialInstructions input.spTextBox {padding:0px 0px; width:68px;}
+	table.specialInstrContainer table.specialInstructions span.spTextLbl {padding:0px 0px; margin: 0 15px 0 0px;}
+	table.specialInstrContainer table.specialInstructions span.spRadioLbl {padding:0px 0px; margin:0 15px 0 0px; }
+	table.specialInstrContainer table.specialInstructions span.spOption {padding:0px 0px; margin: 0 5px 0 5px; font-weight:bold;}
+	
+	table.specialInstructions p.specialInstructionRadioInactive {padding:0px; margin:5px 0 0 0; color:#999;}
+	table.specialInstructions td.specialInstructionsContentInactive {padding:5px 10px 5px 0px; color:#999;vertical-align: top;}
+	table.specialInstructions td.specialInstructionsContentInactive p {color:#999;}
+/*STAX FP*/
+
+/******************************************REGISTRATION PAGES*****************************************************************/
+
+div.pgHead{padding:10px; font-family:san-serif, verdana;}
+div.pgHead span.reqtext {color:#ff0000;font-family:san-serif, verdana; font-size:9px; font-weight:normal;font-style:normal;}
+div.submitButtons{margin:10px 0 10px 0px;}
+
+
+/**main registration table**/
+table.register{background-color:#EAE9E0;} 
+table.register td.registerContent{padding: 10px;}
+td.needhelp {border-left:1px solid #fff;padding: 9px 15px 30px 15px;}
+
+/**first white container personal module**/
+div.personalinfo {padding: 15px 15px 30px 15px; background-color:#fff;margin-bottom:3px; }
+div.personalinfo table.pirow1 {margin-left:15px;}
+div.personalinfo table.pirow1 td{padding:5px 3px;}
+div.personalinfo table.pirow1 td.fareg1{padding:0px 0px;}
+div.personalinfo table.pirow1 td.expressnum{padding-top:10px;}
+
+div.personalinfo table.pirow2 {margin-left:15px;}
+div.personalinfo table.pirow2 td {padding:7px 0px;}
+div.personalinfo table.pirow3 {margin-left:15px;}
+
+/**second white container user info module**/
+div.userID {padding: 15px 15px 30px 15px; background-color:#fff; margin-bottom:3px; }
+div.userID table.userId {margin-left:15px;}
+div.userID table.userId td {padding-right:10px;}
+div.userID table.userID td input {margin-right:5px;}
+
+/**third white container help info module**/
+div.help {padding: 15px 15px 30px 15px; background-color:#fff;}
+div.help table.help {margin-left:15px;}
+div.help table.help th{color:#993300;font-family:san-serif, verdana; font-size:9px; font-weight:normal;font-style:normal;}
+div.help table.help td{padding:5px 5px;}
+div.help table.help td.helpRow{border-bottom:1px solid #e2e2e2;}
+
+div.professionalIds {padding: 15px 15px 30px 15px; background-color:#fff;}
+div.professionalIds table input{margin-bottom:5px;}
+
+/**main user ID table-Mike added 1-24-07**/
+table.fuserID{background-color:#EAE9E0;}
+table.fuserID td.userIDContent{padding: 10px;}
+td.cell1 {padding: 9px 5px 25px 5px;}
+td.cell2 {border-left:1px solid #fff;padding: 9px 5px 25px 5px;}
+td.cell3 {border-left:1px solid #fff;padding: 9px 5px 25px 5px;}
+
+/**first white container userID first column module-Mike added 1-24-07**/
+div.indinvestors h3,
+div.finadvisors h3,
+div.finassist h3{color:#993300;font-size:13px;font-family:san-serif, arial;margin:0;padding:0px;height:40px;}
+
+div.indinvestors { padding: 15px 10px 15px 10px; background-color:#fff;margin-bottom:3px; min-height: 400px; height: auto !important; height: 400px;}
+div.indinvestors table.indinvest1 {}
+div.indinvestors table.indinvest1 td{padding:2px 0px;}
+
+/**2nd white container userID 2nd column module-Mike added 1-24-07**/
+div.finadvisors {padding: 15px 10px 15px 10px; background-color:#fff;margin-bottom:3px; min-height: 400px; height: auto !important; height: 400px;}
+div.finadvisors table.finadvisors1 {}
+div.finadvisors table.finadvisors1 td{padding:2px 0px;}
+
+/**3rd white container userID 3rd column module-Mike added 1-24-07**/
+div.finassist { padding: 15px 10px 15px 10px; background-color:#fff;margin-bottom:3px;min-height: 400px; height: auto !important; height: 400px;}
+div.finassist table.finassist1 {}
+div.finassist table.finassist1 td{padding:2px 0px;}
+
+
+/**1st white container Edit USER ID module**/
+div.createID {padding: 15px 15px 30px 15px; background-color:#fff; margin-bottom:3px; }
+div.createID table.createIDt {margin-left:15px;}
+div.createID table.createIDt td.cuser{}
+div.createID table.createIDt td.cuserinput{}
+div.createID table.createIDt td.cuserdetails{padding-left:10px;}
+
+div.createID table.createIDt td.cuser2{}
+div.createID table.createIDt td.cuserdetails2{}
+
+div.createID table.createIDt td.cuser3{padding:0px 0px 0px 2px;}
+div.createID table.createIDt td.cuserdetails3{}
+
+/**Important Information table module-Mike added 1-24-07**/
+div.importantinfo {padding: 15px 15px 30px 15px; background-color:#fff; margin-bottom:3px; }
+div.importantinfo table.importantinfotable {margin-left:15px;}
+div.importantinfo table.importantinfotable td.importantinfotd {padding: 0px 20px 0px 0px; }
+
+/**Answer Questions table module-Mike added 2-1-07**/
+div.answerq {padding: 15px 0px 30px 0px; background-color:#fff;}
+div.answerq span.head4, 
+div.answerq p {padding:5px 10px;margin:0px;}
+div.answerq table.answerq {margin:0px;margin-top:10px;}
+div.answerq table.answerq th{color:#993300;font-family:san-serif, verdana; font-size:9px; font-weight:normal;font-style:normal;}
+div.answerq table.answerq td{padding:5px 10px;empty-cells:show;}
+div.answerq table.answerq td.answerq{border-bottom:1px solid #e2e2e2;} 
+
+
+/***error message block added 6/19/07***/
+div.errorMsg,
+table.register td.registerContent div.userID div.errorMsg {border:2px solid red;padding:10px;margin-bottom:30px;}
+div.errorMsg h4,
+table.register td.registerContent div.userID div.errorMsg h4 {font-family:verdana;font-size:11px; font-weight:bold;color:#970103;margin:0;padding:0 0 5px 0;}
+div.errorMsg p,
+table.register td.registerContent div.userID div.errorMsg p{font-family:verdana;font-size:11px; color:#970103;padding:5px 0;margin:0;}
+/**end Registration pages***/
+
+
+/** address change section begin added for 529 added 10/3/07**/
+div.step{font:11px verdana;padding:20px 10px 10px;}
+div.step span.on{font-weight:bold;color:#9B3300;}
+div.step span.off{color:#666;} 
+
+h1.address{font:bold 18px Arial, sans-serif; padding:20px 10px;margin:0;background:none;}
+
+/*background color for the page and padding*/
+#containerAddress{background:#F1EAD7;padding:10px 10px 40px;margin-bottom:40px;}
+
+div.address{background:#FFF;margin:auto;border:1px solid #99A9C4;padding:10px 10px 50px;}
+/*01AddCHangeEnter*/
+div.address span.additionalInfo{color:#888;}
+div.address span.reqfield{color:red;}
+div.address table.address td{font:11px verdana;padding:5px 0;}
+div.address label.standard{display:block;font:bold 11px verdana;}
+/*02AddrChangeAssign, 03, 04*/
+div.addressAcct{background:#FFF;margin:auto;border:1px solid #99A9C4;padding:10px 0 50px;}
+div.addressAcct h3 {padding-top:5px;}
+div.addressAcct table{width:100%;}
+div.addressAcct table th{font:bold 13px arial;text-align:left;vertical-align:top;padding:5px 0 10px 10px;}
+div.addressAcct table td{font:11px verdana;vertical-align:top;padding:0 0 15px 10px;}
+div.addressAcct table td p{padding:0 10px 0 0;}
+div.addressAcct table td label{font:bold 11px verdana;vertical-align:top;}
+div.addressAcct table td.nadd h3{font:bold 16px arial;vertical-align:top;margin-bottom:20px;}
+div.addressAcct table td.nadd{font:11px verdana;width:30%; vertical-align:top;background:#eeede9;padding:15px 15px 25px;}
+div.addressAcct table.acctAddresses{width:100%;}
+div.addressAcct table.acctAddresses th{font:bold 13px arial;text-align:left;}
+div.addressAcct table.acctAddresses td{background:#efefef;padding:5px 0 10px 10px;}
+div.addressAcct table.acctAddresses td.fundNm{background:#efefef;border-top:2px solid #fff;}
+/*new*/
+div.addressAcct td.nameOnAcct,
+div.addressAcct td.refNumbr {border-top:2px solid #fff;} 
+div.addressAcct td input {font:11px verdana;}
+div.address td input {font:11px verdana;}
+
+/**new styles added**/
+div.usridTable{background:#fff;border:1px solid #aebcd6;}
+div.usridTable table{empty-cells:show; width:100%; border:0;padding:0;}
+div.usridTable table th{background: #d6dfef; text-align: left;padding: 5px 10px 5px 10px; font-family: Verdana; font-size: 11px;}
+div.usridTable table td.firstCol{width:15%; background: #fff; padding: 15px 15px 15px 10px; font-family: Verdana; font-size: 11px;}
+div.usridTable table td.secondCol{padding: 37px 20px 15px 0px; text-align:left;vertical-align: top;font:11px verdana,san-serif;}/**always for the first column of the table**/
+

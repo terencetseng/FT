@@ -1,0 +1,47 @@
+#mainContent{
+	font-size:12px;
+}
+
+.gncSidebarModule{
+	padding:0px;
+	width:300px;
+}
+
+.gncSidebarHead{
+	display:block;
+	font-weight:bold;
+	border:1px solid #333;
+	background:#eee;
+	padding:10px;
+	cursor:pointer;
+}
+
+.gncSidebarContent{
+	height:0px;
+	overflow:hidden;
+	margin-bottom:0px;
+}
+
+.gncSidebarModule .open{
+	height:auto;
+	margin-bottom:10px;
+}
+
+.gncSidebarContent h2{
+	font-size:14px;
+}
+
+.gncSidebarContent label{
+	display:block;
+}
+
+#gncFundFinderForm input[type="checkbox"], #gncFundFinderForm input[type="radio"]{
+	margin-right:5px;
+}
+
+#gncFundFinderResult{
+	display:none;
+	height:auto;
+	max-height:200px;
+	overflow-y:auto;
+}

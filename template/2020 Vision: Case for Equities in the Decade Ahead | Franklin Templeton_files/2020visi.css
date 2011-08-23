@@ -1,0 +1,385 @@
+
+/* new global styles - paths need updating/removal on integration */
+
+/* relates to country.css line 2426 ish */
+span.btn2 input, span.btn2 a, span.btn2 a:hover  {
+display: -moz-inline-stack;border:0;cursor:pointer;display:block;white-space:nowrap;height:22px;line-height:22px;font:700 13px arial;padding:0 0 0 12px;
+color:#fff;zoom:1;margin:0;vertical-align:middle;line-height:22px;text-decoration:none;
+	background-image: url("bg-btn00.png");
+	background-position: 0 -296px;
+}
+span.btn2 {
+	background-image: url("bg-btn00.png");
+	background-position: right -324px;
+}
+
+#quoteBlock blockquote {display:none;}
+
+/* new landing content styles */
+
+#contentLower h2 { /* similar to homepage.css line 78 */
+	margin-bottom: 12px;
+	padding-bottom: 15px;
+	font-size: 18px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+}
+
+a.action {
+
+	text-decoration:underline;
+}
+
+.column {
+	float: left;
+	display: inline;
+	width: 280px;
+}
+
+.columnA {
+	padding: 0 35px 0 18px;
+	width: 325px;
+}
+
+.columnB {
+	padding-right: 72px;
+	width: 250px;
+}
+
+
+#contentOpening {
+	height: 375px;
+	margin-bottom: 40px;
+	padding-bottom: 6px;
+	background: url("bg_conte.png") repeat-x bottom left;
+}
+
+#contentOpening .column {
+	width: 490px;
+	height: 375px;
+	background: #000;
+}
+
+#contentOpening #playerContainer {
+	width: 490px;
+}
+
+#contentOpening #listContainer {
+	width: 430px;
+	padding: 0 30px;
+	background: #023984 url("bg_listC.png");
+}
+
+#contentOpening #listContainer h2 {
+	margin: 22px 0 14px;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	color: #fff;
+}
+
+#listContainer ol {
+	margin: 0 0 18px;
+	list-style: none;
+	border-top: 1px solid #1760a4;
+}
+
+#listContainer ol li {
+	margin: 0;
+	padding: 2px 0;
+	border-bottom: 1px solid #1760a4;
+}
+
+#listContainer ol li a:link,
+#listContainer ol li a:visited {
+	display: block;
+	min-height: 46px;
+	line-height: 46px;
+	color: #fff;
+	font-weight: bold;
+	background: url("arrow_li.png") no-repeat right center;
+}
+#listContainer ol li a:hover,
+#listContainer ol li a:active {
+	color: #000;
+	background-color: #a5d5ed;
+	text-decoration: none !important;
+}
+
+
+#listContainer ol li a span {
+	width: 50px;
+	height: 46px;
+
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	background: url("bullet_l.png") no-repeat center center;
+}
+
+
+/* Landing Page Content Area */
+ul.downloads {
+	list-style: none;
+	margin: 0 0 1em;
+}
+
+ul.downloads li {
+	padding-top: 0.5em;
+	min-height: 75px;
+	clear: both;
+}
+
+ul.downloads li .thumb {
+	float: left;
+	display: inline;
+	padding-right: 14px;
+}
+
+ul.downloads li p {
+	margin-bottom: 0;
+}
+
+ul.downloads li span {
+	font-size: 11px;
+	color: #666;
+}
+
+/* Landing Page Quiz Area */
+.quiz {
+	min-height: 289px;
+	margin-top: -18px;
+	padding: 18px 24px;
+	background: #eaeade url("bg_formQ.png") repeat-x center center;
+}
+
+.quiz fieldset,
+.quiz table,
+.quiz .answer p {
+	margin: 1em 0;
+}
+
+.quiz .full {
+	margin-bottom: 0.75em;
+}
+
+.quiz strong {
+	color: #b50;
+}
+
+.quiz blockquote {
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+.quiz cite {
+	display: block;
+	margin-top: 1em;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.quiz .answer {
+	text-align: center;
+}
+
+.quiz table {
+	margin:auto auto;
+}
+
+.quiz table td {
+	text-align: center;
+	padding: 0.5em .2em;
+}
+
+
+input.plain { /* like .cancel country.css line 2434 */
+	background:none repeat scroll 0 0 transparent;
+	border:0 none;
+	color:#336699;
+	cursor:pointer;
+	display:inline-block;
+	height:22px;
+	line-height:22px;
+	outline:0 none;
+	overflow:visible;
+	padding:0 5px;
+	font-size: 1em;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+	vertical-align:baseline;
+	white-space:nowrap;
+	font-family: Arial, sans-serif;
+}
+
+input.another {
+	float: right;
+}
+
+
+
+.widget2020Container {
+	position: relative;
+	padding: 60px 20px 20px;
+	background-color: #f2f2eb;
+}
+
+.widget2020Container h3 { /* similar to homepage.css line 78 */
+	margin-bottom: 20px;
+	padding-bottom: 0;
+	font-size: 18px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+
+#widget2020Control h4 {
+	font-size: 14px;
+	width: 305px;
+	border-bottom: 1px solid #ccc;
+}
+
+#widget2020Control {float:left;width:216px;}
+
+/* Styling of left column widget 'tabs' */
+
+#widget2020Control h4:first-child {
+	border-top: 1px solid #ccc;
+}
+
+#widget2020Control h4 a {
+	display: block;
+	width: 305px;
+	padding: 14px 20px 14px 0;
+	text-align: left;
+	text-decoration: none!important;
+	outline: 0;
+}
+
+#widget2020Control h4.active {
+	position: relative; /* jump the right content */
+	background: none;
+	z-index: 2;
+}
+
+#widget2020Control h4.active a {
+	color: #000;
+	background: url("https://www.franklintempleton.com/retail/img/sales_tools/2020vision/widget_caret.png") no-repeat right center;
+
+}
+
+
+/* Styling of right column widget  content */
+
+.widget2020Container .widget2020Content {
+	display: none;
+	float:right;
+	position:relative;
+	left:-1px;
+	width: 304px;
+	padding: 14px 20px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+
+#widget2020ContentBox .active {
+	display: block !important;
+}
+
+/* Shared styles from existing downloads page */
+
+.litItems{margin-bottom:20px;padding-top:20px;border-top:2px solid #ccc;background:#fff;}
+.litItems table {width:100%;}
+.litItems table td {padding:15px;width:49%;}
+.litItems table td.fc,
+.litItems table td:first-child {border-right:1px solid #ccc;padding-left:0;}
+.litItems td img {float:left;margin-right:15px;}
+.litItems table h3 {font:700 15px arial;margin:0 0 10px;}
+
+.litItems a{text-decoration:none;}
+.litItems a:hover{text-decoration:underline;}
+.litItems img{display:block;margin:0 auto 10px;border:1px solid #ccc;}
+
+#featLitItem {border:1px solid #ddd;background:#eed;padding:15px;margin-bottom:2em;}
+#featLitItem .litItems{padding:15px;margin:0;border:0;}
+
+
+h2.opp {font:700 15px arial;}
+span.clientUse,
+span.dealerUse {display:inline-block;margin-right:25px;font:400 13px arial;}
+
+span.clientUse {background:url("https://www.franklintempleton.com/retail/new/img/common/ICON_clientUse_16x16.png") right 0 no-repeat;padding-right:20px;}
+
+/* clearing floated elements */
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-block; min-height:1%;}
+/* IE 7 standards mode */
+*:first-child+html .clearfix{display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+/*new pillar for Equities*/
+#compareOtherFunds {padding:15px;border:1px solid #ddd;background:#eee;text-align:center;margin:-1px 52px 20px;}
+#compareOtherFunds h3{font:700 15px arial;}
+#compareOtherFunds .btn {margin:0 5px;}
+
+.equityLightBox {position:relative;padding:10px;background:#fff;}
+
+.equityLightBox .close {position:absolute;right:0;top:-25px;display:inline-block;padding:5px 20px;background:#fff;color:#666;cursor:pointer;}
+
+/* new styles for 2020 resources page */
+
+#featLitItem h2.opp {
+	margin: 0 0 5px;
+}
+
+h2.opp {
+	margin: 0 0 5px;
+}
+
+/*addThis*/
+.addthis_con {position:relative;z-index:10;display:inline-block;background:#fff;padding:1px;border:1px solid #ccc;}
+.shareButton {display:inline-block;color:#369;background:url('https://www.franklintempleton.com/retail/img/common/icon_share.gif') 2px 4px no-repeat #eee;padding:3px 5px 3px 21px;}
+
+.addthis_toolbox {display:none;position:absolute;top:26px;left:-1px;}
+
+.addthis_toolbox {
+    background: #fff;
+    width: 150px;
+    border: 2px solid #ccc;
+    border-top:1px solid #ccc;
+}
+
+.addthis_toolbox a {
+    position: relative;
+    display: block;
+    background: #fff;
+    padding: 4px 0 4px 40px;
+    text-decoration: none;
+}
+
+.addthis_toolbox .addthis_close{font:11px arial;text-align:right;background:#eee;padding:3px;color:#000;}
+
+.addthis_toolbox a:hover {
+    background: #f5f5f5;
+    color: #027999;
+    text-decoration: none;
+}
+
+.addthis_toolbox span {position:absolute;left:20px;top:5px;}
+
+#exposeMask {z-index:101 !important;}
+#ltBox-shareSite {background:#fff;width:400px;padding:20px;text-align:left;}
+#ltBox-shareSite a.btn {margin-right:10px;}
+#ltBox-shareSite .close {display:inline;}
+
+.fundLinkBox {background:#eee;padding:5px;margin:10px 0;text-align:left;}
+.fundLinkBox a {margin-left:10px;}

@@ -1,0 +1,3216 @@
+h1 {font:400 24px georgia;}
+h2 {font:700 15px arial;}
+h3 {font:700 13px arial;}
+
+
+
+li {}
+small {font-size:.85em;}
+
+form .error {color:red;}
+
+/*General Classes*/
+div.anchor ul {margin:-15px 0 2em 7em;padding:0;list-style:none;}
+div.anchor li {margin:0 0 5px;line-height:1.1em;padding-left:12px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif') -492px -41px no-repeat;}
+div.anchor h2 {margin:0;font-size:13px;}
+div.anchor {margin:1em 0 30px;}
+
+a.ancLink {display: -moz-inline-stack;display:inline-block;background:url('https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif') -492px -40px no-repeat;padding-left:12px;}
+
+label em {color:#f00;} /*required items*/
+
+.req {color:#f00;}
+.shade-tl {background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -700px top no-repeat #F2F2EB;padding:20px 10px 10px;position:relative;zoom:1;}
+.shade-tl .con {background:#fff;padding:10px;}
+.shade-tl td {vertical-align:top;}
+
+div.contentOneCol .shade-tl {z-index:50;}
+
+.con-lead {padding-right:24px;margin-bottom:10px;}
+.con-block {background:#F2F2EB;padding:15px;margin-bottom:15px;}
+.align-head {margin-left:258px;margin-right:24px;margin-bottom:10px;zoom:1;}
+
+
+
+.headRelatedLink {position:absolute;right:10px;z-index:21;top:18px;text-decoration:underline;}
+
+.prominent,
+.Prominence {font:13px arial;color:#b61 !important;line-height:normal;}
+
+.hide {display:none;}
+
+.lc,
+:last-child {margin-bottom:0;}
+
+.intro {color:#666;margin-bottom:25px;}
+div.contentOneCol .intro {padding:0 10px;}
+.filesize {font:11px arial;color:#666;}
+.centered {display:block;margin-left:auto;margin-right:auto;}
+.clear {clear:both;}
+
+
+
+.asof,
+.instruction,
+.subdesc {font:11px arial;color:#666;line-height:1em;vertical-align:baseline;}
+
+input.txt,
+textarea {border:1px solid #bbb;padding:3px 2px;vertical-align:middle;border-top:1px solid #777;font:11px arial;}
+
+select, option {font:11px arial;vertical-align:middle;color:#333;}
+
+.percent {padding:0;}
+
+.chartTable {margin-bottom:1em;}
+.chartTable table {border-top:1px solid #ddd;border-bottom:1px solid #ccc;width:100%;}
+.chartTable table caption {font:700 13px arial;text-align:left;padding-bottom:5px;}
+.chartTable tfoot td {font:13px arial;padding-top:25px;text-align:left;color:#666;}
+
+.chartTable table th,
+.chartTable table td {padding:5px 10px;}
+
+.chartTable table thead th {background:#eee;border-left:1px solid #ddd;border-bottom:2px solid #ccc;text-align:center;vertical-align:bottom;font:400 12px arial;padding-top:20px;}
+.chartTable table tbody td {border-left:1px solid #ddd;border-top:1px solid #ccc;vertical-align:top !important;text-align:center;}
+
+.chartTable table thead th.fc,
+.chartTable table tbody td.fc,
+.chartTable table td:first-child,
+.chartTable table th:first-child {border-left:0;text-align:left;}
+
+.classDisclaimers {font:13px arial;color:#8d8d8d;padding-bottom:10px; padding-top:0px;border-left:0px;border-top:0px;padding-left:0px;vertical-align:top !important;text-align:left;}
+.classDisclaimers ul {padding-left:0px;}
+.shareClass{font:18px georgia;color:#b50;margin:0;padding:0;padding-bottom:20px;}
+.shareClassB{font:18px georgia;color:#b50;margin:0;padding:0;padding-bottom:0px;}
+.shareClassWDisclaimer{font:18px georgia;color:#b50;margin:0;padding:0;}
+.Max12BFeesWDisclaimer{font:15px arial;color:#000;margin:0;padding-top:20px; padding-bottom:5px;}
+.Max12BFeesWithOutDisclaimer{font:13px arial;color:#000;margin:0;padding-top:20px; padding-bottom:20px;}
+.salesChargeTable {margin-bottom:1em;}
+.salesChargeTable table {border-top:1px solid #ddd;border-bottom:4px solid #ccc;width:100%;}
+.salesChargeTable .borderlessHeader {font:700 15px arial;text-align:left;padding-bottom:10px; border-bottom:0;}
+.salesChargeTable .borderlessHeaderClassB {font:700 15px arial;text-align:left;padding-bottom:2px; border-bottom:0;}
+
+.salesChargeTable table caption {font:700 15px arial;text-align:left;padding-bottom:5px; border-bottom:0;}
+.salesChargeTable table tr {margin-bottom:20px; border-bottom:1px solid #ccc;}
+.salesChargeTable tfoot td {font:13px arial;padding-top:25px;text-align:left;color:#666;}
+
+.salesChargeTable table th,
+.salesChargeTable table td {padding:5px 10px;}
+
+.salesChargeTable table thead th {background:#eee;border-left:1px solid #ddd;border-bottom:2px solid #ccc;text-align:center;vertical-align:top;font:400 12px arial;padding-top:12px;padding-bottom:8px;}
+.salesChargeTable table tbody td {border-left:1px solid #ddd;border-top:1px solid #ccc;vertical-align:top !important;text-align:right; padding-right:5px;}
+
+.salesChargeTable table tbody td.firstFundCategory{border-left:0px;border-top:0;padding-left:0px;vertical-align:top !important;text-align:left; font:bold 13px arial;}
+.salesChargeTable table tbody td.firstFundCategoryValue{border-left:0px;border-top:0;padding-left:5px;vertical-align:top !important;text-align:right; font:bold 13px arial;}
+.salesChargeTable table tbody td.fundCategory{border-left:0px;border-top:0px;padding-left:0px;padding-top:20px;vertical-align:top !important;text-align:left; font:bold 13px arial;}
+.salesChargeTable table tbody td.fundCategoryValue{border-left:0px;border-top:0px;padding-left:5px;padding-top:20px;vertical-align:top !important;text-align:right; font:bold 13px arial;}
+.salesChargeTable table tbody td.fundValue{border-left:0px;border-top:0px;padding-left:5px;padding-bottom:1px;padding-top:1px;vertical-align:top !important;text-align:right; font:bold 13px arial;}
+.salesChargeTable table tbody td.except{border-left:0px;border-top:0px;padding-left:0px;padding-bottom:1px;padding-top:1px;vertical-align:top !important;text-align:left; font:italic 13px arial;}
+.salesChargeTable table tbody td.exception{border-left:0px;border-top:0px;padding-left:10px;padding-bottom:1px;padding-top:1px;vertical-align:top !important;text-align:left;}
+.salesChargeTable table tbody td.commissions{border-left:0px;border-top:0px;padding-left:0px;padding-bottom:1px;padding-top:1px;vertical-align:top !important;text-align:left;}
+.salesChargeTable table tbody td.commissionsValue{border-left:0px;border-top:0px;padding-left:0px;padding-bottom:1px;padding-top:1px;vertical-align:top !important;text-align:right; font:bold 13px arial;}
+
+.salesChargeTable table tbody td.CDSCHeader{border-left:0px;border-top:0;padding-left:0px;padding-bottom:10px;padding-top:15px;vertical-align:top !important;text-align:left; font:bold 13px arial;}
+.salesChargeTable table tbody td.CDSCHeaderValue{border-left:0px;border-top:0;padding-left:5px;padding-bottom:10px;padding-top:15px;vertical-align:top !important;text-align:right; font:bold 13px arial;}
+
+
+.salesChargeTable table tbody td.lastCommissions{border-left:0px;border-top:0px;padding-left:0px;padding-top:1px;padding-bottom:0px;vertical-align:top !important;text-align:left;}
+.salesChargeTable table tbody td.lastCommissionsValue{border-left:0px;border-top:0px;padding-left:0px;padding-top:1px;padding-bottom:0px;vertical-align:top !important;text-align:right; font:bold 13px arial;}
+.salesChargeTable table tbody td.sharesRedeemed{border-left:0px;border-top:0px;padding:0 0 0 0;vertical-align:top !important;text-align:left; font:11px arial;color:#8d8d8d;}
+
+.salesChargeTable table thead th.fc,
+.salesChargeTable table tbody td.fc,
+.salesChargeTable table td:first-child,
+.salesChargeTable table th:first-child {border-left:0;text-align:left;}
+
+tr#sortable th.headerSortUp,
+tr#sortable th.headerSortDown {font-weight:700;}
+tr#sortable th.headerSortUp span {display: -moz-inline-stack;display:inline-block;width:11px;height:8px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrow-sort-th.gif') right -33px no-repeat;padding:0 !important;overflow:hidden;}
+tr#sortable th.headerSortDown span {display: -moz-inline-stack;display:inline-block;width:11px;height:8px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrow-sort-th.gif') right 0 no-repeat;padding:0 !important;overflow:hidden;}
+
+tr#sortable th {cursor:pointer;}
+tr#sortable th.ignore {cursor:default;}
+tr#sortable th.hvr {background-color:#f6f6f6 !important;}
+
+.hr-or {color:#bbb;margin:15px 0;}
+.hr-or em {display: -moz-inline-stack;display:inline-block;font:italic 13px georgia;color:#000;margin:0 5px;}
+
+ul.links {list-style:none;margin-left:0;}
+ul.links li {padding:8px 0;border-top:1px solid #ddd;margin:0;}
+
+ul.links li.fc,
+ul.links li:first-child {border:0;}
+
+p.top {margin-bottom:2em;text-align:right;margin-top:5px;}
+p.top a {display:-moz-inline-stack;display:inline-block;padding-left:13px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif') -490px -229px no-repeat;text-decoration:none;}
+
+
+hr {margin:20px 0;color:#ddd;height:1px;background:#ddd;}
+div.hr{color:#F2F2EB;background:url('bg-hr000.png') center top no-repeat;border:0;height:11px;margin:17px 0 14px;clear:both;}
+div.hr hr {display:none;}
+div.fundDoc ul {list-style:disc;color:#05c;margin-left:16px}
+
+
+/*inner tabs - styleA*/
+div.innerTabA {background:#fff;margin:0;}
+
+div.innerTabA div.tabContent {background:#fff;border-top:1px solid #ddd;}
+div.innerTabA .tabIntro {background:#F2F2EB;padding:10px;margin-bottom:15px;}
+div.innerTabA .tabIntro div.anchor {margin-top:0;}
+
+div.innerTabA ul.tabList:after {content: ".";display:block;height:0;clear:both;visibility:hidden;}
+div.innerTabA ul.tabList a {position:relative;display:block;text-align:center;text-decoration:none;background:#F2F2EB;
+margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+border:0;border-right:1px solid #fff;color:#666;
+}
+
+div.innerTabA ul.tabList span {display:block;padding:7px 25px;font:700 12px arial;border:0;border-top:5px solid #DCDDCD;}
+div.innerTabA ul.tabList .ui-tabs-selected a {margin-top:0;color:#b50;font-size:1.1em;text-decoration:none;bottom:-1px;}
+div.innerTabA ul.tabList .ui-tabs-selected span {background:#F2F2EB;border-top:5px solid #ea0;border-bottom:1px solid #F2F2EB;}
+div.innerTabA ul.tabList .ui-tabs-selected a {font-size:1em;}
+
+
+
+
+/*inner tabs - styleB*/
+div.innerTabB {background:#F2F2EB;margin:15px 0;}
+div.innerTabB .tabContainer {border-top:5px solid #666;padding:0 0 10px;background:#fff;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -650px bottom no-repeat #fff;}
+div.innerTabB .tabList {display:block;position:relative;z-index:1;}
+div.innerTabB .tabList:after {content: ".";display:block;height:0;clear:both;visibility:hidden;}
+div.innerTabB .tabList li {float:left;margin:0;/* be nice to Opera */}
+div.innerTabB .tabList a {position:relative;display:block;text-align:left;text-decoration:none;color:#333;
+white-space: nowrap;border:0;margin-right:0;background:#fff;}
+div.innerTabB .tabList span {position:relative;display:block;padding:7px 20px;font:700 12px arial;border-right:1px solid #ddd;border-top:0;}
+div.innerTabB .tabList .ui-tabs-selected a {font-size:1.1em;text-decoration:none;background-image:none;background:#eee;margin-top:-5px;border-top:5px solid #ea0;}
+div.innerTabB .tabList .ui-tabs-selected a span {color:#b50;text-decoration:none;border-bottom:0;background:#fff;}
+div.innerTabB .tabCon {padding:0;}
+
+
+
+#advisorbar {position:absolute;top:-68px;left:0;z-index:55;width:255px;height:52px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-advbar.png') 0 bottom no-repeat;}
+#advisorbar a.trigger {position:absolute;display:block;background:url('bg-hm-ar.png') -701px -127px no-repeat;width:245px;height:40px;color:#369;font:700 12px arial;text-transform:uppercase;}
+#advisorbar a.trigger:hover {text-decoration:none !important;}
+#advisorbar a.trigger span {display:block;width:246px;margin-top:13px;margin-left:14px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif') 210px -226px no-repeat;}
+#advisorbar a.advactive {background:url('bg-hm-ar.png') -701px -167px no-repeat;}
+#advisorbar a.advactive span {text-decoration:underline;}
+#advisorbar a.advclicked {background:#dee;}
+
+#advisorbar a.advclicked span {background:url('https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif') 210px -257px no-repeat;color:#000;}
+
+div.contentOneCol #advisorbar {position:relative;float:left;display:inline;top:-6px;}
+/* Added for Advisor bar in home pages -- start*/
+#advisorbarhomepage {position:relative;top:-77px;width:255px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-advbar.png') 0 0 no-repeat;}
+#advisorbarhomepage a.trigger {position:relative;display:block;background:url('bg-hm-ar.png') -701px -127px no-repeat;width:245px;height:40px;color:#369;font:700 12px arial;text-transform:uppercase;}
+#advisorbarhomepage a.trigger:hover {text-decoration:none !important;}
+#advisorbarhomepage a.trigger span {display:block;width:246px;margin-top:13px;margin-left:14px;padding-top:10px;padding-left:5px;}
+#advisorbarhomepage a.advactive {background:url('bg-hm-ar.png') -701px -167px no-repeat;}
+#advisorbarhomepage a.advactive span {text-decoration:underline;}
+#advisorbarhomepage a.trigger {background:#dee;}
+div.contentOneCol #advisorbarhomepage {position:relative;float:left;display:inline;margin-top:-12px;margin-left:-10px;}
+/* Added for Advisor bar in home pages -- end*/
+
+
+div.contentOneCol h1.offset {float:none;padding-left:256px;}
+
+/*specially for one col*/
+div.contentOneCol .leftCon {float:left;width:715px;}
+
+
+div.contentOneCol .relCon {width:185px;padding:20px 20px 30px;color:#333;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -180px bottom no-repeat #F2F2EB;float:right;margin-bottom:20px;position:relative;}
+
+
+
+.relCon h2 {font:700 12px arial;margin: 0 0 10px;}
+.relCon h3 {font:700 12px arial;margin-bottom:5px;}
+.relCon div.hr {background:transparent;border-bottom:1px solid #ccc;height:1px;margin:15px 0;}
+
+#advmenu {position:absolute;z-index:999;background:#dee;padding:10px 15px;width:215px;top:-999em;}
+#advmenu ul {margin:0;list-style:none;margin-bottom:5px;}
+#advmenu ul li {margin:0;padding:0;}
+#advmenu ul a {display:block;padding:8px 10px;width:195px;background:#fff;font:12px arial;color;#666;margin:1px 0 0 !important;text-decoration:none;}
+#advmenu ul a:hover {background:#fce09f;color:#b50;}
+
+/* Added for adv menu in home pages -- start */
+#advmenuhomepage {position:relative;z-index:999;display:block;background:#dee;padding:10px 15px;width:215px;}
+#advmenuhomepage ul {margin:0;list-style:none;margin-bottom:5px;}
+#advmenuhomepage ul li {margin:0;padding:0;}
+#advmenuhomepage ul a {display:block;padding:8px 10px;width:195px;background:#fff;font:12px arial;color;#666;margin:1px 0 0 !important;text-decoration:none;}
+#advmenuhomepage ul a:hover {background:#fce09f;color:#b50;border: 0px solid;}
+
+#leftNavHomePage {position:relative;display:block;width:230px;padding-top:10px;top:-70px;}
+#leftNavHomePage h2 {padding-left:25px;margin-left:0;margin-bottom:10px;}
+#leftNavHomePage ul {padding-left:25px;list-style:disc;padding-bottom:15px;color:#369;margin:0;margin-bottom:15px;}
+#leftNavHomePage ul li {padding-right:10px;margin-left:15px;}
+
+#clientaccounts {position:relative;z-index:20;display:block;border-top: 1px solid #eed;width:234px;padding-top:10px}
+.fundsearchhomepage {position:relative;display:block;border-top: 1px solid #eed;top:-70px;}
+
+/* Added for adv menu in home pages -- end */
+#mainContent div.tabContainer form {padding:0;margin:0;}
+
+/*side bar*/
+#sideBar .content {padding:10px 20px 20px;}
+#sideBar h3 {font:700 13px arial;color:#333;margin:0 0 5px;}
+
+#sideBar img.feature {display:block;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -600px bottom no-repeat #F2F2EB;}
+
+#sideBar #printScreen {position:absolute;top:16px;right:60px;}
+#sideBar ul {padding:0;margin:0;margin-left:15px;color:#369;}
+#sideBar ul li {}
+#sideBar div.hr {margin:20px 0 14px;}
+
+
+div.chartTable table tbody td.lalign,
+table tbody td.lalign {text-align:left;}
+
+.num {text-align:right;}
+
+div.pass {padding:20px 10px 10px;}
+
+div.pass p {margin-bottom:10px;}
+
+div.pass div.con {padding:20px 15px 10px;}
+div.pass input.txt {width:200px}
+div.pass .con p {margin-bottom:10px;}
+
+div.pass .legalinfo {margin:20px 0 0;}
+
+div.idhelp {padding:20px 10px 10px;}
+
+
+
+div.idhelp .con {width:332px;margin-left:10px;float:left;}
+div.idhelp .fc {margin-left:0;}
+div.idhelp .btn input {width:50px;}
+div.idhelp h2 {margin:0 0 15px;}
+
+#hypo #feature {padding:20px 10px 10px;margin-bottom:2em;}
+#hypo #feature .con {width:440px;margin-left:0;float:left;}
+#hypo #feature .feature {padding:10px;background:#fff;width:200px;margin-left:10px;float:left;}
+#hypo #feature .legalinfo {margin-top:0;}
+
+#hypo #feature h2 {margin-bottom:0;}
+#hypo #popular h3 {margin-bottom:5px;}
+#hypo #popular .chartTable table tbody td {text-align:left;}
+
+
+#miniSpotlight {width:538px;height:350px;position:relative;margin-left:75px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif')  bottom no-repeat #F9F9F7;text-align:left;color:#222;margin-bottom:10px;padding-bottom:10px;}
+
+
+#miniSpotlight .content {height:350px;background:url('https://www.franklintempleton.com/retail/new/img/common/risk_mgt_bg.png') right bottom no-repeat;width:538px;color:#333;}
+#miniSpotlight .content div.main {padding:17px 20px 20px 24px;background:url('https://www.franklintempleton.com/retail/new/img/common/risk_mgt_bg.png') 0 0 no-repeat;height:313px;}
+#miniSpotlight .content div.whitePaper {width:347px;float:left; margin-top:50px; text-align:center;}
+
+#miniSpotlight h2 {font:24px georgia;margin-bottom:10px;color:#000;top:-3px;position:relative;margin-bottom:13px;z-index:50;}
+#miniSpotlight h3 {text-transform:uppercase;font:700 14px arial;}
+#miniSpotlight img.tn {display:-moz-inline-stack;display:inline-block;float:right;margin:0 10px 10px 10px;}
+.miniSpotlight_image{width:137px;display:-moz-inline-stack;display:inline-block;float:right;margin:0px 10px 0px 0px;height:150px;}
+
+
+#spotlight {width:735px;height:200px;position:relative;margin-left:-24px;top:-6px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -700px bottom no-repeat #F9F9F7;text-align:left;color:#222;margin-bottom:10px;padding-bottom:10px;}
+
+
+#spotlight .content {height:200px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-spotlight.png') right bottom no-repeat;width:735px;color:#333;}
+#spotlight .content div {padding:17px 0 20px 24px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-spotlight.png') 0 0 no-repeat;height:163px;}
+
+#spotlight p {font:14px georgia;line-height:1.4em;}
+
+#spotlight h2 {font:24px georgia;margin-bottom:10px;color:#000;top:-3px;position:relative;margin-bottom:13px;z-index:50;}
+#spotlight h3 {text-transform:uppercase;font:700 14px arial;}
+#spotlight img.tn {display:-moz-inline-stack;display:inline-block;float:right;margin:0 10px 10px 10px;}
+
+#commentarySpotlight {width:715px;height:170px;position:relative;z-index:10;margin-left:-24px;padding:20px 0 20px 20px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -700px bottom no-repeat #fff;text-align:left;color:#222;margin-bottom:10px;}
+
+#commentarySpotlight p {font:14px georgia;margin-bottom:20px;line-height:1.4em;}
+#commentarySpotlight h2 {color:#b50;font:24px georgia;margin-bottom:10px;color:#000;}
+#commentarySpotlight h3 {font:700 14px arial;text-transform:uppercase;}
+#commentarySpotlight img.tn {display:-moz-inline-stack;display:inline-block;float:right;margin:0 10px 10px 10px;}
+#commentarySpotlight  h1#commentaryTitle {color:#b50;font:24px georgia;margin-bottom:10px;color:#000;margin-left:-21px;}/*SEO P2*/
+
+
+
+#spotlightFlash {position:absolute;left:24px;top:18px;padding:0;background:transparent;}
+
+#fa-mktContainer {width:735px;position:relative;z-index:55;margin-left:-12px;margin-bottom:10px;top: 6px;}
+
+#faBillBoard {margin:0;}
+#fa-mktContainer #userName {padding-left:26px;}
+#fa-mktContainer {width:735px;position:relative;z-index:55;margin-bottom:10px;}
+#fa-mktContainer b.f, #fa-mktContainerA b.f  {position:absolute;display:block;height:1px;font-size:1px;overflow:hidden;background:#aaa;bottom:10px;_bottom:9px;left:0;}
+
+#fa-billboard {position:relative;float:left;width:425px;height:177px;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -880px bottom no-repeat;}
+#fa-billboard #feature {width:400px;height:175px;background:#fff;border-bottom:1px solid #fff;float:left;}
+#fa-billboard #feature .item {display:none;width:400px;height:175px;background:#eee;color:#ccc;font-size:24px;}
+#fa-billboard #control{position:absolute;z-index:90;width:25px;height:175px;right:-1px;background:#fff;border-bottom:1px solid #fff;border-right:1px solid #ccc;}
+
+#fa-billboard #control a {position:relative;z-index:90;display:block;width:25px;;height:26px;font:700 14px georgia;border-bottom:1px solid #ddd;}
+#fa-billboard #control a:hover  {text-decoration:underline;}
+
+#fa-billboard #control a span {display:block;position:absolute;right:0;width:29px;height:26px;line-height:24px;text-align:right;padding-right:7px;}
+#fa-billboard #control a.on {background:#ea0;color:#fff;}
+
+#fa-billboard #control a.on span {width:30px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif') -485px -2px no-repeat;height:26px;line-height:24px;}
+#fa-billboard b.f {width:425px;}
+
+
+#fa-whatsnew {position:relative;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -150px bottom no-repeat #F2F2EB;float:right;}
+#fa-whatsnew div.con {border-bottom:2px solid #fff;padding:10px;padding-left:15px;width:275px;height:165px;}
+#fa-whatsnew div.scroll {overflow:auto;height:90px;padding:0 10px 10px;overflow-x:hidden;width: auto;}
+#fa-whatsnew h2 {font:22px georgia;margin:0;}
+#fa-whatsnew ul {margin-left:6px;line-height:normal;}
+#fa-whatsnew ul li {margin-bottom:5px;}
+#fa-whatsnew ul a {font-weight:700;}
+
+#fa-whatsnew div.hr {margin:5px 0;}
+#fa-whatsnew b.f {width:300px;}
+
+
+input.go {padding:0 0 1px;margin:0;margin-left:2px;width:23px;height:22px;background:url('bg-btn00.png') 0 -158px no-repeat transparent;border:0;outline:0;color:#fff;font:700 12px arial;vertical-align:middle;text-align:center;cursor:pointer;}
+input.inactivego {padding:0 0 1px;margin:0;margin-left:2px;width:23px;height:22px;background:url('bg-btn00.png') -24px -158px no-repeat transparent;border:0;outline:0;color:#fff;font:700 12px arial;vertical-align:middle;text-align:center;}
+
+
+/******
+ * FA Myhome
+******/
+
+h1#userName {font:15px georgia;color:#666;margin-top:6px;margin-bottom:3px;padding-bottom:3px;}
+h1#userName span{font:700 14px arial;color:#333;}
+
+h1#shUserName {font:15px georgia;color:#666;margin:-4px 0 30px;}
+h1#shUserName span{font:700 14px arial;color:#333;}
+
+
+.dropSelect p {margin-bottom:15px;}
+.dropSelect label {display:block;margin-bottom:3px;}
+
+#faMyModule {margin-bottom:20px;}
+
+#faMyModule .tabList {border-bottom:1px solid #ccc;position:relative;z-index:1;margin:0;top:-4px;}
+#faMyModule .tabList:after {content: ".";display:block;height:0;clear:both;visibility:hidden;}
+#faMyModule .tabList li {float:left;margin-top:-1px;/* be nice to Opera */}
+#faMyModule .tabList li.fc span {border-left:1px solid #ddd;}
+
+#faMyModule .tabList a {position:relative;display:block;text-align: center;text-decoration:none;color:#666;
+margin: 0 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+background:#fff;border-top:5px solid #666;
+}
+
+#faMyModule .tabList span {display:block;padding:7px 10px;font:700 12px arial;border-right:1px solid #ddd;}
+
+#faMyModule .tabList .ui-tabs-selected a {font-size:1.1em;text-decoration:none;border-top:5px solid #ea0;margin-top:0px;}
+#faMyModule .tabList .ui-tabs-selected a span {position:relative;color:#b50;text-decoration:none;}
+
+#faMyModule div.tabContent {position:relative;top:-4px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') 0 bottom no-repeat #F2F2EB;padding-bottom:10px;}
+#faMyModule div.tabContent div.footer {border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding:8px;background:#fff;clear:both;}
+#faMyModule div.tabContent div.footer label {margin-left:3px;}
+/*my funds list*/
+
+#faMyFunds label.active {font-weight:700;}
+
+#faMyFunds #fundListHead {font:400 13px arial;margin:0;border-bottom:1px solid #ccc;}
+
+#faMyFunds #fundListHead thead th {padding:10px 5px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#eee;padding-top:15px;font:400 12px arial;vertical-align:top;text-align:center;}
+#faMyFunds #fundListHead thead th.fc {border-left:0;text-align:left;}
+#faMyFunds #fundListHead thead tr#sortable th {background:#eee;}
+
+#faMyFunds #fundListHead thead .asof {margin-top:3px;}
+#faMyFunds #fundListHead thead h3 {padding-left:5px;margin-bottom:10px;}
+#faMyFunds #fundListHead thead label {margin-left:3px;}
+
+#faMyFunds #fundListHead thead tr#sortable th.hvr {background-color:#f6f6f6;}
+
+#faMyFunds #fundListHead thead tr#sortable th.headerSortUp,
+#faMyFunds #fundListHead thead tr#sortable th.headerSortDown {font-weight:700;}
+
+#faMyFunds #fundListHead thead p {margin:0 0 5px;}
+
+#faMyFunds #fundList tbody td {padding:10px 5px;border-left:1px solid #ddd;border-top:1px solid #ccc;background:#F2F2EB;text-align:right;}
+
+
+#faMyFunds #fundList tbody td.fund {font-weight:700;}
+#faMyFunds #fundList tbody td.fund a{}
+
+#faMyFunds #fundList tbody td .del {display:-moz-inline-stack;display:inline-block;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-delete.gif') 0 0 no-repeat;height:16px;width:16px;}
+
+
+#faMyFunds #fundList tbody td.fc {border-left:0;border-right:0;padding-left:28px;}
+#faMyFunds #fundList tbody td.fc div {margin:0;}
+
+#faMyFunds #fundList tbody td.fc a{z-index:40;}
+#faMyFunds #fundList tbody td.fc a.alert {display:-moz-inline-stack;display:inline-block;margin:0;z-index:90;margin-left:-22px;width:16px;height:16px;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-alert.gif') 0 0 no-repeat;overflow:hidden;float:left;}
+#faMyFunds #fundList tbody td.fc a:hover {text-decoration:none;}
+
+#faMyFunds #fundList tbody td.fc a.fund:hover {text-decoration:underline;}
+#faMyFunds #fundList tbody td.fc a.fund {float:right;_display:inline-block;width:316px;}
+
+
+#faMyFunds #fundListHead th {width:65px}
+#faMyFunds #fundList td {width:65px}
+
+#faMyFunds div.scroll {overflow-y:auto;}
+
+#faMyFunds #fundListHead tr th.fc {width:340px}
+#faMyFunds #fundListHead tr th.lc {width:46px;_width:47px}
+
+#faMyFunds #fundList tr td.fc {width:316px;text-align:left;}
+#faMyFunds #fundList tr td.lc {width:30px;text-align:center;}
+
+#faMyFunds #fundList tr.hvr td,
+#faMyFunds #fundList tr:hover td {background:#ffd;}
+
+#addFund{border-top:2px solid #fff;border-bottom:2px solid #fff;background:#eee;padding:5px 10px 5px 27px;}
+#addFund label {display:-moz-inline-stack;display:inline-block;vertical-align:middle;margin-right:10px;}
+#addFund #addFundSearch{border:1px solid #ccc;padding:4px 2px 3px;width:250px;margin-right:10px;vertical-align:middle;}
+#addFund button {vertical-align:middle;}
+
+#faMyClients {background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -700px top no-repeat #F2F2EB;padding-bottom:10px;padding-top:10px;position:relative;_overflow:hidden;_height:323px;}
+
+#clientList h2 {font:700 13px arial;border-bottom:1px solid #ccc;}
+#clientList h2 .asof {margin-top:3px;}
+
+#clientList div.scroll {overflow-y:auto;height:256px;}
+
+#clientList {width:462px;float:left;border-right:1px solid #ccc;margin:0;}
+#clientList table {font:400 13px arial;margin:0;border-bottom:1px solid #ccc;}
+#clientListHead thead th {padding:7px 5px;border-left:1px solid #ccc;background:#eee;}
+#clientListHead thead tr#sortable th {border-bottom:1px solid #ccc;}
+#clientListHead thead .asof {font:10px arial;color:#666;}
+
+#clientListHead thead tr#sortable th.headerSortUp,
+#clientListHead thead tr#sortable th.headerSortDown {font-weight:700;}
+
+#clientListBody tbody td {padding:10px 5px;border-left:1px solid #ddd;border-top:1px solid #ccc;background:#F2F2EB;text-align:right;}
+#clientListBody tbody td.fc {text-align:left;}
+#clientListBody tbody td.lc {text-align:center;}
+#clientListBody tbody td.fund {font-weight:700;}
+#clientListBody tbody td.fund a{display:-moz-inline-stack;display:inline-block;padding-left:25px;}
+
+#clientListBody tbody td .del{display:-moz-inline-stack;display:inline-block;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-delete.gif') 0 0 no-repeat;height:16px;width:16px;}
+
+
+#clientListHead thead th {font:400 12px arial;vertical-align:top;text-align:center;}
+#clientListHead thead th.fc {text-align:left;}
+
+
+
+#clientListHead thead th.fc,
+#clientListBody tbody td.fc {border-left:0;border-right:0;padding-right:0;padding-left:10px;}
+
+#clientListBody tbody tr.hvr td,
+#clientListBody tbody tr:hover td{background:#ffd;}
+
+#clientListHead thead th,
+#clientListBody tbody td {width:110px;}
+
+#clientListHead thead th.phone,
+#clientListBody tbody td.phone {width:90px;}
+
+#clientListHead thead th.fc,
+#clientListBody tbody td.fc {width:173px;}
+#clientListBody tbody td.fc {_width:173px;}
+
+#clientListHead thead th.lc	{width:46px;}
+#clientListBody tbody td.lc {width:30px;}
+
+#clientListBody tbody td.fc a {display:-moz-inline-stack;display:inline-block;font-weight:700;padding:3px 0;padding-left:28px;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-edit.gif') 0 center no-repeat;}
+
+#faMyClients #clientBar {float:right;width:227px;padding:0 10px;position:relative;}
+#faMyClients #clientBar h4 {margin:0 0 9px;}
+
+#faMyClients #clientBar div.hr {background:#ccc;height:1px;overflow:hidden;margin:11px 0;_margin:10px 0;}
+
+#faMyClients #clientBar #search {background:#F7F8F3;padding:10px 5px;border:2px solid #C8C9C1;_margin-bottom:12px;}
+
+#faMyClients #clientBar #searchExp h4,
+#faMyClients #clientBar #search h4 {padding:0;border:0;font-size:13px;}
+
+#faMyClients #clientBar #searchExp h4 {margin-bottom:10px;}
+
+
+
+#faMyClients input.inactivego {_background-image:url('https://www.franklintempleton.com/retail/new/img/common/bg-btn.gif');}
+
+#searchExp {background:#F7F8F3;padding:7px;border:2px solid #999;position:absolute;top:0;z-index:100;right:10px;display:none;width:674px;height:306px;}
+#searchExp .topbar {margin-top:-7px;margin-right:-7px;font:700 12px arial;padding:7px;float:right;background:#999;border:1px solid #fff;border-right:0;border-top:0;color:#fff;cursor:pointer;}
+#searchExp .topbar a {display:block;float:left;color:#fff;border-right:1px solid #fff;margin:-9px 9px -9px 0;padding:9px 13px 9px 9px;}
+#searchExp .topbar a:hover {text-decoration:none;}
+
+#faMyClients #clientBar ul.clientList {margin-bottom:0;margin-left:15px;}
+#faMyClients #clientBar ul.clientList  li {line-height:1em;margin-bottom:6px;}
+#faMyClients #clientBar label {font:10px arial;vertical-align:baseline;}
+
+#faMyClients #clientBar div.con input {margin-left:0px;_margin-left:-3px;}
+
+
+#searchExp .filters {margin-bottom:10px;}
+
+#searchExp #results {border:1px solid #ddd;background:#fff;padding:0 10px;overflow:auto;height:237px;width:652px;display:none;}
+#searchExp #results ul {list-style:none;margin:0;}
+#searchExp #results ul li {border:0;border-bottom:1px solid #ddd;padding:7px 5px;margin:0 !important;color:#369;_margin-top:-3px;}
+#searchExp #results ul {_margin-top:6px;}
+
+#searchExp #results ul li.hvr {background:#ffd;}
+#searchExp #results ul li span {display:-moz-inline-stack;display:inline-block;float:left;width:400px;font-weight:700;}
+
+#searchExp #results ul li a,
+#searchExp #results ul li b {display:-moz-inline-stack;display:inline-block;float:right;width:200px;margin:0;padding:0;}
+
+#searchExp #results ul li a {text-decoration:underline;}
+#searchExp #results ul li b {font-weight:400;color:#bbb;}
+
+#addClient {background:#fff;border:4px solid #666;padding:20px;}
+
+
+
+#faMySales {background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -700px top no-repeat #F2F2EB;height:343px;overflow:auto;}
+
+#faMySales address {font:13px arial;}
+
+#faMySales #team {padding:15px;margin-bottom:1px;border-bottom:1px solid #ccc;}
+#faMySales .person {width:250px;}
+#faMySales div.right {width:289px;}
+#faMySales .person img {display:-moz-inline-stack;display:inline-block;margin:0 10px 0 0;float:left;border:1px solid #666;width:88px;height:88px;}
+#faMySales .person h3 {font:18px georgia;color:#b50;margin-bottom:9px;}
+
+#faMySales .person address a {display:block;margin-top:5px;}
+
+#faMySales #content {width:430px;padding:10px 15px;float:left;border-right:1px solid #ccc;}
+#faMySales #relInfo {width:195px;padding:0 15px 10px;float:right;}
+
+#faMySales #relInfo div {padding:10px 0;border-top:2px solid #fff;margin:0;}
+#faMySales #relInfo div.fc {border:0;}
+#faMySales #relInfo h4 {margin-bottom:10px;}
+#faMySales #relInfo ul {margin-left:15px;}
+
+#faMySales #content h2 {font:18px georgia;color:#b50;margin:0;padding:0;margin-bottom:5px;}
+#faMySales #content h3 {font:700 13px arial;margin-bottom:5px;}
+
+
+
+
+#faAdditional {margin-bottom:20px;}
+#faAdditional .item {float:left;margin-right:16px;background:#f4f5ef;padding:20px;}
+#faAdditional .single {width:181px;}
+#faAdditional .double {width:418px;}
+#faAdditional .full {width:670px;}
+/*#faAdditional .marginRTAlign { margin-right:0px; }*/
+
+
+#faAdditional .item ul {color:#369;margin-left:16px;}
+#faAdditional .item ul li {margin:0; color:black; }
+#faAdditional .item h2 {font:18px georgia;}
+#faAdditional .item div.hr {margin:5px 0;}
+#faAdditional div.lc {margin-right:0;}
+
+/******
+ * SH Myhome styles
+******/
+
+#sh-drop {position:relative;margin:0 24px 15px;border-bottom:1px solid #ddd;padding-bottom:15px;}
+#sh-drop a.linkselectLink {position:relative;display:block;z-index:50;}
+
+#sh-drop .sh-dropmenu {position:absolute;z-index:1000;background:#F3F3F3;border:1px solid #ddd;border-top:0;}
+#sh-drop .sh-dropmenu ul {margin:0;padding:0;border:0;border-bottom:1px solid #ddd;margin:10px 0;}
+#sh-drop .sh-dropmenu ul li {background:transparent;padding:0;}
+#sh-drop .sh-dropmenu ul li a {background:transparent;display:block;padding:2px 10px;}
+#sh-drop .sh-dropmenu ul li a:hover {background:#fda;}
+
+#sh-drop .sh-dropmenu ul:last-child {margin-bottom:0;border:0;}
+
+#shMyAcct {margin-bottom:2em;}
+#shMyAcct .shade-tl{padding-top:10px;}
+#shMyAcct h2 {font:18px georgia;color:#b50;margin-bottom:10px;}
+#shMyAcct h3 {margin-bottom:10px;}
+
+#shMyAcct .equal {margin-left:10px;width:195px;padding:14px;float:left;display:table-cell;background:#fff;}
+
+#shMyAcct div.fc,
+#shMyAcct div.equal:first-child {margin-left:0;}
+#shMyAcct div.last {width:197px;}
+
+#shMyAcct #portOverview td.fc {width:140px;}
+#shMyAcct #portOverview td.lc {text-align:right;}
+#shMyAcct #portOverview tr.last td {padding-bottom:10px;}
+#shMyAcct #portOverview tr.total td {font-weight:700;border:0;border-top:1px solid #ddc;padding-top:10px;}
+
+#shMyAcct #currAsset .breakdown {margin-top:20px;}
+#shMyAcct #currAsset .breakdown img {float:left;width:84px;}
+#shMyAcct #currAsset .breakdown ul {margin:0;list-style:none;float:right;width:105px;font:13px arial;}
+#shMyAcct #currAsset .breakdown ul li {margin-bottom:4px;}
+
+#shMyAcct #currAsset .breakdown ul b {float:left;margin-top:3px;}
+#shMyAcct #currAsset .breakdown ul span {float:right;width:88px;}
+
+#shMyAcct div.hr {margin:10px 0;}
+
+#shAcctList div.hr {margin:30px 0;}
+#shAcctList h2 {font:18px georgia;color:#b50;margin:0 0 10px;}
+
+
+.shSavingAcct .content{width:460px;float:left;}
+.shSavingAcct ul.acctList {list-style:none;margin:-10px 0 0;}
+.shSavingAcct ul.acctList li{padding:20px 0 20px;border-top:1px solid #ddd;}
+.shSavingAcct ul.acctList li.fc {border:0;}
+
+.shSavingAcct ul.acctList li ul {list-style:none;margin:10px 0 0;}
+.shSavingAcct ul.acctList ul li{display:-moz-inline-stack;display:inline-block;padding:0;border:0;margin-right:15px;float:left;}
+
+.shSavingAcct ul.acctList li h3{font:700 15px arial;margin-bottom:20px;}
+.shSavingAcct ul.acctList li p {margin-bottom:5px;}
+
+.shSavingAcct p a {text-decoration:none;}
+
+.shSavingAcct ul.acctList form {float:right;top:15px;padding:0;margin:0;}
+
+/*
+.shSavingAcct .breakdown{width:170px;padding:15px;float:right;background:#fff;border:3px solid #ddd;margin:5px 0 0;}
+.shSavingAcct .breakdown h3 {font:700 15px arial;}*/
+
+.shSavingAcct .breakdown {width:170px;padding:0 20px;float:right;margin-left:15px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-breakdown.png') right bottom no-repeat;min-height:250px;}
+.shSavingAcct .breakdown div {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-breakdown.png') 0 0 no-repeat;margin:0 -20px;padding:20px;}
+.shSavingAcct .breakdown h3 {font:700 15px arial;margin-bottom:5px;}
+.shSavingAcct .breakdown ul {list-style:none;margin-left:15px;}
+.shSavingAcct .breakdown ul li {margin-bottom:4px;}
+.shSavingAcct .breakdown img {position:relative;display:block;margin: 10px auto;}
+
+.shSavingAcct .breakdown b {zoom:1;vertical-align:middle;}
+
+.sh-info {padding-bottom:30px;clear:both;}
+.sh-info p {margin-bottom:10px;}
+.sh-info .chartTable {margin:0 -10px;background:#fff;}
+.sh-info .chartTable table {border-bottom:1px solid #ccc;}
+
+.sh-info td {text-align:center;}
+.sh-info td.num {text-align:right;}
+
+.sh-msg {margin:10px;padding:5px;border:1px solid #ddd;}
+.sh-msg .con {padding:7px;background:#ffd;}
+.sh-msg .con p {margin:0;}
+
+
+
+/*MOS Homepage*/
+#mos-feature {width:735px;position:relative;z-index:55;margin-left:-24px;margin-bottom:10px;top:15px;}
+#mos-feature b.f {position:absolute;display:block;height:1px;font-size:1px;overflow:hidden;background:#aaa;bottom:10px;left:0;border-top:1px solid #fff;}
+/*#mos-feature h2 {font:18px georgia;color:#333;}Change in style by Scott, 6/19/09*/
+#mos-feature h2 {font:18px georgia;color:#333;padding-bottom:12px;}/*Change in style by Scott, 6/19/09*/
+#mos-data h2 {font:18px georgia;color:#333;}/*Added by Scott, 6/19/09*/
+
+#contact {position:relative;float:left;width:225px;padding:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -980px bottom no-repeat #F2F2EB;}
+#contact .con {padding:10px;border:1px solid #ddd;background:#fff;margin-bottom:10px;}
+
+#contact b.f {width:245px;}
+
+
+
+/*#mos-whatsnew {position:relative;background:url('../img/common/shadow-bot-w.gif') -150px bottom no-repeat #F2F2EB;float:right;width:465px;padding:10px 0 0;}  Change in style by Scott, 6/19/09*/
+#mos-whatsnew {position:relative;float:right;width:415px;padding:0 30px 20px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -200px bottom no-repeat #F2F2EB;}
+
+/*#mos-whatsnew div.con {padding:10px;padding-bottom:30px;}  Change in style by Scott, 6/19/09*/
+#mos-whatsnew div.con {}/*Change in style by Scott, 6/19/09*/
+
+
+#mos-whatsnew ul {}
+#mos-whatsnew ul a {font-weight:700;}
+/*#mos-whatsnew h2 {color:#000;}  Change in style by Scott, 6/19/09*/
+#mos-whatsnew h2 {padding-top:20px;margin:0;color:#000;}
+
+
+#mos-whatsnew div.hr {margin:5px 0;}
+#mos-whatsnew b.f {width:475px;}
+
+#mos-data {width:735px;position:relative;z-index:55;margin:20px 0 10px;margin-left:-24px;}
+#mos-data #distribution {float:left;width:315px;padding:20px;background:#F2F2EB;}
+
+#mos-data #dividend {float:right;width:315px;padding:20px;background:#F2F2EB;}
+
+#mos-data div.hr {margin:10px 0;}
+#mos-data table {margin-bottom:15px;}
+
+
+/* Pri Landing */
+.secItems {position:relative;float:left;width:711px;margin-bottom:37px;}
+.secItems .equal {margin-left:25px;width:343px;float:left;}
+.secItems .equal:first-child,
+.secItems div.fc {margin-left:0;}
+.secItems h2 {font:18px georgia;color:#b50;border-bottom:1px solid #ddd;padding-bottom:10px;margin-bottom:10px;}
+.secItems h2 a {color:#b50;}
+.secItems p a {text-decoration:none;}
+
+/* Sec Landing */
+.terItems {position:relative;float:left;width:711px;margin-bottom:1em;}
+.terItems .equal {margin-left:25px;width:303px;padding:20px 20px 40px;float:left;display:table-cell;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -50px bottom no-repeat #F2F2EB;}
+.terItems .equal:first-child,
+.terItems div.fc {margin-left:0;}
+.terItems h2 {font:18px georgia;color:#b50;border-bottom:1px solid #ddd;padding-bottom:10px;margin-bottom:10px;}
+.terItems h2 a {color:#b50;}
+.terItems div.equal img {display:block;width:343px;margin:-20px -20px 18px;height:90px;}
+.terItems p a {text-decoration:none;}
+.terItems form {margin-bottom:20px;}
+
+/******
+ * Commentary Specific Pri Landing
+******/
+.commLandItems {position:relative;float:left;width:735px;margin-bottom:15px;margin-left:-23px;}
+.commLandItems .equal {margin-left:15px;padding:0 20px 20px;width:320px;float:left;display:table-cell;background:url('https://www.franklintempleton.com/retail/new/img/common/grad-comm-land-b.gif') 0 bottom repeat-x #F2F2EB;}
+.commLandItems .equal:first-child,
+.commLandItems div.fc {margin-left:0;}
+.commLandItems h2 {font:18px georgia;border-bottom:1px solid #ddd;padding:20px 0 10px 20px;margin:0 -20px 10px;background:url('https://www.franklintempleton.com/retail/new/img/common/grad-comm-land-t.gif') 0 0 repeat-x transparent;}
+.commLandItems p.date {margin-bottom:5px;}
+
+.commLandItems .feature h3 {font:700 15px arial;margin-bottom:7px;}
+.commLandItems .feature h4 {margin-bottom:7px;}
+.commLandItems .feature img {border:1px solid #666;margin-left:10px;margin-top:4px;width:148px;height:83px;}
+
+.commLandItems div.hr {}
+
+.commLandItems ul.more {margin-left:18px;}
+.commLandItems ul.more a{display:block;font-weight:700;}
+.commLandItems ul.more li{margin-bottom:1em;}
+
+.cluetip-commPreviewTip {position:absolute;display:none;z-index:800;width:388px;padding:20px;background:#fff;border:3px solid #aaa;text-align:left;}
+.cluetip-commPreviewTip .inner {position:relative;}
+.cluetip-commPreviewTip h2 {font:700 15px arial;margin-bottom:10px;}
+.cluetip-commPreviewTip .tipLink {height:45px;line-height:45px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:20px 0;}
+.cluetip-commPreviewTip ul {margin-left:15px;}
+
+
+#commLandList {height:420px;overflow:auto;}
+#commLandList ul {margin:-5px 0 0;margin-right:10px;list-style:none;}
+#commLandList ul li {padding:6px 0;_padding-top:3px;border-bottom:1px solid #ddd;margin:0;padding-right:0 !important;}
+#commLandList ul li a {display:block;width:190px;float:left;}
+#commLandList ul li span {display:block;float:right;width:85px;}
+
+table.myFunds {background:#F6F6F1;}
+table.myFunds thead th {padding:10px;background:#ddc;border-top:1px solid #bbb;border-left:1px solid #bbb;}
+table.myFunds tbody td {border-top:1px solid #ddd;border-left:1px solid #ddd;}
+table.myFunds tbody {overflow-x:hidden;overflow-y:auto;height:100px;}
+
+table.myFunds th.fc,
+table.myFunds td.fc {border-left:0;}
+
+.cluetip-fundInfoTip {position:absolute;display:none;z-index:800;border:3px solid #aaa;background:#fff;width:300px;padding:15px;;text-align:left;}
+.cluetip-fundInfoTip .desc {border-top:1px solid #ccc;padding-top:11px;margin-top:7px;}
+
+/******
+ * PPSS
+******/
+
+#ppss {margin:0;}
+
+#fundFilters {background:#fff;padding-top:15px;border-top:1px solid #ddd;margin:0;}
+#fundFilters td {padding-left:20px;vertical-align:top;}
+#fundFilters td.fc {padding-left:0;}
+
+
+
+#fundFilters h2 {font:700 13px arial;margin-bottom:5px;}
+#fundFilters td.lc h2 {margin-left:5px;}
+
+#fundFilters select {width:100%;}
+#fundFilters option  {}
+
+#fundFilters input.txt {margin-top:0;}
+
+.fundActions {float:right;margin-top:5px;}
+.fundActions .active {display:none;}
+.fundActions a {margin-left:10px;}
+
+#fundActionsBot {position:relative;float:none;margin-top:10px;zoom:1;}
+
+#ppss div.tabContent {background:transparent;}
+
+#ppss ul.tabList {margin:0;border:0;top:0;list-style:none;width:auto;float:left;margin-bottom:-1px;}
+#ppss ul.tabList li {margin:0;padding:0;float:left;margin-right:2px;}
+#ppss ul.tabList a {position:relative;display:block;text-align:center;text-decoration:none;background:#F2F2EB;
+margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+border:0;border-right:1px solid #fff;color:#369;
+}
+
+
+#ppss ul.tabList li.offset {margin-left:25px;}
+#ppss ul.tabList span {display:block;padding:7px 40px;font:700 12px arial;border:0;border-top:5px solid #ddc;color:#666;}
+#ppss ul.tabList .ui-tabs-selected a {color:#b50;font-size:1.1em;text-decoration:none;}
+
+#ppss ul.tabList .ui-tabs-selected span {background:#F2F2EB;border-bottom:1px solid #F2F2EB;border-top:5px solid #ea0;color:#b50;}
+#ppss ul.tabList .ui-tabs-selected a {font-size:1em;cursor:default;}
+ul.tabList li.shadow a {padding-right:11px !important;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-tab-r.png') right -5px no-repeat #F2F2EB;}
+
+
+#ppss h2 {margin-top:2em;}
+#ppssOverlay {height:100%;width:100%;position:absolute;background:#fff;z-index:60;top:55px;left:0;
+	filter:alpha(opacity=70);
+	-moz-opacity: 0.70;
+	opacity: 0.70;
+	display:none;
+}
+#ppssLoading {position:absolute;top:150px;width:460px;padding:20px;background:#fff;border:10px solid #ccc;left:50%;margin-left:-260px;z-index:70;display:none;}
+
+#ppss td {vertical-align:top;}
+
+#ppssData {width:980px;}
+
+table.fundperf {width:980px;font:400 13px arial;margin:0;border-bottom:3px solid #bbb;}
+table.fundperf thead th {padding:7px 5px;background:#F9F9F9;border-top:1px solid #bbb;border-left:1px solid #ccc;border-bottom:2px solid #fff;}
+table.fundperf thead tr#sortable th {cursor:pointer;border-bottom:0;background:#eee;}
+table.fundperf thead tr#sortable th.hvr {background:#f6f6f6;}
+
+table.fundperf thead .asof {font:11px arial;color:#666;}
+table.fundperf thead td {background:#F2F2EB;padding:5px;border-top:1px solid #ddd;border-left:1px solid #ccc;border-bottom:2px solid #fff;text-align:center;}
+table.fundperf thead td.selectRange {font:12px arial;}
+table.fundperf thead td.fc {text-align:left;}
+
+table.fundperf thead tr#sortable th.headerSortUp span {display:-moz-inline-stack;display:inline-block;width:11px;height:8px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrow-sort-th.gif') right 0 no-repeat;padding:0 !important;overflow:hidden;}
+table.fundperf thead tr#sortable th.headerSortDown span {display:-moz-inline-stack;display:inline-block;width:11px;height:8px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrow-sort-th.gif') right -33px no-repeat;padding:0 !important;overflow:hidden;}
+
+table.fundperf label.active {font-weight:700;}
+
+
+table.fundperf tbody td {padding:7px 5px;border-left:1px solid #eee;font:12px arial;}
+
+table.fundperf thead th {font:400 12px arial;vertical-align:top;text-align:center;}
+table.fundperf thead tr#sortable th.attr {vertical-align:bottom;}
+table.fundperf thead th.attr div.contain {position:relative;bottom:0;margin-bottom:-7px;margin-left:-5px;height:1px;width:100%;z-index:120;zoom:1;}
+table.fundperf thead th.attr div.contain .head {display:-moz-inline-stack;display:inline-block;position:absolute;width:324px;background:#eee;height:30px;line-height:30px;text-align:center;z-index:120;zoom:1;left:0;bottom:-47px;font-weight:400;}
+
+table.fundperf thead .fc,
+table.fundperf tbody .fc {border-left:0;border-right:0;}
+
+#selectAll {position:relative;_top:-3px;padding:0;}
+
+table.fundperf thead #sortable input,
+table.fundperf tbody input {}
+
+table.fundperf tbody td.fc {text-align:center;}
+
+table.fundperf .repeat th {background:#eee;border-top:3px solid #bbb;vertical-align:top;text-align:center;font-weight:400;border-left:1px solid #ccc;padding:7px 5px;}
+table.fundperf .repeat th.fc {text-align:left;border-left:0;}
+
+table.fundperf .repeat th.fundCol{text-align:left;border-left:0;width:270px;}
+
+
+table.fundperf .discrete td {background:#fff;border-top:3px solid #bbb;text-align:right;}
+table.fundperf .expand-child span {}
+table.fundperf tbody tr.mornrating td {background:#F9FAF4;border-top:1px solid #ccc;text-align:left;padding-left:34px;font:12px arial;vertical-align:bottom;}
+table.fundperf tbody tr.mornrating td p {margin:0;}
+
+table.fundperf tbody tr.yield td {border-top:1px solid #ccc;border-left:0;}
+table.fundperf tbody tr.yield td.fc {padding-left:34px;text-align:left;}
+table.fundperf tbody tr.yield td p {float:left;margin:0;margin-right:30px;}
+
+table.fundperf tbody tr.mornrating td div {margin-bottom:2px;}
+table.fundperf tbody tr.mornrating td div p.fc {float:left;width:230px;font-style:normal;}
+table.fundperf tbody tr.mornrating td div p {padding-bottom:2px;vertical-align:baseline;}
+table.fundperf tbody tr.mornrating b.morn {font-weight:400;vertical-align:baseline;}
+table.fundperf tbody tr.mornrating img {vertical-align:baseline;margin-bottom:-1px;}
+table.fundperf tbody tr.mornrating p .subdesc {margin-right:10px;}
+
+
+table.fundperf tbody tr.mornrating p.fc .subdesc {margin-right:0;}
+
+table.fundperf thead th.fundCol {text-align:left;border-left:0;width:270px;}
+table.fundperf tbody tr.discrete td.fundCol {font:11px arial;text-align:left;}
+table.fundperf tbody tr.discrete td.fundCol a {text-decoration:none;}
+table.fundperf tbody tr.discrete td.fundCol a.fundName {display:-moz-inline-stack;display:inline-block;font:700 14px arial;width:auto;}
+table.fundperf tbody tr.discrete td.fundCol a.fundName:hover {text-decoration:underline !important;}
+
+
+table.fundperf tr.hvr td,
+table.fundperf tr.active td,
+table.fundperf tr.activeChild td {background:#ffd !important;}
+
+#nullData {display:none;padding:0 20px;margin-bottom:20px;}
+#nullData h2 {padding-left:0;}
+/******
+ * Fund Compare
+******/
+
+#compareHead {float:left;margin:0;margin-left:12px;}
+#fundCompare {background:#fff;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:0;}
+
+#fundCompActions {position:absolute;right:10px;top:18px;}
+#fundCompActions button {margin-left:10px;}
+
+#fundCompare table {background:#fff;empty-cells:show;}
+#fundCompare table td {border-left:3px double #ccc;border-top:1px solid #bbb;padding:10px 5px;text-align:right;vertical-align:top;}
+#fundCompare table td.fc {border-left:0;text-align:left;}
+#fundCompare table td.spanning {}
+
+#fundCompare table td span.float-right {_margin-top:3px;}
+
+#fundCompare .selFund {display:block;border:1px solid #bbb;background:#fff;padding:5px 15px;text-align:center;margin:0 10px;}
+
+#fundCompare table tr.group td {border-top:3px solid #bbb !important;}
+
+#fundCompare table h3 {}
+/*#fundCompare table h3 a:hover { text-decoration:underline; }*/
+#fundCompare table .asof {font:11px arial;color:#666;}
+
+#fundCompare table td.spanning {vertical-align:middle;}
+
+#fundCompare table tr.name td {text-align:left;}
+#fundCompare table tr.subhead td {background:#f9f9f9;text-align:left;border-top:0;border-bottom:0;}
+
+#fundCompare table tr.subTop td{border-top:1px solid #bbb !important;}
+#fundCompare table tr.subhead td p {margin:0 0 2px;line-height:normal;}
+#fundCompare table tr.subhead td.select {vertical-align:middle;}
+
+#fundCompare table tr.control td {background:#eee;vertical-align:middle;border-bottom:2px solid #fff;border-top:2px solid #fff;padding:5px 5px;text-align:left;text-align:center;}
+#fundCompare table tr.control td span {display:block;padding:4px;}
+
+#fundCompare table tr.control td .del{display:-moz-inline-stack;display:inline-block;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-delete.gif') 0 5px no-repeat;padding-left:18px;vertical-align:top;}
+
+#fundCompare table tr.hvr td {background:#ffd;}
+#fundCompare table tr.hvr td.spanning {background:#fff;}
+
+#fundCompare table label.active {font-weight:700;}
+#fundCompare table input {margin:0 2px 0 0;vertical-align:middle;}
+
+#fundcomp-add {background:#F2F3ED;padding:20px;height:270px;border:1px solid #333;position:relative;z-index:9999;}
+#fundcomp-add h2 {font:700 15px arial;}
+
+#fundcomp-add .topbar {margin-top:-20px;margin-right:-20px;float:right;background:#999;border:1px solid #fff;border-right:0;border-top:0;}
+#fundcomp-add .topbar a {display:-moz-inline-stack;display:inline-block;color:#fff;padding:7px 15px 3px;font:700 12px arial;}
+#fundcomp-add .topbar a:hover {text-decoration:none;}
+
+#fundcomp-add input#addFundSearch {width:330px;}
+
+#featComm {margin-bottom:2em;margin-top:18px;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') 0 bottom no-repeat #fff;position:relative;margin-left:-24px;width:734px;}
+#featComm h2 {font:700 18px arial;color:#b50;margin-bottom:10px;}
+
+#featComm ul li {margin-bottom:12px;}
+#featComm .commIndiv {border-bottom:1px solid #ccc;padding-bottom:35px;padding-left:24px;background:#fff;}
+#featComm p {margin-bottom:8px;}
+
+
+#featComm a {text-decoration:underline;}
+
+#featComm .commIndiv .con {float:left;border-right:1px solid #ddd;padding-right:24px;width:464px;}
+#featComm .commIndiv div.full {float:none;width:auto;border:0;padding:0;padding-right:24px;}
+#featComm .commIndiv div.sideImg {border:0;}
+
+#featComm .commIndiv p {padding-right:0 !important;}
+
+#featComm div.fundDoc {background:#fff;width:181px;padding:0 20px 30px;float:right;}
+#featComm .fundDoc select {width:100%;}
+#featComm .fundDoc img {width:221px;margin:0 -20px;}
+
+div.fundDoc a.linkselectLink {width:140px;}
+
+#featComm div.fundDoc h3 {margin-bottom:5px;color:#333;}
+#featComm div.fundDoc ul li {margin-bottom:0}
+
+#featComm div.fundDoc div.hr {margin:22px 0 15px;}
+
+#featComm div.fundDoc a {text-decoration:none;}
+#featComm div.fundDoc a:hover {text-decoration:underline;}
+
+#commSel {background:#F9F9F9;border-top:1px solid #ddd;border-bottom:2px solid #fff;padding-left:24px;}
+#commSel ul {margin:0;list-style:none;}
+#commSel ul li {float:left;width:120px;vertical-align:middle;margin-bottom:0;}
+#commSel ul li.fc {padding-top:6px;width:auto;}
+#commSel label {display:-moz-inline-stack;display:inline-block;padding:6px 0;padding-left:0px;vertical-align:middle;}
+#commSel label.active {font-weight:700;}
+
+#commSel input {vertical-align:middle;margin-top:1px;border:0;}
+
+div.myComm {position:relative;margin-left:-24px;width:735px;z-index:20;position:relative;}
+
+table.myComm {background:#fff;}
+table.myComm thead th {padding:10px;background:#eee;cursor:pointer;text-align:left;font-weight:400;width:120px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+table.myComm thead th.fc {width:410px;}
+table.myComm thead th.lc {width:130px;}
+table.myComm tbody td {padding:0;background:#F2F2EB;text-align:left;}
+table.myComm tbody {}
+
+
+table.myComm #commListBody tbody tr {cursor:pointer;}
+table.myComm #commListBody tbody td {padding:10px;width:120px;border-bottom:1px solid #ddd;cursor:pointer;}
+table.myComm #commListBody tbody td.fc {width:410px;}
+table.myComm #commListBody tbody td.lc {width:114px;}
+table.myComm #commListBody tbody tr.hvr td {background:#fff;}
+
+table.myComm .scroll {height:195px;overflow-x:hidden;overflow-y:scroll;border-bottom:1px solid #ccc;}
+
+table.myComm #commListBody tbody tr.activeComm td {color:#b50;font-weight:700;background:#fff;}
+
+table.myComm th.fc,
+table.myComm #commListBody td.fc {border-left:0;padding-left:24px;}
+
+
+
+
+
+table.myComm thead th a.linkselectLink {width:150px;position:absolute;top:63px;left:50px;z-index:100;}
+
+#commAll td {vertical-align:top;}
+#commAll div.tabContent {background:#fff;}
+
+#commAll ul.tabList {margin:0;border:0;top:0;}
+#commAll ul.tabList a {position:relative;display:block;text-align:center;text-decoration:none;background:#F2F2EB;
+margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+border:0;border-right:1px solid #fff;color:#666;
+}
+
+#commAll ul.tabList li {margin-right:2px;padding:0 !important;}
+#commAll ul.tabList li.shadow a {padding-right:11px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-tab-r.png') right -5px no-repeat #F2F2EB;}
+
+#commAll ul.tabList span {display:block;padding:7px 25px;font:700 12px arial;border:0;border-top:5px solid #ddc;}
+#commAll ul.tabList .ui-tabs-selected a {margin-top:0;color:#b50;font-size:1.1em;text-decoration:none;bottom:-1px;}
+
+#commAll ul.tabList .ui-tabs-selected span {background:#F2F2EB;border-top:5px solid #ea0;border-bottom:1px solid #F2F2EB;}
+#commAll ul.tabList .ui-tabs-selected a {font-size:1em;}
+
+#commAll .commSel {background:#F2F2EB;border-top:1px solid #ddd;border-bottom:2px solid #fff;padding:10px;}
+
+#commAll .commSel td {padding-top:2px;}
+#commAll .commSel td.fc {padding:0;}
+#commAll .commSel td.fc strong {display:-moz-inline-stack;display:inline-block;vertical-align:bottom;}
+
+#commAll .commSel label {display:-moz-inline-stack;display:inline-block;vertical-align:middle;}
+#commAll .commSel label.active {font-weight:700;}
+
+#commAll .commSel input {vertical-align:middle;border:0;margin:0;padding:0;}
+
+#commAll .list {width:711px;}
+
+#commAll .list thead th {padding:10px;background:#eee;cursor:pointer;text-align:left;color:#000;font-weight:400;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+#commAll .list thead th.headerSortUp,
+#commAll .list thead th.headerSortDown {font-weight:700;}
+#commAll .list thead tr#sortable th.hvr {background:#f6f6f6 !important;}
+
+#commAll .list thead th.fc {width:90px;}
+#commAll .list thead th.lc {width:180px;}
+
+#commAll .list tbody td {border-bottom:1px solid #ddd;padding:10px;background:#fff;text-align:left;}
+
+
+#commAll .list th.fc,
+#commAll .list td.fc {border-left:0;}
+
+
+
+#commAll .list thead th a.linkselectLink {width:150px;position:absolute;top:63px;left:50px;z-index:100;}
+
+#commAll .list .keypoint {display:none;margin-top:6px;}
+
+/*comm Detail sideBar*/
+#commSideBar {float:right;width:221px;margin:0 0 0 24px;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -140px bottom no-repeat #F2F2EB;}
+#commSideBar img.feature {display:block;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -600px bottom no-repeat #F2F2EB;}
+
+#commDetailCon {position:relative;float:left;width:466px;min-height:300px;height:auto !important;height:300px;}
+
+#commSideBar .content {padding:10px 20px 20px;}
+#commSideBar h3 {font:700 13px arial;color:#333;margin:0 0 5px;}
+
+#commSideBar select {width:100%;}
+
+#commSideBar #printScreen {background:#fff;text-align:center;padding:10px 0;}
+#commSideBar ul {padding:0;margin:0;margin-left:15px;color:#369;}
+#commSideBar ul li {margin:0 0 5px;line-height:1.2em;}
+
+#commSideBar div.hr {margin:20px 0 14px;}
+
+.commDetail blockquote {width:466px;}
+.commDetail blockquote h2 {text-align:center;font:18px georgia;color:#b50;margin-bottom:15px;}
+.commDetail blockquote ul li {margin-bottom:15px;}
+.commDetail blockquote div.lc {margin-bottom:-5px;}
+
+/* Selling Strategies */
+
+#sellingCarousel {position:relative;}
+#sellingCarousel #bg {position:absolute;display:block;background:#F2F2EB;width:711px;height:101px;top:5px;left:0;}
+#sellingCarousel #carousel-prev,
+#sellingCarousel #carousel-next {z-index:5;background:#ea0;height:101px;width:15px;cursor:pointer;line-height:95px;text-align:center;color:#fff;border-top:5px solid #fff;}
+
+#sellingCarousel #carousel-prev {position:absolute;left:0;}
+#sellingCarousel #carousel-next {position:absolute;right:0;}
+
+#sellingStrat {position:relative;margin-left:15px;}
+
+#stratList {list-style:none;margin:0;z-index:51;}
+#stratList li {position:relative;width:225px;padding: 0 !important;height:119px;cursor:pointer;text-align:center;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-carouselitem.png') 1px 0 no-repeat;border-top:5px solid #fff;float:left;margin-bottom:0;}
+
+
+#stratList li div {position:relative;z-index:20;margin:5px 2px 0;height:85px;width:198px;_margin-left:0px;padding:10px;border-top:5px solid #ccb;text-align:left;font:12px georgia;top:-5px;}
+#stratList li img {display:-moz-inline-stack;display:inline-block;float:left;margin-right:10px;border:1px solid #ccc;}
+#stratList li div.portrait {position:relative;margin-top:-10px;margin-right:10px;left:0;float:left;width:85px;padding:0;height:95px;overflow:hidden;margin-left:-10px;_margin-left:0;}
+#stratList li div.portrait img {position:absolute;bottom:0;margin:0;border:0;}
+
+#stratList li.hvr {background-position:-224px 0;}
+#stratList li.hvr h2,
+#stratList li.hvr p {color:#369;text-decoration:underline;}
+
+#stratList b.id {position:absolute;right:12px;_right:7px;bottom:22px;font:10px georgia;color:#555;z-index:35;}
+
+
+#stratList li div.active {border-top:5px solid #ea0;top:-10px;position:relative;background:#fff;padding-bottom:5px;_padding-bottom:0;}
+#stratList li div.active {color:#930;}
+
+#stratList li div.active div.portrait {height:100px;border-top:5px solid #ea0;_margin-bottom:-6px;}
+#stratList li div.active div.portrait img {bottom:0;}
+
+#stratList li h2 {font:400 16px georgia;margin-bottom:5px;}
+
+
+#stratContent {margin-top:20px;}
+
+#stratContent .item {background:#fff;}
+#stratContent .item h2 {font:18px georgia;margin:0 0 1em;}
+
+#stratContent .item .content {width:450px;float:left;}
+#stratContent .item div.full {width:auto !important;float:none;}
+#stratContent .item .related {float:right;width:221px;margin:0 0 0 24px;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -140px bottom no-repeat #F2F2EB;}
+#stratContent .item .related .con {padding:10px 20px 20px;}
+#stratContent .item .related h4 {font:700 13px arial;color:#333;margin:0 0 10px;}
+
+#stratContent .item ul.links {list-style:disc;color:#369;margin-left:15px;}
+#stratContent .item ul.links li {padding:0;border:0;}
+
+#stratContent .item .related img.feature {width:221px;display:block;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -600px bottom no-repeat #F2F2EB;}
+
+/******
+ * Fund Details/Story
+******/
+
+#fundInfo {margin:0;position:relative;}
+#fundInfo td {vertical-align:top;}
+
+#fundInfo .headSearch {position:absolute;right:10px;top:25px;zoom:1;width:300px;text-align:right;z-index:60;_padding-right:10px;}
+#fundInfo .headSearch input.txt {margin-right:4px;}
+
+#fundInfo .head {float:left;margin-bottom:15px;margin-left:10px;background:#fff;}
+#fundInfo .head h1 {margin:0;}
+#fundInfo .head h1.offset {padding:0;}
+#fundInfo .head h2 {color:#666;font:400 13px arial;}
+#fundInfo .head h2 span {color:#333;font-weight:700;}
+
+#fundInfo .overview {padding:10px 14px 10px 24px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -600px top no-repeat #F2F2EB;margin:0 0 27px;}
+#fundInfo .overview .wrap {display:table-row;}
+#fundInfo .overview .content {padding:10px 10px 0;border-left:1px solid #fff;vertical-align:top;float:left;width:210px;}
+#fundInfo .overview div.fc {border-left:0;padding-left:0;width:205px;}
+#fundInfo .overview div.nav {width:250px;}
+
+
+
+#fundInfo .overview h3 {margin-bottom:1em;}
+#fundInfo .overview table {width:100%;}
+#fundInfo .overview table th {padding:2px 5px;font-weight:400;}
+#fundInfo .overview table td {padding:3px 5px;font-weight:700;line-height:1em;}
+#fundInfo .overview table td.fc {padding-left:0;font-weight:400;text-align:left;}
+#fundInfo .asof {font:11px arial;color:#666;}
+
+#fundInfo .overview div.fund td {padding:3px 2px;}
+
+#fundInfo .overview div.fund td.fc {width:96px;}
+
+#fundInfo .overview div.nav td.fc {width:160px;}
+#fundInfo .overview div.nav td.lc {width:75px;}
+
+#fundInfo .overview div.nav .asof {display:-moz-inline-stack;display:inline-block;_top:3px;}
+
+#fundInfo .overview div.attr {width:200px;}
+#fundInfo .overview div.attr table {margin-top:-2px;}
+
+#fundInfo .overview table.num th,
+#fundInfo .overview table.num td {text-align:right;}
+#fundInfo .overview table.num td.fc {text-align:left;}
+
+#fundInfo .overview .legal {color:#666;padding:10px 0 0;clear:both;}
+
+
+
+#fundInfo .action {margin:5px 0;position:absolute;right:0;top:-27px;}
+#fundInfo .action a.btn {margin-left:10px;zoom:1;}
+
+#fundInfo div.tabContainer {border:0;position:relative;}
+#fundInfo div.tabContent {background:#F2F2EB;border-top:1px solid #ddd;}
+
+#fundInfo .tabList {margin:0;border:0;top:0;}
+#fundInfo .tabList a {position:relative;display:block;text-align:center;text-decoration:none;background:#F2F2EB;
+margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+border:0;border-right:1px solid #fff;color:#666;}
+#fundInfo .tabList li {margin-right:2px;}
+
+#fundInfo .tabList li.offset {margin-left:25px;}
+#fundInfo .tabList span {position:relative;display:block;padding:7px 25px;font:700 12px arial;border:0;border-top:5px solid #ddc;}
+#fundInfo .tabList .ui-tabs-selected a {margin-top:0;color:#b50;font-size:1em;text-decoration:none;bottom:-1px;}
+
+#fundInfo .tabList .ui-tabs-selected span {background:#F2F2EB;border-bottom:1px solid #F2F2EB;border-top:5px solid #ea0;}
+#fundInfo .tabList .ui-tabs-selected a {}
+#fundInfo .tabList li.shadow a {padding-right:12px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-tab-r.png') right -5px no-repeat #F2F2EB;border:0;}
+
+#fundInfo #detailDrop {position:absolute;width:25px;padding:5px 0;text-align:center;background:#ddc;z-index:200;top:6px;right:12px;font:11px arial;color:#369;cursor:pointer;}
+#fundInfo #detailmenu {position:absolute;background:#fff;padding:0;width:170px;border:4px solid #ddc;display:none;top:25px;left:0;}
+
+#fundInfo .tabList li.exp {z-index:50;}
+#fundInfo .tabList li.menuhit span {background:#ddc;}
+#fundInfo .tabList li.exp span {padding-right:40px;}
+#fundInfo .tabList li.exp #detailmenu a {display:block;padding:5px;border:0;background:#fff;font-size:12px arial;font:11px arial;color:#666;cursor:pointer;text-align:left;}
+#fundInfo .tabList li.exp #detailmenu a:hover {background:#feb;color:#b50;}
+
+div.tabContainer {border-top:5px solid #666;background:#fff;position:relative;}
+
+#fundStory {padding:20px 0 15px 15px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-l-b.gif') 724px top no-repeat #F2F2EB;}
+
+#fundStory .content {width:710px;float:left;}
+#fundStory .content .panel {padding:0 19px;background:#fff;margin:0 0 20px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-fundpanel.gif') 0 0 repeat-y;width:661px;}
+#fundStory .content div.lc {margin:0;}
+
+#fundStory .content .panel .h {background:url('https://www.franklintempleton.com/retail/new/img/common/fundpanel-t.gif') 0 top no-repeat;height:8px;width:699px;margin:0 -19px;}
+#fundStory .content .panel .f {background:url('https://www.franklintempleton.com/retail/new/img/common/fundpanel-b.gif') 0 bottom no-repeat;height:8px;width:699px;margin:0 -19px;clear:both;padding-top:10px;border:0;}
+
+#fundStory .content #invest .con {width:450px;float:left;}
+#fundStory .content #invest h3 {margin-top:0;}
+
+#fundStory .content .panel h2 {font:400 18px georgia;color:#b50;margin:0 -15px;padding:10px 15px;margin-bottom:10px;border-bottom:2px solid #EAEBE3;}
+#fundStory .content h3 {font:700 15px arial;margin-top:20px;margin-bottom:.5em;}
+#fundStory .content h2 + h3 {margin-top:0;}
+#fundStory .content ul {list-style:disc;margin-left:15px;}
+#fundStory .content ul.comm {color:#369;}
+#fundStory .content ol {list-style:decimal;margin-left:30px;}
+
+#fundStory .content ol.steps {list-style:none;margin-left:23px;width:410px;}
+#fundStory .content ol.steps li {margin-bottom:1em;position:relative;}
+#fundStory .content ol.steps li span {display:-moz-inline-stack;display:inline-block;position:absolute;top:-7px;left:-23px;font:28px georgia;color:#c60;line-height:1em;_padding-bottom:2px;}
+
+#fundStory .content ol.steps li p {font:12px arial !important;color:#000;}
+#fundStory .content ol.steps li.lc {margin:0;}
+
+#fundStory .content .docs {width:180px;padding:0 0 0 15px;float:right;margin-left:15px;border-left:1px solid #ddd;}
+#fundStory .content .moreinfo {width:145px;padding:0 20px;float:right;margin-left:15px;margin-top:17px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') right bottom no-repeat;}
+#fundStory .content .moreinfo div {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') 0 0 no-repeat;margin:0 -20px;padding:20px 20px;}
+#fundStory .content .moreinfo ul {list-style:none;margin:0;}
+#fundStory .content .moreinfo ul li {margin:0 0 5px;}
+
+#fundStory .content .tabinfo {width:300px;float:right;margin-left:15px;margin-bottom:1em;}
+#fundStory .content .tabinfo ul {margin:0;padding:0;list-style:none;}
+#fundStory .content .tabinfo ul li {float:left;margin:0;padding:0;}
+#fundStory .content .tabinfo ul li a {display:block;padding:6px 0;width:149px;text-align:center;background:#F2F2EB;border-bottom:1px solid #ddd;font:700 11px arial;}
+#fundStory .content .tabinfo ul li a.sel {border:1px solid #ddd;border-bottom:0;background:#FCFDF8;color:#000;margin-bottom:-1px;}
+
+#fundStory .content .tabinfo .con {padding:10px;background:#FCFDF8;border:1px solid #ddd;font:10px verdana;border-top:0;}
+#fundStory .content #statement img {float:left;width:88px;height:88px;border:1px solid #666;}
+#fundStory .content #statement p {float:right;width:178px;}
+
+#fundStory .content li > ol {margin-top:5px;}
+
+#fundInfo .related a {text-decoration:none;}
+#fundInfo .related a:hover {text-decoration:underline;}
+
+#fundInfo .related {width:195px;padding:0 25px;float:right;border-left:1px solid #fff;margin-top:-20px;padding-top:20px;}
+#fundInfo .related h2 {padding:0;font:700 13px arial;margin:0 0 10px;color:#333;}
+#fundInfo .related ul {margin:0;list-style:none;}
+#fundInfo .related ul li {}
+
+#fundInfo .related .morn-style img {display:-moz-inline-stack;display:inline-block;float:left;}
+#fundInfo .related .morn-style p {vertical-align:middle;padding-top:5px;}
+#fundInfo .related .morn-style b.null {display:-moz-inline-stack;display:inline-block;width:48px;height:48px;border:1px solid #ccc;background:#eee;margin-right:10px;float:left;vertical-align:middle;margin-top:-5px;}
+
+#fundInfo .related table {border:1px solid #ccc;border-bottom:0;line-height:1em;font:12px arial;}
+#fundInfo .related table.morn-rating th,
+#fundInfo .related table.morn-rating td {padding:5px 10px;border-bottom:1px solid #ccc;text-align:right;font-weight:400 !important;}
+
+#fundInfo .related img.promo {margin-top:10px;}
+
+#fundInfo .fundAlert h2 {margin-right:-20px;_margin-left:-3px;}
+#fundInfo .fundAlert h2 a.alert {display:-moz-inline-stack;display:inline-block;margin:0;z-index:90;margin-left:-20px;width:16px;height:16px;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-alert.gif') 0 0 no-repeat;overflow:hidden;float:left;}
+
+
+
+
+/* Expand Collapse */
+ul.expContainer {margin:0 18px 1em;list-style:none;}
+ul.expContainer .expPane {padding:0 3px 0 4px !important;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-drawersh.gif') 0 0 repeat-y;margin:0 0 10px;position:relative;zoom:1;}
+
+ul.expContainer .expPane b.h {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-drawersh-t.gif') 0 0 no-repeat;overflow:hidden;display:block;width:695px;height:5px;margin:0 -4px;zoom:1;}
+ul.expContainer .expPane b.f {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-drawersh-b.gif') 0 0 no-repeat;overflow:hidden;display:block;width:695px;height:5px;margin:0 -4px;zoom:1;}
+
+.expControl {margin-bottom:15px;text-align:right;}
+.expControl a {}
+
+.expContent {display:none;}
+
+.expContainer .expItem {border-top:7px solid #D3E5E5;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-drawer.gif') 0 0 no-repeat;margin-top:-1px;}
+.expContainer .expItem a {height:1%;display:block;padding:10px;padding-left:15px;text-decoration:none;font:400 20px georgia;color:#000;background:url('https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif') 13px -278px no-repeat transparent;padding-left:31px;}
+.expContainer .expItem a span.arrow {color:#369;margin-right:5px;font:16px arial;}
+
+/* hover state + expanded state */
+ul.expContainer li.active .expItem {background:#D3E5E5;border-top:7px solid #D3E5E5;}
+
+.expContainer .current{background:#ffd !important;}
+
+.expContainer .expContent{background:#fff;}
+
+
+.expContainer .current a {}
+.expContainer .active a {background:url('https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif') 13px -357px no-repeat transparent;}
+
+
+
+#fundDetail {padding:20px 0 15px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-l-b.gif') 724px top no-repeat #F2F2EB;}
+
+#fundDetail .content {width:730px;float:left;}
+#fundDetail .content .panel {padding:0 15px 15px;background:#fff;border:2px solid #ddd;margin:0 10px 2em;}
+#fundDetail .content .panel:last-child {margin:0 10px;}
+#fundDetail div.related {width:195px;padding:0 25px;float:right;border-left:1px solid #fff;margin-top:-20px;padding-top:20px;}
+#fundDetail .related h2 {padding:0;font:700 13px arial;margin:0 0 10px;}
+
+
+#fundDetail .expContent {padding:20px 10px 20px 15px;}
+
+/** Closed-end Fund **/
+
+#closeFund {margin-left:-24px;width:734px;z-index:20;position:relative;margin-top:3px;margin-bottom:15px;}        
+#closeFund h1 {margin:0;margin-left:24px;}
+#closeFund h2 {color:#888;font:13px arial;margin-bottom:8px;margin-left:24px;}
+#closeFund h2 span {color:#333;font-weight:700;}
+#closeFund h3 {font:700 15px arial;}
+
+#closeFund .con {background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -1000px top no-repeat #F2F2EB;padding:20px 7px;margin-left: 20px;}
+
+#closeFund .panel {padding:0 15px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-fundpanel.gif') 0 0 repeat-y;margin:0 0 15px;width:669px;}
+
+#closeFund .panel h2 {font:400 18px georgia;color:#b50;margin:0 -11px;padding:10px 13px;margin-bottom:10px;border-bottom:2px solid #EAEBE3;}
+
+#closeFund .panel .h {background:url('https://www.franklintempleton.com/retail/new/img/common/fundpanel-t.gif') 0 top no-repeat;height:8px;width:699px;margin:0 -15px;}
+#closeFund .panel .f {background:url('https://www.franklintempleton.com/retail/new/img/common/fundpanel-b.gif') 0 bottom no-repeat;height:8px;width:699px;margin:0 -15px;clear:both;padding-top:10px;}
+
+#closeFund .panel .moreinfo {width:145px;padding:0 20px;float:right;margin-left:15px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') right bottom no-repeat;}
+#closeFund .panel .moreinfo div {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') 0 0 no-repeat;margin:0 -20px;padding:20px 20px;}
+
+#closeFund .moreinfo h3 {font:13px arial;margin-bottom:5px;}
+#closeFund .moreinfo ul {list-style:none;margin:0;}
+
+#closeFund td {vertical-align:top;}
+
+#closeFund #facts .info {float:left;padding:0 15px;border-left:1px solid #ddd;width:310px;}
+#closeFund #facts div.fc {border:0;padding-left:0;}
+
+#closeFund #facts .info h3 {margin-bottom:1.5em;line-height:1em;}
+#closeFund #facts .info table td {font-weight:400;padding:3px 0px;line-height:1em;}
+#closeFund #facts .info table td.lc {font-weight:400;padding:3px 5px;line-height:1em;}
+
+#closeFund #facts .info table tr.total td {padding-top:20px;}
+#closeFund #facts .info table td.fc {font-weight:400;text-align:left;padding-left:0;}
+
+#closeFund #moreinfo h3 {margin-bottom:1em;}
+#closeFund #moreinfo h3 span {font-weight:400;}
+#closeFund #moreinfo .info {float:left;padding:0 15px;border-left:1px solid #ddd;width:197px;}
+#closeFund #moreinfo div.fc {border:0;padding-left:0;}
+
+/** Press Releases Index Pages**/
+#pressRelease {}
+#pressRelease h2 {margin-bottom:1em;}
+
+#pressRelease ul.links a {display:-moz-inline-stack;display:inline-block;float:right;width:580px;padding:7px 0;}
+#pressRelease ul.links span {display:-moz-inline-stack;display:inline-block;float:left;padding:7px 0;}
+#pressRelease ul.links li {clear:both;padding:0;}
+
+#pressRelease .con {margin-bottom:15px;}
+#pressRelease .archive h3 {border-bottom:3px solid #ddd;padding-bottom:5px;}
+#pressRelease .archive ul.links {margin-bottom:2em;}
+
+#pressRelease .moreinfo h3 {font:13px arial;margin-bottom:5px;}
+#pressRelease .moreinfo ul {list-style:none;margin:0;}
+
+.pressSearch {padding-bottom:15px;}
+.pressSearch div {float:left;padding-right:15px;}
+.pressSearch label {display:block;font:700 12px arial;}
+.pressSearch select {width:150px;}
+
+
+/** Individual Press Release **/
+
+.pressRelease h2 {font:700 15px arial;}
+.pressRelease .contact td {padding-right:10px;}
+.pressRelease .contact td.fc {text-align:right;}
+.pressRelease .contact {margin-bottom:20px;}
+
+/** Prospectuses and Reports Index Pages**/
+#prospectusReports {}
+#prospectusReports h2 {margin-bottom:1em;}
+#prospectusReports h3 {margin-bottom:1em;margin-top:1.5em;color:#000;}
+
+#prospectusReports ul.links li {clear:both;width:400px;padding:6px 0px 6px 0px;}
+#prospectusReports ul.links li .linkContent {float:left;width:300px;}
+#prospectusReports ul.links li .linkContent span.filesize {font:11px arial;color:#666;}
+#prospectusReports ul.links li .date {font:11px arial;color:#666;float:right;padding-top:3px;}
+
+#prospectusReports .con {margin-bottom:15px;}
+#prospectusReports .con .subcon {padding-bottom:15px; border-bottom:2px solid #ccc;}
+#prospectusReports .con .lastsubcon {padding-bottom:15px;}
+
+#prospectusReports .con .subcon table h3,
+#prospectusReports .con .lastsubcon table h3 {margin-top: 0; padding-top:0;}
+#prospectusReports .con .subcon table td,
+#prospectusReports .con .lastsubcon table td {padding-top: 15px; vertical-align: top;} 
+
+.prospectusReportsSearch {padding-bottom:15px;padding-left:10px;}
+.prospectusReportsSearch div {float:left;padding-right:15px;}
+.prospectusReportsSearch label {display:block;font:700 12px arial;}
+.prospectusReportsSearch select {width:125px;}
+
+
+/******
+ * fund drawers
+******/
+#fundDetail .expContent h2 {font:700 15px arial;}
+a.setDate {display:-moz-inline-stack;display:inline-block;padding-right:20px;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-cal.gif') right 1px no-repeat #fff !important;font:12px arial;color:#555;}
+a.setDate:hover {text-decoration:none;}
+a.setDate span {display:-moz-inline-stack;display:inline-block;border:1px solid #bbb;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-setDate.png') 0 0 repeat-x #EAEBED;padding:2px 4px;margin:0 4px;font:11px arial;}
+
+.perToggle {float:left;}
+.hist {float:right;}
+
+#fundDetail form * {_vertical-align:middle !important;}
+#fundDetail form.hist {position:relative;_top:-2px;}
+#fundDetail a.setDate {_padding-bottom:2px;}
+
+#fundDetail .expContent th {font-weight:400 !important;text-align:center;}
+
+#fundDetail h2 img,
+#fundDetail h3 img {vertical-align:bottom;}
+
+/*inner tabs*/
+#fundDetail .expContent .tabContainer {border-top:5px solid #666;padding:0;top:5px;}
+#fundDetail .expContent .tabList {display:block;position:relative;z-index:1;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-tab-inner.gif') 0 bottom repeat-x;}
+#fundDetail .expContent .tabList:after {content: ".";display:block;height:0;clear:both;visibility:hidden;}
+#fundDetail .expContent .tabList li {float:left;margin:0;margin-top:-1px;/* be nice to Opera */}
+
+#fundDetail .expContent .tabList a {position:relative;display:block;text-align:left;text-decoration:none;color:#333;
+white-space: nowrap;border:0;margin-right:0;padding-bottom:18px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-tab-inner.gif') 0 bottom repeat-x #fff;}
+
+#fundDetail .expContent .tabList span {position:relative;display:block;padding:7px 20px;font:700 12px arial;border-right:1px solid #ddd;border-top:0;}
+
+#fundDetail .expContent .tabList .ui-tabs-selected a {font-size:1.1em;text-decoration:none;background-image:none;background:#eee;margin-top:-5px;border-top:5px solid #ea0;}
+#fundDetail .expContent .tabList .ui-tabs-selected a span {color:#b50;text-decoration:none;border-bottom:0;background:#fff;}
+
+
+
+#con-port .portStat {line-height:1em;float:left;border-right:1px solid #ccc;width:485px;}
+#con-port .portStat caption {font:700 15px arial;text-align:left;padding:0 0 5px;margin:0;}
+#con-port .portStat td {padding:8px 10px;text-align:right;font-weight:700;}
+#con-port .portStat td.fc {text-align:left;font-weight:400;padding-left:0;}
+
+#con-port .portStat td.divider {border-left:1px solid #eee;font-weight:400;text-align:left;}
+
+#con-port .portPos {line-height:1em;float:right;}
+#con-port .portPos caption {font:700 15px arial;text-align:left;padding:0 0 9px;margin:0;}
+#con-port .portPos td {padding:2px 5px;text-align:right;font-weight:700;}
+#con-port .portPos td.fc  {text-align:left;font-weight:400;padding-left:0;}
+#con-port .portPos tfoot td {padding-top:20px;}
+
+
+
+#portDetail {margin:20px 0 0;padding-top:10px;border-top:3px solid #ccc;background:#fff;zoom:1;}
+#portDetail h2 {padding:0;}
+#portDetail .top {padding:10px 0 20px;}
+
+#portDetail .histCon {margin-bottom:2em;}
+#portDetail .histCon h3 {margin-bottom:12px;padding-right:15px;}
+
+#portDetail .histCon img.chart {float:right;margin-right:15px;}
+
+#portDetail .histCon tr td {border-bottom:1px solid #ccc;padding:15px 0;width:330px;}
+#portDetail .histCon tr td table td {border:0;padding:0 5px;width:auto;}
+#portDetail .histCon tr td table td.fc {padding-left:0;}
+#portDetail .histCon tr td table td.lc {font-weight:700;}
+
+#portDetail .histCon table td.fc {width:160px;}
+
+#portDetail .histCon tr td table tr.group td{padding-top:12px;}
+#portDetail .histCon tr td.comp {background:#ffd;padding-left:10px;}
+
+#portDetail .histCon tr.grade td.fc {padding-left:17px;width:auto;}
+
+.expContent div.legalinfo {color:#666;margin:10px 0 0;}
+
+/******
+ * Performance Drawer
+******/
+
+#fundDetail #con-perf .expContent .tabList li.lc span {width:160px;_width:160px;}
+
+#con-perf .tabCon {padding:0 15px 15px;background:#eee;}
+#con-perf .inner {padding:15px;background:#fff;}
+
+#con-perf h2 {padding:0;margin-bottom:15px;}
+#con-perf .navdate {padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #ccc;}
+
+#con-perf table {border-bottom:1px solid #ccc;}
+#con-perf table thead th {background:#eee;border-top:1px solid #ccc;border-bottom:2px solid #ccc;}
+#con-perf table thead th.fc {background:#fff;border-color:#fff;border-left:0;}
+#con-perf table th.fc {border-left:0;padding-left:0;text-align:left;}
+#con-perf table td.fc {border-left:0;padding-left:0;text-align:left;}
+
+#con-perf table th,
+#con-perf table td {padding:5px 10px;border-left:1px solid #ddd;}
+#con-perf table td {border-top:1px solid #ccc;text-align:right;}
+
+#con-perf .additional {margin:2em 0 0;padding-bottom:1em;border-bottom:1px solid #ccc;}
+
+#con-perf .additional table {border:0;}
+#con-perf .additional table td {border:0;padding:0;text-align:left;}
+
+#con-perf .additional table td.volatility {width:330px;border-right:1px solid #ccc;}
+#con-perf .additional table td.benchmark {width:310px;padding-left:25px;}
+
+#con-perf .volatility table,
+#con-perf .volatility table td {border:0;padding-bottom:10px;}
+#con-perf .volatility table td.lc {font-weight:700;text-align:right;}
+
+#con-perf .benchmark h2 {margin-bottom:29px;}
+
+#con-perf ul {list-style:disc;}
+
+.avgAttr,
+.culmTotalReturn {margin-bottom:20px;}
+
+
+
+#perfCal h2 {margin-bottom:1em;padding-bottom:1em;border-bottom:3px solid #ccc;zoom:1;}
+
+#perfCal table thead th,
+#perfCal table thead th.fc  {background:#eee;border-top:1px solid #ccc;border-bottom:0;}
+
+#perfCal table th.fc,
+#perfCal table td.fc {padding-left:10px;}
+
+#perfCal table th {padding:1px 0;border-left:1px solid #ccc;text-align:center;}
+#perfCal table th span.date {border-top:1px solid #ccc;border-bottom:1px solid #ccc;background:#CBEFFD;display:block;padding:0 25px;height:20px;line-height:20px;font-weight:700;}
+
+#perfCal table th span.subdesc {display:-moz-inline-stack;display:inline-block;}
+
+#perfCal table th a.navl,
+#perfCal table th a.navr {display:-moz-inline-stack;display:inline-block;width:47px;height:22px;}
+
+#perfCal table th a.navl {background:url('https://www.franklintempleton.com/retail/new/img/common/btn-perf-l.png') 0 0 no-repeat;float:right;}
+#perfCal table th a.navr {background:url('https://www.franklintempleton.com/retail/new/img/common/btn-perf-r.png') 0 0 no-repeat;float:left;}
+#perfCal table th a#inactive {background-position: 0 -22px;}
+
+#perfCal table td {padding:5px 10px;border-left:1px solid #ddd;border-top:1px solid #ccc;text-align:right;}
+#perfCal table td.fc {border-left:0;}
+
+#perfCulm .navdate {border:0;}
+#perfCulm .navdate h2 {margin:0;}
+#perfCulm table th,
+#perfCulm table td {padding:5px 10px;}
+
+#ytd-dist {margin-top:2em;padding-top:2em;border-top:1px solid #ccc;}
+#ytd-dist .pickYear{margin-left:5px !important;}
+#ytd-dist .pickYear select {margin-right:15px;}
+#ytd-dist h2 {padding:0;}
+
+#ytd-dist .chartTable table thead th,
+#ytd-dist .chartTable table tbody td {padding:5px;}
+#ytd-dist .chartTable table thead th {padding:10px 5px;vertical-align:top;}
+
+#ytd-dist .chartTable table tbody td {vertical-align:bottom !important;}
+#ytd-dist table td em {color:#900;}
+
+#con-distData td.con {padding:0 10px;border-right:1px solid #ddd;vertical-align:top;}
+#con-distData td.fc {padding-left:0;}
+#con-distData td.lc {border:0;padding-right:0;margin:0;}
+
+#con-distData h3 {font:700 15px arial;margin-bottom:10px;}
+#con-distData h4 {font:700 13px arial;margin:0;}
+
+#con-distData tr.break td {padding-bottom:20px;}
+
+#con-distData table td.lc {font-weight:700;}
+
+#con-prices .tabCon {padding:0 15px 15px;background:#eee;}
+#con-prices .inner {padding:15px;background:#fff;}
+#con-prices h2 {padding:0;margin-bottom:2em;}
+#con-prices .navdate {padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #ccc;}
+
+#pricesDaily .top {margin-bottom:20px;}
+
+#histData table h3 {font:700 15px arial;margin-bottom:10px;}
+#histData th.fc,
+#histData td.fc {text-align:left !important;}
+#histData td.con {width:210px;padding:10px;border-left:1px solid #ccc;}
+#histData td.fc {padding-left:0;border:0;}
+#histData td.con td.lc {font-weight:700;text-align:right;}
+
+#fundDetail .expContent #histData th {font-weight:700 !important;}
+
+#con-tax{}
+#con-tax h2 {margin:1em 0;padding:0;}
+#con-tax #taxDistrib {margin:1em 0 0;border-top:1px solid #ccc;background:#fff;}
+#con-tax .additional {padding:15px 10px;border-top:1px solid #ccc;}
+#con-tax .additional h3{font:700 15px arial;margin-bottom:12px;}
+
+#con-tax #taxInfo table td.lc {font-weight:700;padding-left:30px;}
+
+#con-tax form.hist {display:block;float:right;width:300px;text-align:right;}
+
+
+
+#taxDistrib table tr.total {font-weight:700;}
+#taxDistrib table tr.total td {border-top:3px solid #ccc;border-bottom:2px solid #ccc;}
+
+#taxDistrib .chartTable table thead th {vertical-align:top;padding-top:10px;padding-bottom:10px;}
+#taxDistrib .chartTable table tbody td {text-align:right;}
+#taxDistrib .chartTable table thead th.fc,
+#taxDistrib .chartTable table tbody td.fc {text-align:left;}
+
+/******
+ * Campaign Splash Pages
+******/
+
+#marketingCampaigns {position:relative;}
+#marketingCampaigns #bg {position:absolute;display:block;background:#F2F2EB;width:980px;height:101px;top:5px;left:0;}
+#marketingCampaigns #carousel-prev,
+#marketingCampaigns #carousel-next {z-index:5;background:#ea0;height:101px;width:15px;cursor:pointer;line-height:95px;text-align:center;color:#fff;border-top:5px solid #fff;}
+
+#marketingCampaigns #carousel-prev {position:absolute;left:18px;}
+#marketingCampaigns #carousel-next {position:absolute;right:17px;}
+
+#campaigns, #campaignsList {_height:112px;}
+#campaigns {position:relative;width:940px;margin-left:42px;_margin-left:0;height:115px;overflow:hidden;}
+
+.campaignDesc {margin-left:257px;padding-bottom:10px;}
+
+#campaignsList {list-style:none;margin:0;z-index:51;}
+#campaignsList li {position:relative;width:225px;padding: 0 !important;height:119px;cursor:pointer;text-align:center;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-carouselitem.png') 1px 0 no-repeat;border-top:5px solid #fff;float:left;margin-bottom:0;}
+
+
+#campaignsList li div {position:relative;z-index:20;margin:5px 2px 0;height:85px;width:198px;_margin-left:0px;padding:10px;border-top:5px solid #ccb;text-align:left;font:12px georgia;top:-5px;}
+#campaignsList li img {display:-moz-inline-stack;display:inline-block;float:left;margin-right:10px;border:1px solid #ccc;}
+#campaignsList li div.portrait {position:relative;margin-top:-10px;margin-right:10px;left:0;float:left;width:85px;padding:0;height:95px;overflow:hidden;margin-left:-10px;_margin-left:0;}
+#campaignsList li div.portrait img {position:absolute;bottom:0;margin:0;border:0;}
+
+#campaignsList li.hvr {height:108px;background-position:-224px 0;}
+#campaignsList li.hvr h2,
+#campaignsList li.hvr p {color:#369;text-decoration:underline;}
+
+#campaignsList b.id {position:absolute;right:12px;_right:7px;bottom:22px;font:10px georgia;color:#555;z-index:35;}
+
+
+#campaignsList li div.active {border-top:5px solid #ea0;top:-10px;position:relative;background:#fff;padding-bottom:5px;_padding-bottom:0;}
+#campaignsList li div.active {color:#930;}
+
+#campaignsList li div.active div.portrait {height:100px;border-top:5px solid #ea0;_margin-bottom:-6px;}
+#campaignsList li div.active div.portrait img {bottom:0;}
+
+#campaignsList li h2 {font:400 16px georgia;margin-bottom:5px;}
+
+
+.campaignContentA {padding-top:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-top-b.gif') 400px top no-repeat #F2F2EB;}
+
+#campaignContent .item {display:none;}
+
+#campaignContent .typeA {padding-top:10px;background:#F2F2EB;border-top:1px solid #fff;}
+
+
+#campaignContent .typeA .media {margin-top:-10px;float:left;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-l-b.gif') right -300px no-repeat #F2F2EB;width:430px;padding:20px 24px 0;}
+#campaignContent .typeA .media .ratio43 {width:430px;height:353px;}
+#campaignContent .typeA .media .ratio169 {width:430px;height:280px;}
+#campaignContent .typeA .media img {margin-bottom:10px;height:316px;}
+#campaignContent .typeA .media .f {background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -900px top no-repeat #F2F2EB;height:10px;margin:20px -24px 0;}
+#campaignContent .typeA .content {margin-top:-10px;float:right;width:462px;padding:20px;}
+
+
+#campaignContent .typeA .article {margin-bottom:25px;}
+
+#campaignContent .typeB {padding-top:10px;background:#fff;}
+
+#campaignContent .typeB .media {float:right;width:221px;margin:0;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -140px bottom no-repeat #F2F2EB;}
+#campaignContent .typeB .media .con {padding:10px 20px 20px;}
+#campaignContent .typeB .media img.feature {width:221px;display:block;padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -600px bottom no-repeat #F2F2EB;}
+#campaignContent .typeB .media h4 {font:700 13px arial;color:#333;margin:0 0 10px;}
+
+#campaignContent .typeB .content {float:left;width:700px;padding:0 20px 20px;}
+#campaignContent .typeB div.full {width:auto !important;float:none;}
+
+#campaignContent ul.links,
+#campaignContent ul.resources {list-style:disc !important;margin-left:15px;color:#369;}
+#campaignContent ul.links li {padding:0;border:0;}
+
+
+#campaignContent .resources {list-style:none;margin-left:0;list-style:none;}
+
+/******
+ * Account Info
+******/
+#acctInfo {margin:0;}
+
+#acctInfo td {vertical-align:top;}
+
+#acctInfo .head {float:left;margin-bottom:10px;background:#fff;}
+#acctInfo .head h1 {margin-bottom:5px;}
+#acctInfo .head h2 {margin-left:12px;color:#888;font:13px arial;}
+#acctInfo .head h2 span {color:#333;font-weight:700;}
+
+#acctInfo .overview {margin:0 0 2em;padding-bottom:20px;padding-left:20px;}
+#acctInfo .overview .content div{padding:0 20px;border-left:1px solid #fff;vertical-align:top;float:left;width:275px;_width:272px;}
+#acctInfo .overview div.fc {border-left:0;padding-left:0;}
+
+#acctInfo .overview .btn {margin-left:10px;}
+
+#acctInfo .overview h2 {margin-bottom:1em;}
+#acctInfo .overview h2 span {font-weight:400;}
+
+#acctInfo .overview table th {padding:2px 5px;font-weight:400;}
+#acctInfo .overview table td {padding:2px 5px;font-weight:700;line-height:1em;}
+#acctInfo .overview table td.fc {padding-left:0;font-weight:400;text-align:left;}
+
+#acctInfo .overview .content .msg {background:#fff;padding:15px;}
+
+#acctInfo div.tabContainer {border:0;}
+#acctInfo div.tabContent {background:#F2F2EB;border-top:1px solid #ccc;padding:10px;}
+
+#acctInfo div.tabContent h2 {padding:0;margin-bottom:10px;}
+
+#acctInfo .tabList {margin:0;border:0;top:0;}
+#acctInfo .tabList a {position:relative;display:block;text-align:center;text-decoration:none;background:#F2F2EB;margin: 1px 0 0;
+white-space: nowrap; /* required in IE 6 */
+border:0;border-right:1px solid #fff;color:#666;
+}
+#acctInfo .tabList li {margin-right:2px;}
+
+#acctInfo .tabList li.con {float:right;padding:7px 25px;}
+
+#acctInfo .tabList li.offset {margin-left:25px;}
+#acctInfo .tabList span {position:relative;display:block;padding:7px 25px;font:700 12px arial;border:0;border-top:5px solid #ddd;}
+#acctInfo .tabList .ui-tabs-selected a {margin-top:0;color:#b50;font-size:1em;text-decoration:none;bottom:-1px;}
+
+#acctInfo .tabList .ui-tabs-selected span {background:#F2F2EB;border-bottom:1px solid #F2F2EB;border-top:5px solid #ea0;}
+#acctInfo .tabList .ui-tabs-selected a {}
+
+#acctInfo .panel {padding:0 20px;background:#fff;margin:0 10px 2em;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-fundpanel980.gif') 0 0 repeat-y;width:900px;}
+#acctInfo .panel:last-child {margin:0 10px;}
+#acctInfo .panel .h {background:url('https://www.franklintempleton.com/retail/new/img/common/fundpanel980-t.gif') 0 top no-repeat;height:8px;margin:0 -20px 10px;}
+#acctInfo .panel .f {background:url('https://www.franklintempleton.com/retail/new/img/common/fundpanel980-b.gif') 0 bottom no-repeat;height:8px;margin:0 -20px;clear:both;padding-top:10px;border:0;}
+
+#acctDetail .detail {border-bottom:1px solid #ccc;padding-bottom:20px;margin-bottom:20px;}
+#acctDetail .detail p.legalinfo {margin-top:20px;}
+#acctDetail .detail .equal {width:260px;float:left;padding:0 20px 15px;border-left:1px solid #ccc;}
+#acctDetail .detail div.fc {border:0;padding-left:0;}
+
+#acctDetail .detail table td {font-weight:700;text-align:right;}
+#acctDetail .detail table td.fc {font-weight:400;text-align:left;}
+#acctDetail tr.total td {border-top:1px solid #000;padding:5px 0 10px;}
+
+#myProfile {padding-right:20px;}
+#myProfile .info {background:#F2F2EB;}
+#myProfile .info td {border-bottom:1px solid #fff;padding:15px 20px;vertical-align:top;}
+
+#myProfile .info table td {border:0;padding:5px 0;}
+
+/******
+ * Terms of Use
+******/
+#agreement {width:960px;}
+#agreement .con {width:750px;height:350px;overflow:auto;border:1px solid #79b;margin-bottom:10px;}
+
+/******
+ * Order Lit
+******/
+
+#litHead h1 {width:480px;}
+
+#litCartDetail {border:1px solid #ddd;background:#F2F2EB;margin:0 10px 10px 0;padding:8px 10px;width:175px;}
+#litCartDetail p {padding:2px 0;padding-left:20px;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-doc.gif') 0 2px no-repeat;font:12px arial;margin:0;}
+
+.orderlit .chartTable h3 {margin-bottom:10px;font:700 13px arial;}
+.orderlit .chartTable td {text-align:center;padding:10px;}
+
+/*This corrects GWSUSFEBREL-154*/
+.orderlit .chartTable table tbody tr td.fc {text-align:center;padding:10px;}
+.orderlit .chartTable table thead tr th.fc {text-align:center;}
+/*End fix for GWSUSFEBREL-154*/
+
+.orderlit .chartTable .fc {text-align:left;}
+
+.orderlit .chartTable tfoot td {padding:10px;border-top:1px solid #ccc;text-align:center;}
+
+/*This corrects GWSUSFEBREL-155*/
+.orderlit .chartTable tfoot td.back {padding:10px 30px 10px 10px;text-align:right;}
+/*End fix for GWSUSFEBREL-155*/
+
+.orderlit .chartTable input.txt{width:30px;border:1px solid #ccc;}
+
+.orderlit .litDesc {font:13px arial;}
+.orderlit .clientUse {display:-moz-inline-stack;display:inline-block;margin-right:30px;}
+#orderlitSearch{padding-top:20px;}
+*+html #orderlitSearch{padding-top:4px;}
+#orderlitSearch{padding-top:4px\9;}
+#orderlitSearch .search {width:390px;float:left;}
+#orderlitSearch .related {width:230px;float:right;border:1px solid #eee;background:#fff;padding:10px 15px;}
+#orderlitSearch .related ul {color:#369;margin-left:15px;}
+#orderlitSearch .related ul li{margin:0;}
+#orderlitSearch .f {height:10px;overflow:hidden;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') 0 top no-repeat #fff;margin:10px -10px 0;border-top:1px solid #E9EAE5;}
+
+#orderlitSearch select {width:370px}
+
+#orderlitFeature {margin-top:2em;}
+#orderlitFeature h2 {font:18px georgia;color:#b50;margin-bottom:10px;}
+
+#orderlitFeature table {empty-cells:hide;}
+#orderlitFeature table td {width:334px;padding:10px;border-right:1px solid #DEDDCB;border-top:1px solid #DEDDCB;vertical-align:top;}
+#orderlitFeature table tr.lc td {border-bottom:0;}
+
+#orderlitFeature table td.fc {padding-left:0;width:344px;}
+#orderlitFeature table td.lc {border-right:0;}
+#orderlitFeature p.litcode {font:11px arial;}
+
+#orderlitFeature .con img {display:-moz-inline-stack;display:inline-block;float:left;margin-top:3px;}
+#orderlitFeature .con p {float:right;width:280px;padding:0 !important;}
+#orderlitFeature table td.lc p {width:270px;}
+
+
+#orderlitCartFA {}
+#orderlitCartFA h2 {margin-bottom:5px;}
+#orderlitCartFA .details {padding-left:0;}
+
+.orderlit .chartTable {padding-bottom:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') 0 bottom no-repeat #fff;margin-bottom:2em;}
+
+#orderlitCartFA .chartTable tbody td.lc,
+#orderlitCartFA .chartTable tbody td:last-child {background:#ffd;}
+
+#orderlitCartFA .orderlitForm {padding:10px;}
+#orderlitCartFA .orderlitForm form {display:block;background:#fff;}
+#orderlitCartFA .orderlitForm td {padding:8px 0;padding-right:15px;text-align:left;}
+#orderlitCartFA .orderlitForm label {display:-moz-inline-stack;-moz-box-orient:vertical;-moz-box-align:end;display:inline-block;margin-right:6px;text-align:right;}
+#orderlitCartFA .orderlitForm label span {display:block;text-align:right;}
+#orderlitCartFA .orderlitForm td.fc {}
+
+.orderlit .details {border-bottom:1px solid #fff;}
+.orderlit h2 {margin-bottom:5px;}
+
+.orderlit .skip {text-align:right;padding:0 10px;margin:0 0 5px;}
+
+
+.orderlit .orderlitForm {padding:10px;}
+.orderlit .orderlitForm form {display:block;background:#fff;}
+.orderlit .orderlitForm td {padding:8px 0;padding-right:30px;}
+.orderlit .orderlitForm label {display:-moz-inline-stack;display:inline-block;margin-right:6px;text-align:right;}
+.orderlit .orderlitForm td.fc label {width:100px;}
+
+.orderlit .searchLitForm {padding:10px;padding-bottom:20px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') 0 bottom no-repeat #F2F2EB;}
+
+.orderlit .searchResults {margin-top:2em;}
+.orderlit .searchResults ul {width:451px;margin-left:15px;}
+
+.searchResults .set .equal {width:320px;padding:10px 0;border-top:1px solid #ccc;margin-right:35px;float:left;}
+.searchResults .fc .equal {border-top:0;}
+.searchResults .set .lc {margin-right:0;}
+
+.searchLitForm .byFund {width:380px;padding:10px 25px 15px;float:left;background:#fff;}
+.searchLitForm .byLitCode {width:200px;padding:10px 25px 15px;float:right;background:#fff;}
+
+.searchLitForm label {display:block;}
+
+
+
+#fundLit .searchLitForm {padding:10px;padding-bottom:20px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') 0 bottom no-repeat #F2F2EB;}
+
+#fundLit .con {margin-bottom:10px;}
+
+#fundLit h2 {font:700 15px arial;margin-bottom:10px;}
+
+#fundLit .searchResults ul {width:451px;margin-left:15px;}
+
+#fundLit .searchResults .set .equal {width:317px;padding:10px 0;border-top:1px solid #ccc;margin-right:35px;float:left;}
+#fundLit .searchResults .fc .equal {border-top:0;}
+#fundLit .searchResults .set .lc {margin-right:0;}
+
+/******
+ * User Registration
+******/
+.reqfield {font:11px arial;color:#f00;}
+
+#userReg {background:#E9E9E1;}
+#userReg .con {width:730px;border-right:1px solid #fff;padding:15px 10px 50px;}
+#userReg .con form {background:#fff;padding:10px 15px;width:700px;}
+#userReg .progress {text-align:right;font:10px arial;color:#930;width:730px;}
+
+#userReg label {font-weight:700;}
+#userReg form p span {display:-moz-inline-stack;display:inline-block;margin-left:24px;}
+#userReg form p span.btn {margin:0;margin-right:5px;}
+#userReg .addInfo {margin-left:0 !important;}
+
+#userReg .progress b {display:-moz-inline-stack;display:inline-block;height:5px;width:5px;font-size:5px;margin-left:1px;background:#FFAD7C;}
+#userReg .progress b.curr {background:#f50;}
+
+#userAgreement {padding:20px;background:#fff;border:1px solid #333;}
+#userAgreement .finePrint {padding:5px;border:1px solid #7B9EBA;height:150px;overflow:auto;}
+
+#sh-proxy {margin-bottom:10px;}
+#sh-proxy table caption {font:700 13px arial;text-align:left;margin-bottom:5px;}
+#sh-proxy .chartTable td {text-align:center;}
+#sh-proxy .chartTable td.fc {text-align:left;}
+
+#sh-proxy .sh-noProxy {padding-bottom:3em;}
+#sh-proxy .sh-noProxy em {color:#900;}
+.sh-noProxy h3 {margin-bottom:1em;color:#000;}
+
+/* sales Landing */
+#salesLanding {position:relative;width:711px;margin-bottom:1em;}
+
+#salesLanding #featured {}
+#salesLanding ul {list-style:none;margin-left:0;}
+#salesLanding #featured ul {margin-bottom:0;}
+#salesLanding #featured li {border-bottom:1px solid #ddd;padding-bottom:15px;margin-bottom:15px;}
+#salesLanding #featured li.lc {border:0;}
+#salesLanding #featured li p a {text-decoration:none;}
+#salesLanding .item li {margin-bottom:8px;}
+
+#salesLanding #category .f {width:305px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -50px 0 no-repeat #fff;padding:0 20px;height:20px;margin:20px -20px;}
+
+#salesLanding .feature img {margin-right:15px;}
+#salesLanding .equal {width:305px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -50px bottom no-repeat #F2F2EB;padding:20px 20px 30px;}
+
+#salesLanding div.item {margin:-20px -20px 0;}
+#salesLanding .shade-tl {background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -1100px top no-repeat #F2F2EB;padding:20px 20px 0;}
+
+#salesLanding h2 {font:18px georgia;color:#b50;border-bottom:1px solid #DEDDCB;padding-bottom:10px;margin-bottom:10px;}
+
+#salesIdea ul.links li {padding:20px 0;}
+#salesIdea ul.links li.fc {padding-top:0;}
+
+#salesIdea p a {text-decoration:none;}
+
+/******
+ * Morningstar Ratings
+******/
+#morningstar h1 {margin-bottom:0;}
+#morningstar h2 {margin:2em 10px 10px;}
+
+#morningstar .intro {color:#000;}
+#morningstar .intro p {margin-left:10px;}
+#morningstar .intro .desc {float:left;width:800px;}
+#morningstar .intro .mornlogo {float:right;margin-right:30px;}
+
+#morningstar .filter {background:#F2F2EB;padding:10px;border-top:1px solid #ccc;}
+#morningstar strong {vertical-align:middle;}
+
+
+#morningstar .chartTable td.fc {text-align:left;width:300px;}
+#morningstar .chartTable table th {padding:5px 10px;border-bottom:0;font:12px arial;background:#eee;border-left:1px solid #ddd;vertical-align:bottom;text-align:center;}
+#morningstar .chartTable table th.fc {text-align:left;}
+#morningstar .chartTable table tr.sub th.fc {text-align:center;}
+
+#morningstar .chartTable table tbody tr.fc td {border-top:3px solid #ccc;}
+
+#morningstar .chartTable table tr.sub th {padding-top:0;}
+#morningstar .chartTable table tr.sub th.fc {}
+
+#morningstar .chartTable table tbody th {border-top:1px solid #ccc; }
+#morningstar .chartTable table tbody tr.sub th {border-top:0;}
+
+/******
+ * WEP
+******/
+/*#wep {padding:0 0 15px;background:url('../img/common/shadow-l-b.gif') 669px top no-repeat #F2F2EB;} This is old*/
+#wep {padding:0 0 0px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-l-b.gif') 669px top no-repeat #F2F2EB;margin:0;width:980px;}/*This is added by Scott, 6/18/09*/
+
+/*#wep .content {width:675px;float:left;display:table-cell;margin-top:15px;}*/
+#wep .content {width:675px;float:left;display:table-cell;margin-top:0px;}
+#wep .contentRightSide {padding-bottom:15px;height:2455px;}
+#wep .content .panel {padding:0 15px 15px;background:#fff;margin:15px 20px 2em;background:#fff;border:1px solid #ddd;}
+#wep .content .panel:last-child {margin-bottom:0;}
+
+#wep .content .panel h2 {font:400 18px georgia;color:#b50;margin:0 -15px;padding:10px 15px;margin-bottom:10px;border-bottom:2px solid #EAEBE3;}
+#wep .content h3 {font:700 15px arial;margin-top:20px;margin-bottom:.5em;}
+#wep .content h2 + h3 {margin-top:0;}
+#wep .content ul {list-style:disc;margin-left:15px;}
+#wep .content ol {list-style:decimal;margin-left:30px;}
+
+#wep .content .article {list-style:none;margin:0;}
+#wep .content .article li {padding:0 0 15px;border-bottom:0px solid #ddd;}
+#wep .content .article li.fc {}
+#wep .content .article li.lc {border-bottom:0;}
+
+#wep .content .article h3 {font:400 18px arial;margin-bottom:5px;}
+#wep .content .article .date {display:block;font:13px arial;margin-bottom:5px;}
+
+#wep .content ul.links {margin:0;list-style:none;}
+#wep .content ul.links li {margin:0 0 3px;padding:0;border:0;}
+
+#wep .related {width:270px;padding:0 15px 15px;float:right;border-left:1px solid #fff;display:table-cell;}
+#wep .related h2 {padding:0;margin-bottom:1em;}
+#wep .related ul li {margin-bottom:5px}
+
+#wep .related .team {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-wep-sales.png') right bottom no-repeat;margin:0 -15px 20px;padding:0 15px;position:relative;left:-1px;}
+#wep .related .team .teamcon {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-wep-sales.png') 0 0 no-repeat;margin:0 -15px;padding:15px;}
+
+
+
+#wep .related .team .members {list-style:none;margin:0;}
+#wep .related .team .members li {padding:0 0 13px;margin: 0 0 13px;border-bottom:1px solid #ddd;line-height:1.2em;}
+#wep .related .team .members li img {float:left;border:1px solid #333;}
+#wep .related .team .members li .info {float:left;width:165px; padding-left:15px;line-height:1.5em;}
+#wep .related .team .members li.lc {margin:0;border:0;}
+
+#wep .related .team .members li h3 {font:14px georgia;color:#b40;margin-top:10px;}
+#wep .related .team .members li p {margin:0;}
+
+#wep .related .team .members li.contact h3 {font:700 13px arial;color:#000;margin:0;}
+#wep .related .team .members li.contact ul {list-style-type:disc; margin-top:5px;}
+
+
+#wep .related .team .members ul {list-style-type:disc;margin-left:14px;clear:both;margin-bottom:10px;}
+#wep .related .team .members ul li img{float:left; vertical-align: middle; padding: 5px 5px 0 0; width:7px; border:0;} /** added by SP to fix bullets issue 6/24/09**/
+#wep .related .team .members ul li {list-style-type:none;  float:left; padding:0; border:0; margin:0; width:128px; font:12px arial;} /** list-style-type: none set by SP to fix bullets issue 6/24/09**/
+
+
+#wep .related h2 {font:700 13px arial;}
+#wep .related h3 {font:700 12px arial;}
+
+#wep .related .con {margin:0 0 0 10px;}
+#wep .related .con ul {margin-left:15px;}
+#wep .related .con p {margin:0;}
+#wep .related ul li {margin:0;}
+
+#wep .related .selected h3 {font:700 13px arial;margin-bottom:5px;margin-left:-10px;}
+/*#wep .related .selected h3 a {text-decoration:underline;} Old style*/
+#wep .related .selected h3 a {text-decoration:none;}/*Style changed by Scott, 6/17/09*/
+#wep .related .selected h3 a:hover {text-decoration:underline;}/*Style added by Scott, 6/17/09*/
+#wep .related .selected table {width:200px;line-height:1em;}
+#wep .related .selected table td {padding-bottom:5px;}
+#wep .related .selected table td.fc {font-weight:400;text-align:left;}
+#wep .related .selected table td.attr {padding:5px 0 8px;}
+#wep .related .selected .data {border-bottom:1px solid #ddd;padding-bottom:15px;margin-bottom:15px;}
+#wep .related .selected div.lc {border:0;}
+
+#wep .related img.promo {margin-top:10px;}
+
+
+
+#faeClient {padding:20px 30px;width:920px;}
+#faeClient h2 {margin:0 0 5px;}
+#faeClient .con {width:410px;margin-bottom:20px;padding:15px;}
+#faeClient .con table td {padding:0 10px 15px 0;vertical-align:top;}
+#faeClient .con table tr td.fc,
+#faeClient .con table tr td:first-child {text-align:right;}
+
+#faeClient .chartTable h2 {padding-bottom:5px;}
+#faeClient .chartTable h2 a {font:400 13px arial;}
+
+#faeClient .con .chartTable table tr td {padding:5px 10px;}
+#faeClient .con .chartTable table tr td.fc,
+#faeClient .con .chartTable table tr td:first-child {text-align:left;}
+
+#faeClient .con span.instruction {display:-moz-inline-stack;display:inline-block;margin-top:4px;}
+
+#faeClient form .btn {margin-top:15px;}
+
+
+#clientWatchlist .chartTable td {text-align:left;}
+
+#addItemBar {border-top:1px solid #ddd;border-bottom:2px solid #fff;background:#f8f8f8;padding:8px 10px;margin-top:8px;}
+#addItemBar * {vertical-align:middle;}
+#addItemBar label {display:-moz-inline-stack;display:inline-block;margin-left:15px;}
+#addItemBar #search{padding:3px 2px;margin:0 5px;width:200px;}
+#addItemBar button {vertical-align:top;margin-left:10px;}
+
+#siteSearchResult {padding:30px 20px 15px;}
+#siteSearchResult .con {margin-bottom:15px;}
+
+#siteSearchResult h2 {margin-bottom:10px;}
+
+#siteSearchResult .searchfield {float:left;width:600px;}
+#siteSearchResult .search {margin-bottom:30px;}
+#siteSearchResult .search form {display:inline;}
+#siteSearchResult .search .txt {width:300px;}
+#siteSearchResult .search .btn {margin-left:10px;}
+
+#siteSearchResult .search .msg {float:right;width:187px;padding:0 20px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-searchBox.png') right bottom no-repeat;}
+#siteSearchResult .msg div {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-searchBox.png') 0 0 no-repeat;margin:0 -20px;padding:20px 20px;}
+
+#siteSearchResult .msg h3 {margin-bottom:5px;}
+
+#siteSearchResult .previewOne ul {list-style:none;margin:0;}
+#siteSearchResult .previewOne li {display:block;float:left;width:230px;padding:2px 0;}
+
+#siteSearchResult .previewAll h2 {margin-bottom:2em;}
+#siteSearchResult .previewAll .section {margin-bottom:20px;}
+#siteSearchResult .previewAll .detail {border-bottom:3px solid #ddd;padding-bottom:5px;}
+#siteSearchResult .previewAll .detail h3 {float:left;}
+#siteSearchResult .previewAll .detail a {margin-left:10px;font-weight:400;}
+#siteSearchResult .previewAll .detail .count {float:right;color:#666;margin-right:15px;}
+
+#siteSearchResult .previewAll .section ol {margin:0;}
+#siteSearchResult .previewAll .section ol li {list-style-position:inside;padding:10px 0;border-bottom:1px solid #ddd;margin:0;}
+#siteSearchResult .previewAll .section ol li p {margin-left:23px;}
+
+#siteSearchResult .previewAll .section ol a {text-decoration:underline;}
+#siteSearchResult .previewAll .section ol .lc {border:0;}
+
+/*added for google search release*/
+#siteSearchResult .con div p.g{margin-bottom:0;}
+#siteSearchResult .con div td.s{padding-bottom:10px;}
+#siteSearchResult .con div blockquote.g{margin-bottom:10px;}
+
+
+#capGains {width:960px;}
+#capGains h2 {margin-bottom:10px;}
+
+#capGains .head {margin-bottom:1em;}
+#capGains .head .con {float:left;width:730px;padding:0;background:transparent;}
+#capGains .head .con em {color:#c00;}
+
+#capGains .head .msg {float:right;width:187px;padding:0 20px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-searchBox.png') right bottom no-repeat;}
+#capGains .head .msg div {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-searchBox.png') 0 0 no-repeat;margin:0 -20px;padding:20px 20px;}
+#capGains .head .msg h3 {margin-bottom:5px;}
+
+#capGains .quicklink {margin-bottom:10px;}
+#capGains .quicklink div {float:left;}
+#capGains .quicklink h2 {font:700 13px arial;}
+
+#capGains .quicklink .search {width:430px;}
+#capGains .quicklink .search input.txt {width:300px;}
+
+#capGains .quicklink .jump {width:240px;}
+#capGains .quicklink .anchor,
+#capGains .quicklink .anchor ul {margin:0;}
+
+#capGains .quicklink .historical {width:270px;}
+
+#capGains #data table {margin-bottom:2em;border-bottom:2px solid #ccc;width:100%;}
+#capGains #data table caption {text-align:left;font:700 15px arial;border-bottom:3px solid #ccc;padding-bottom:5px;}
+#capGains #data table td {border-bottom:1px solid #ccc;padding:5px 0;}
+#capGains #data table td.fc {padding-left:0;}
+#capGains #data table td.lc {text-align:right;}
+#capGains #data table em {color:#c00;}
+#capGains #data table td.fc a {font-weight:700;}
+
+#capGains .chartTable th {border-bottom:0 !important;}
+
+#capGains #data tr.fundHead td {width:200px;}
+#capGains #data tr.fundHead td.fc,
+#capGains #data tr.fundHead td:first-child {width:570px;}
+
+#capGains #data table.historical td {padding-top:20px;}
+
+#capGains #data table.historical .hist {float:none;}
+#capGains #data table.historical .hist td {padding:0;}
+
+#capGains #data table.historical .hist .chartTable,
+#capGains #data table.historical .hist .chartTable table {border:0;margin:0;}
+
+#capGains #data table.historical .hist .chartTable td {padding:5px 10px;border-bottom:0;}
+#capGains #data table.historical .hist .chartTable td.fc {text-align:left;}
+#capGains #data table.historical .hist .chartTable td.lc {padding:5px 10px;text-align:left;border-left:0;width:220px;}
+
+#eSubSelect .chartTable td{text-align:left !important;}
+#eSubSelect .sub {list-style:none;margin-left:20px;margin-bottom:20px;margin-top:5px;}
+
+#eSubSelect .actions {text-align:right;margin-top:20px;}
+#eSubSelect .actions span.btn {margin-left:10px;}
+
+/****
+ *merging from scott.css
+ ***/
+div.returnTo{margin-top:25px; margin-left: 15px;}
+.faeHeaderLink {font:400 13px arial;}
+.numRight {font:700 13px arial;}
+.hidePieCharts {margin-left: 60px;}
+
+.faeBottom {padding-top:20px;margin:0 0px;width:980px;position:relative;}
+.faePieCharts {width:145px;padding:0 20px;margin-top:10px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') right bottom no-repeat;float:left;text-align:center;}
+.faePieCharts div {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') 0 0 no-repeat;margin:0 -20px;padding:20px 20px;}
+.faePieCharts ul {text-align:left;margin-bottom:30px;list-style:none;}
+
+.faePieCharts table td {vertical-align:top !important;}
+.faePieCharts table td.legend {padding:4px 5px 0 0;width:8px !important;}
+.faePieCharts table td img {display:block;margin:0;padding:0;}
+
+div.faePrint {position:relative;left:900px;}
+#faeSearch {margin:10px 10px 3px 10px;}
+
+#faeAdvisorName table {margin:10px 10px 3px 10px;}
+#faeAdvisorName table tr td {padding:0px 5px 0px 5px; border-left:1px solid #b8b8b8; text-align:right;}
+#faeAdvisorName table tr td:first-child,
+#faeAdvisorName table tr td.fc {font:700 13px arial; border-left:0;}
+
+#faeSalesAssets {padding:10px;width:960px;}
+#faeSalesAssets .conLeft {width:270px;padding:15px;background:#fff;}
+#faeSalesAssets .conLeft table tr.total td {padding-top:15px;}
+#faeSalesAssets .conLeft table td {padding:0 0px 0px 0;},
+#faeSalesAssets .conLeft table tr td.fc,
+#faeSalesAssets .conLeft table tr td:first-child {text-align:left;}
+#faeSalesAssets .conLeft table tr td.num {font:700;}
+
+
+#faeSalesAssets .conRight {width:620px;padding:15px;background:#fff;}
+#faeSalesAssets .conRight table tr.total td {padding-top:15px;}
+#faeSalesAssets .conRight table td {padding:0 12px 0px 12px; border-right:1px solid #ddd; border-left:0px; border-bottom:0px; border-top:0px;},
+#faeSalesAssets .conRight table tr td.fc,
+#faeSalesAssets .conRight table tr td:first-child {padding-left: 0px; text-align:left; border-left:0px;}
+#faeSalesAssets .conRight table tr td.lc,
+#faeSalesAssets .conRight table tr td:last-child {text-align:left; border-right:0; padding-right: 0px;}
+#faeSalesAssets .conRight table tr td.num {font:700;}
+
+
+
+
+
+.faeSalesRedemptions {width:770px;float:right;}
+.faeSalesRedemptions h2 {font:400 18px georgia;color:#b50;margin:0 -11px;padding:10px 13px;}
+.faeSalesRedemptions table tr td.fc,
+.faeSalesRedemptions table tr td:first-child {padding-left: 5px;}
+.faeSalesRedemptions table tr td.lc,
+.faeSalesRedemptions table tr td:last-child {padding-right: 5px;}
+
+.faeSalesRedemptions table {width:auto;}
+
+.faeSalesRedemptions .chartTable table tbody td {border-top:1px solid #ccc;vertical-align:top;}
+
+.faeSalesRedemptions .chartTable table thead th.fc,
+.faeSalesRedemptions .chartTable table tbody td.fc,
+.faeSalesRedemptions .chartTable table th:first-child,
+.faeSalesRedemptions .chartTable table td:first-child {text-align:left;}
+.faeSalesRedemptions .chartTable table td.num {text-align:right;}
+.faeSalesRedemptions .chartTable table td.numLast {text-align:right; padding-right: 10px;}
+
+#faeSalesAssets .chartTable h2 {padding-bottom:5px;}
+#faeSalesAssets .chartTable h2 a {font:400 13px arial;}
+
+#faeSalesAssets .conLeft .chartTable table tr td {padding:5px 10px;}
+#faeSalesAssets .conLeft .chartTable table tr td.fc,
+#faeSalesAssets .conLeft .chartTable table tr td:first-child {text-align:left;}
+#faeSalesAssets .conRight .chartTable table tr td {padding:5px 10px;}
+#faeSalesAssets .conRight .chartTable table tr td.fc,
+#faeSalesAssets .conRight .chartTable table tr td:first-child {text-align:left;}
+
+#faeSalesAssets .conLeft span.instruction {display:-moz-inline-stack;display:inline-block;margin-top:0px; margin-bottom:20px;}
+#faeSalesAssets .conRight span.instruction {display:-moz-inline-stack;display:inline-block;margin-top:0px;}
+
+#faeSalesAssets form .btn {margin-top:15px;}
+
+#editChallengeQuestions {}
+#editChallengeQuestions .con {padding:10px;}
+#editChallengeQuestions form {padding:0 10px 25px 10px;}
+#editChallengeQuestions form table {margin-top:10px;}
+#editChallengeQuestions form table td {padding:0 10px 5px 0; text-align:left;}
+#editChallengeQuestions form table td.DOBAnswer {padding-top:15px;}
+#editChallengeQuestions form table td.fc,
+#editChallengeQuestions form table td:first-child {text-align:right; margin-top: 15px;}
+#editChallengeQuestions form table td input {margin:0 0px 0px 0px;}
+#editChallengeQuestions form table td label.MM {display:block;font:11px arial;color:#666;line-height:1em; vertical-align:baseline; padding-right:0px; padding-left:10px;}
+#editChallengeQuestions form table td label.DD {display:block;font:11px arial;color:#666;line-height:1em; vertical-align:baseline; padding-right:0px; padding-left:10px;}
+#editChallengeQuestions form table td label.YYYY {display:block;font:11px arial;color:#666;line-height:1em; vertical-align:baseline; padding-right:0px; padding-left:18px;}
+#editChallengeQuestions form table td input.MM {width:30px; margin-bottom: 15px;}
+#editChallengeQuestions form table td input.DD {width:30px; margin-bottom: 15px;}
+#editChallengeQuestions form table td input.YYYY {width:60px; margin-bottom: 15px;}
+#editChallengeQuestions form table td input.answer {width:240px; margin-top: 0px; margin-bottom: 15px;}
+#editChallengeQuestions form table td select {width:380px; margin-bottom: 0px;}
+#editChallengeQuestions form table td.buttons {text-align:left;}
+#editChallengeQuestions .chartTable h2 a {font:400 13px arial;}
+#editChallengedQuestions form .btn {margin-top:15px; margin-left:100px;}
+
+#sendEmail {}
+#sendEmail .con {padding:10px;}
+#sendEmail form {padding:0 10px 25px 10px;}
+#sendEmail form table {margin-top:10px;}
+#sendEmail form table td {padding:0 10px 5px 0;}
+#sendEmail form table td.phone {padding-top:15px;}
+#sendEmail form table td.from {padding-top:15px;}
+#sendEmail form table td.fc,
+#sendEmail form table td:first-child {text-align:right;}
+#sendEmail form table td input {margin:0;}
+#sendEmail form table td input.lastName {margin-left: 10px;}
+#sendEmail form table td input.phone {margin-top:15px;}
+#sendEmail form table td textarea {width: 325px;height:200px;}
+#sendEmail .chartTable h2 a {font:400 13px arial;}
+#sendEmail form table td label.firstName {display:block;font:500 12px arial;}
+#sendEmail form table td label.lastName {display:block;font:500 12px arial; margin-left: 10px;}
+#sendEmail form table td.buttons {text-align:left; padding-top: 20px; padding-bottom: 0px;}
+
+#createUserID {}
+#createUserID .con {padding:10px;}
+#createUserID form {padding:0 5px 25px 10px;}
+#createUserID form table {}
+#createUserID form table td {text-align:left; padding:10px 5px 5px 0;}
+#createUserID form table td.label {text-align:right; padding-bottom: 10px;}
+#createUserID form table td.buttons {padding-left: 140px; padding-top: 10px;}
+#createUserID form table td input.txt {width:135px; margin-left:10px;}
+
+#changeToNew {}
+#changeToNew .con {padding:10px;}
+#changeToNew form {padding:0 10px 25px 10px;}
+#changeToNew form table {}
+#changeToNew form table td {text-align:right; padding:10px 0px 0px 0px;}
+#changeToNew form table td.newPasswordLabel {text-align:right; padding:20px 0px 0px 20px;}
+#changeToNew form table td.names {text-align:left; padding-left:10px;}
+#changeToNew form table td.newPassword {text-align:left; padding-left:10px; padding-top:20px;}
+#changeToNew form table td.instruction {text-align:left; padding-left:10px; padding-top:0px; font:11px arial;color:#666;line-height:1em;vertical-align:baseline;}
+#changeToNew form table td.instructionRight {text-align:left; padding-left:15px; padding-top:20px; font:11px arial;color:#666;line-height:normal;vertical-align:baseline;}
+#changeToNew form table td.instructionRight ol {margin-left:17px;}
+#changeToNew form table td.instructionRight li {margin:0;}
+#changeToNew form table td.buttons {text-align:left; padding-left: 10px; padding-top: 20px;}
+#changeToNew form table td input.txt {width:140px; margin:0;}
+
+#formSearch {}
+#formSearch .con {padding:20px 20px 25px 20px;}
+
+
+#changeMail div.progressBar {background:#fff;margin:0;font:400 13px/1.4em arial;color:#000;margin-bottom:3px;padding:15px;}
+/*breadcrum, status, progress bar*/
+#changeMail div.progressBar ul.progressBar {margin:0;list-style-type:none;}
+#changeMail div.progressBar ul.progressBar li {width: 164px; font:700 11px arial;text-align:center; color:#AAA; display:block;border-top:5px solid #DDD;padding:10px 0 0;margin:0;float:left;}
+#changeMail div.progressBar ul.progressBar li.current{border-top:5px solid #c60;text-align:center;color:#c60;background:url('https://www.franklintempleton.com/retail/new/img/common/arrowdwn.gif') center 0 no-repeat;margin:0 1px;}
+#changeMail div.progressBar ul.progressBar li.complete{border-top:5px solid #E6B886;color:#E6B886;padding-right:0px;}
+
+
+
+#changeMailSteps .con form {padding-left:10px;}
+#changeMailSteps .con form table {margin-top:10px;}
+#changeMailSteps .con form table td {padding:0px 0px 0px 10px;}
+#changeMail .con form {padding-left:0px;}
+
+#changeMail .chartTable table {border-bottom:0;}
+#changeMail .chartTable table thead th {border-left:0;}
+#changeMail .chartTable table td {border-top:0;border-bottom:1px solid #ccc;text-align:left;}
+#changeMail .chartTable table td.fc {}
+#changeMail .chartTable table tr.fund td {border-bottom:0;}
+
+#changeMail .chartTable table tr.hvr td,
+#changeMail .chartTable table tr.sel td {background:#ffd;}
+
+
+#changeMail .chartTable table td input {margin:0;padding:0;float:left;margin-top:3px;_margin-top:0;}
+#changeMail .chartTable table td p {float:left;width:300px;margin-left:7px;}
+
+#changeMail .actions {text-align:right;margin-top:20px;}
+
+#changeMail .actions span.btn {margin-left:10px;}
+
+
+#changeMail #newAddress {width:145px;padding:0 20px;margin-left:15px;margin-top:5px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') right bottom no-repeat;float:right;}
+#changeMail #newAddress div {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') 0 0 no-repeat;margin:0 -20px;padding:20px 20px;}
+
+#changeMail .con form table td {padding:10px 10px 5px 0;}
+#changeMail .con form table td.or {padding-bottom:0px; padding-top:20px; padding-left:0px; padding-right:0px; vertical-align:middle;}
+#changeMail .con form table td.state {padding-right:0px;}
+#changeMail .con form table td.evePhone {text-align:right;}
+#changeMail .con form table td.fc,
+#changeMail .con form table td:first-child {text-align:right;}
+#changeMail .con form table td input {margin:0; width:130px;}
+
+#changeMail .chartTable table td.buttons,
+#changeMail .con form table td.buttons {text-align:right; padding-top: 20px; padding-bottom: 20px;border:0;}
+
+#changeMail .con form table td input.txt {width:140px; margin:0;}
+
+#changeMail .chartTable {margin-top:10px;}
+
+
+#capGains .asOf {padding-left:10px; padding-top:15px;}
+#capGains div.chartTable table tbody td.perShareNum,
+#capGains table tbody td.perShareNum {padding:0 0 0 0; text-align:left; border-left:0px;}
+
+#wep a {text-decoration:none;}
+#wep a:hover {text-decoration:underline;}
+#wep .content .article li ul.links {list-style:disc;margin:0;}
+#wep .content .article li ul.links li {margin:0 0 3px 15px;padding:0;border:0;}
+#wep .content .article li ul.links li.fc {}
+#wep .content .article li ul.links li.lc {border-bottom:0;}
+
+
+
+
+
+
+
+
+
+/* messing with buttons */
+button::-moz-focus-inner {padding:0;margin:-1px;} /*moz spacing adjust*/
+
+button.btn {display: -moz-inline-stack;display:inline-block;border:0;cursor:pointer;text-align:center;font:700 13px arial;padding:0;margin:0;outline:none;
+background:url('bg-btn00.png') right -79px no-repeat transparent;color:#fff;overflow:visible;padding-right:12px;
+	-khtml-user-select: none;
+	-moz-user-select: none;line-height:22px;
+zoom:1;
+
+}
+
+button.btn span {display: -moz-inline-stack;display:inline-block;white-space:nowrap;height:22px;line-height:22px;padding:0 0 0 12px;
+background:url('bg-btn00.png') 0 0 no-repeat transparent;
+zoom:1;display:table-cell;vertical-align:middle;
+}
+
+button.inactiveBtn {display: -moz-inline-stack;display:inline-block;padding:0;border:0;text-align:center;
+background:url('bg-btn00.png') right -135px no-repeat transparent;cursor:normal;padding-right:12px;vertical-align:middle;line-height:22px;
+}
+
+button.inactiveBtn span {display: -moz-inline-stack;border:0;cursor:pointer;position:relative;display:inline-block;white-space:nowrap;height:22px;font:700 13px arial;padding:0 0 0 12px;
+background:url('bg-btn00.png') 0 -56px no-repeat transparent;color:#fff;overflow:visible;line-height:22px;line-height:22px;vertical-align:middle;
+}
+
+/* messing with span.button inputs */
+span.btn > input::-moz-focus-inner {padding:0;margin-top:-1px;} /*moz spacing adjust*/
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+button.btn {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-btn.gif') right -78px no-repeat transparent;}
+}
+
+span.btn,
+a.btn {display: -moz-inline-stack;display:inline-block;padding:0;border:0;text-align:center;
+background:url('bg-btn00.png') right -79px no-repeat transparent;cursor:pointer;padding-right:12px;vertical-align:middle;zoom:1;text-decoration:none;
+line-height:22px;
+}
+
+span.btn input,
+a.btn span,
+a.btn:hover span {display: -moz-inline-stack;border:0;cursor:pointer;display:block;white-space:nowrap;height:22px;line-height:22px;font:700 13px arial;padding:0 0 0 12px;
+background:url('bg-btn00.png') 0 0 no-repeat transparent;color:#fff;zoom:1;margin:0;
+vertical-align:middle;
+}
+
+a.btn:hover {text-decoration:none !important;}
+
+span.inactivebtn,
+a.inactivebtn {display: -moz-inline-stack;display:inline-block;padding:0;border:0;text-align:center;
+background:url('bg-btn00.png') right -135px no-repeat transparent;cursor:default;padding-right:12px;vertical-align:middle;
+line-height:22px;
+}
+
+span.inactivebtn input,
+a.inactivebtn span {display: -moz-inline-stack;border:0;cursor:default;position:relative;display:block;white-space:nowrap;height:22px;line-height:22px;font:700 13px arial;padding:0 0 0 12px;
+background:url('bg-btn00.png') 0 -56px no-repeat transparent;color:#fff;zoom:1;
+vertical-align:middle;
+}
+
+a.btn {text-decoration:none;}
+a.btn span,
+a.btn:hover span,
+a.inactivebtn,
+a.inactivebtn span {line-height:22px;}
+
+a.btn:hover,
+a.inactivebtn:hover {text-decoration:none !important;}
+
+.cancel {display:table-cell;background:transparent;border:0;outline:0;color:#369;text-decoration:underline;display:inline-block;height:22px;line-height:22px;padding:0 5px;text-align:center;cursor:pointer;position:relative;display:inline-block;white-space:nowrap;overflow:visible;vertical-align:baseline;cursor:pointer;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+.cancel {vertical-align:bottom;}
+}
+
+div#printed {background:#fff;border:10px solid #369;width:400px;padding:15px;position:absolute;top:0px;left:50%;margin-left:-215px;z-index:9999;display:none;}
+
+/*Standalone page*/
+#operUpdates h2 {margin-bottom:1em;font:700 15px arial;}
+#operUpdates .con{margin-bottom:15px;}
+
+#operUpdates .scroll {height:300px;overflow-x:hidden;overflow-y:auto;}
+#operUpdates ul {list-style:none;margin:0;padding:0;}
+#operUpdates li {padding:10px;padding-left:0;border-bottom:1px solid #ccc;margin:0;}
+#operUpdates li.lc {border:0;}
+
+#operUpdates li p.lc {margin:0;}
+
+#operUpdates h3 {font:400 13px arial;}
+#operUpdates h3 span.date {display:inline-block;width:91px;}
+#operUpdates li p {margin-bottom:1em;padding:0 0 0 92px;}
+
+#operUpdates #keyUpdates h3 {font:700 13px arial;}
+#operUpdates #keyUpdates h3 .date {font-weight:400;}
+
+#operUpdates li.exp a {display:inline-block;padding-left:12px;background:url('https://www.franklintempleton.com/retail/new/img/common/arrow-opRight.gif') 0 center no-repeat;}
+#operUpdates li.exp a.active {background:url('https://www.franklintempleton.com/retail/new/img/common/arrow-opDown.gif') 0 center no-repeat;}
+
+.cluetip-operPreviewTip,
+.cluetip-ppssTip {position:absolute;display:none;z-index:800;border:3px solid #aaa;background:#fff;width:300px;padding:15px;#fff;text-align:left;}
+
+
+#login-reg {margin-bottom:10px;}
+#login-reg .con {padding:20px 20px 5px;}
+
+#login-reg b.f {display:block;overflow:hidden;height:1px;background:#888;border-top:1px solid #fff;}
+
+#login-reg #login {background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -600px bottom no-repeat #fff;float:left;width:350px;padding-bottom:10px;}
+#login-reg #reg {float:right;width:350px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif') -600px bottom no-repeat #fff;padding-bottom:10px;}
+
+#login-reg #login p {margin-bottom:15px;}
+#login-reg #login input.txt {width:200px;margin-right:10px;}
+#login-reg #login a {text-decoration:none;}
+
+#login-reg #login .con {background:#e92;border:1px solid #e92;}
+#login-reg #reg .con {border:1px solid #ddd;background:url('bg-hm-ar.png') 0 -490px no-repeat;}
+
+#login-reg #login label {display:block;}
+#login-reg #login h3 {font:22px georgia;color:#fff;margin-bottom:10px;}
+#login-reg #reg h3 {font:22px georgia;color:#930;margin-bottom:10px;}
+
+.chartGraphic{padding:6px;border:1px solid #ddd;background:#fff;text-align:center;margin:1em 0 2em;}
+.chartGraphic h3{font:700 13px arial;color:#000;margin:0 0 10px;padding:10px;background:#eee;}
+.chartGraphic h3 span{display:block;font-weight:400;}
+.chartGraphic img{display:block;margin:0 auto;}
+.chartGraphic div.caveat {font:13px arial;margin-top:25px;text-align:left;color:#666;}
+#fundDetail .chartGraphic div.caveat ol {margin-left:19px;}
+
+div.legalinfo {bottom:0;color:#666;margin-top:60px;line-height:normal;margin-bottom:20px;}
+div.legalinfo h2 {font:700 13px arial !important;margin:0 !important;}
+
+div.legalinfo ul {margin-left:13px;}
+div.legalinfo ul a {text-decoration:underline;}
+.legalinfo {color:#666;}
+#userLegal {color:#666;font-weight:700;margin-top:30px;}
+
+div.footnote {color:#666;margin-top:20px;line-height:1.1em;margin-bottom:15px;}
+div.footnote h2 {font:700 13px arial;margin:0;}
+div.footnote ol{margin-left:27px;}
+div.footnote ul {margin-left:13px;}
+div.footnote ol li{margin-bottom:5px;}
+
+/**message boxs **/
+.fundMsg,
+.errMsg{padding:10px 20px;margin:5px 0 10px;}
+
+.errMsg{border:2px solid #c00;color:#c00;}
+
+.fundMsg{border:2px solid #03c;color:#03c;}
+
+.fundMsg h4,
+.errMsg h4 {font:700 15px arial;}
+
+.errMsg ul,
+.fundMsg ul {margin-left:15px;}
+
+
+
+.emgcyBanner {position:relative;z-index:5;padding:15px 24px;background:#b50;font:400 18px arial;color:#fff;line-height:1.5em;}
+.emgcyBanner p {margin:0;}
+.emgcyBanner a.more {display:-moz-inline-stack;display:inline-block;margin-left:15px;text-align:center;background:url('bg-btn00.png') right -107px no-repeat transparent;padding-right:12px;vertical-align:middle;text-decoration:none !important;font:600 11px arial;}
+.emgcyBanner a.more span {display:-moz-inline-stack;display:inline-block;cursor:pointer;padding:0 0 0 12px;height:22px;line-height:22px;
+background:url('bg-btn00.png') 0 -28px no-repeat transparent;color:#fff;vertical-align:baseline;}
+.emgcyBanner a.more:hover {text-decoration:none !important;}
+
+.faEmgcy {width:687px;margin-bottom:5px;}
+.pubEmgcy {margin-top:-6px;margin-bottom:5px;}
+
+b.color-102085 {display: -moz-inline-stack;display:inline-block; width:10px; height:10px; overflow:hidden; background:#102085; margin-right:7px; vertical-align:baseline;_vertical-align:middle;zoom:1}
+b.color-2D5098 {display: -moz-inline-stack;display:inline-block; width:10px; height:10px; overflow:hidden; background:#2D5098; margin-right:7px; vertical-align:baseline;_vertical-align:middle;zoom:1}
+b.color-7999BF {display: -moz-inline-stack;display:inline-block; width:10px; height:10px; overflow:hidden; background:#7999BF; margin-right:7px; vertical-align:baseline;_vertical-align:middle;zoom:1}
+b.color-C3D5E9 {display: -moz-inline-stack;display:inline-block; width:10px; height:10px; overflow:hidden; background:#C3D5E9; margin-right:7px; vertical-align:baseline;_vertical-align:middle;zoom:1}
+b.color-F78725 {display: -moz-inline-stack;display:inline-block; width:10px; height:10px; overflow:hidden; background:#F78725; margin-right:7px; vertical-align:baseline;_vertical-align:middle;zoom:1}
+
+#maintenance {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-gateway.png') 0 0 repeat-x;}
+#maintenance #masthead h1 a {background:url('https://www.franklintempleton.com/retail/new/img/common/frklogo2.png') 0 0 no-repeat;}
+#maintenance #familyTagline {position:absolute;color:#bba;font:700 12px arial;text-transform:uppercase;top:38px;margin-left:270px;}
+
+#maintenance #tagline {height:55px;background:transparent;position:relative;margin-bottom:-5px;z-index:200;}
+#maintenance #tagline .tagline {display:inline-block;float:left;margin:22px 0 0;font:700 12px arial;color:#fff;}
+
+#maintenance #spaces {background:url('bg-hm-ar.png') right -892px no-repeat;
+float:left;padding:50px 0; position:absolute;top:350px; width:614px;}
+
+#countrySel {float:right;color:#cde;padding-top:17px;margin-right:5px;z-index:100;position:relative;}
+#countrySel span {margin-right:10px;}
+#countrySel a.trigger {display:inline-block;background:url('bg-btn00.png') 0 -271px no-repeat transparent;width:176px;height:24px;vertical-align:middle;}
+
+#maintenanceNav {border-bottom:6px solid #CDCCBA;position:absolute;bottom:0;width:729px;left:252px;_bottom:-1px;}
+
+
+#countryIntro{float:left;position:relative;top:30px;width:612px;height:273px;overflow:auto;background:url('https://www.franklintempleton.com/retail/new/img/common/map-benface.jpg') 0 0 no-repeat;}
+
+#maintainCopy {float:right;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow_gateway_left.jpg') 0 0 no-repeat #fff;border-top:6px solid #E8980E;text-align:left;padding:15px 25px;width:316px;min-height:400px;height:auto !important;height:400px;}
+#maintainCopy h2{font:24px georgia;color:#b50;margin-bottom:5px;}
+#maintainCopy div.hr {margin:15px 0;}
+
+.orderLiterature {margin:2em 0;text-align:center;}
+.orderLiterature div.hr {margin:0 0 10px;}
+.orderLiterature h2 {font:18px georgia;color:#b50;margin:0 0 10px;}
+
+.callout {margin:2em 0;}
+.callout h2 {text-align:center;font:18px georgia;color:#b50;margin:0 0 10px;}
+.callout p {padding:0 30px;}
+
+
+/* Embedded video player css */
+
+#exposeMask {z-index:101 !important;}
+
+#vidContainer{padding-bottom:26px;text-align:center;position:relative;z-index:9999;border-bottom:1px solid #ddd;}
+#vidInner{position:absolute;background:#000;}
+#vidClose{position:absolute;display:block;padding:0 10px;height:20px;text-align:center;line-height:20px;top:-22px;right:0;background:#ddd;color:#369;border:1px solid #444;display:none;cursor:pointer;}
+
+.vidExpRight {right:0;top:0;}
+.vidExpLeft {left:0;top:0;}
+
+#vidResize {font:400 11px arial;color:#369;display:block;padding:6px;background:url('https://www.franklintempleton.com/retail/new/img/bg-videoExpBar.png') 0 bottom repeat-x;position:relative;z-index:9999;}
+#commSideBar .ratio43 {width:221px;height:196px;}
+#commSideBar .ratio169 {width:221px;height:130px;}
+
+#fundStory .ratio43 {width:221px;height:196px;}
+#fundStory .ratio169 {width:221px;height:130px;}
+
+
+.vidLarge .ratio43{width:430px !important;height:353px !important;z-index:9999;}
+.vidLarge .ratio169{width:430px !important;height:230px !important;z-index:9999;}
+.vidLarge {z-index:9999;border:1px solid #444;}
+.vidLarge #vidResize {display:none;}
+
+.videoPlayer{padding:16px;border:1px solid #ddc;background:#fff;text-align:center;margin:1em 0 2em;}
+.videoPlayer h3 {font:700 15px arial;margin-bottom:10px;text-align:left;}
+
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+
+.TB_overlayMacFFBGHack {background: url(https://www.franklintempleton.com/retail/new/css/macFFBgHack.png) repeat;}
+.TB_overlayBG {
+	background-color:#000;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.60;
+	opacity: 0.60;
+}
+
+* html #TB_overlay { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_window {
+	position: fixed;
+	z-index: 102;
+	color:#000000;
+	display:none;
+	text-align:left;
+	top:50%;
+	left:50%;
+}
+
+* html #TB_window { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_window img#TB_Image {
+	display:block;
+	margin: 15px 0 0 15px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+}
+
+#TB_caption{
+	height:25px;
+	padding:7px 30px 10px 25px;
+	float:left;
+}
+
+#TB_closeWindow{
+	height:25px;
+	padding:11px 25px 10px 0;
+	float:right;
+}
+
+#TB_closeAjaxWindow{
+	padding:7px 10px 5px 0;
+	margin-bottom:1px;
+	text-align:right;
+	float:right;
+}
+
+#TB_ajaxWindowTitle{
+	float:left;
+	padding:7px 0 5px 10px;
+	margin-bottom:1px;
+}
+
+#TB_title{
+	background-color:#e8e8e8;
+	height:27px;
+}
+
+#TB_ajaxContent{
+	clear:both;
+	overflow:auto;
+	text-align:left;
+	line-height:1.4em;
+}
+
+#TB_ajaxContent.TB_modal{}
+
+#TB_ajaxContent p{
+	padding:5px 0px 5px 0px;
+}
+
+#TB_load{
+	position: fixed;
+	display:none;
+	height:13px;
+	width:208px;
+	z-index:103;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+* html #TB_load { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_HideSelect{
+	z-index:99;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color:#fff;
+	border:none;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	height:100%;
+	width:100%;
+}
+
+* html #TB_HideSelect { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_iframeContent{
+	clear:both;
+	border:none;
+	margin-bottom:-1px;
+	margin-top:1px;
+	_margin-bottom:1px;
+}
+
+/**message boxs **/
+.fundMessage{padding:10px 20px;margin:5px 0 10px;border:2px solid #03c;color:#03c;}
+
+.fundMessage h4 {font:700 15px arial;}
+
+.fundMessage ul {margin-left:15px;}
+
+.userIderrorMsg{margin-left:-15px;margin-top:11px;}
+
+.assetLeftRow{
+border-left:1px solid #DDDDDD ! important;
+}
+
+
+/*General lightbox style */
+.frkLightBox {position:relative;padding:10px;text-align:left;background:#fff;}
+.frkLightBox .legal {color:#666;margin:0 0 10px;}
+.frkLightBox .legal p {}
+.frkLightBox .legalinfo {padding-bottom:10px;border-top:1px solid #ccc;padding-top:20px;margin-top:20px;}
+
+.frkLightBox .frkLightBoxTitle {margin:0 -10px 10px 0;}
+.frkLightBox .frkLightBoxTitle h2 {float:left;display:inline-block;}
+.frkLightBox .closeLightBox {display:inline-block;float:right;background:#999;color:#fff;margin:-10px 0;cursor:pointer;text-decoration:none !important;}
+.frkLightBox .closeLightBox span {display:inline-block;padding:5px 10px;}
+.frkLightBox .closeLightBox b {display:inline-block;border-left:1px solid #fff;background:#999;padding:5px 10px;color:#fff;}
+
+#eDeliveryLightBox {width:500px;}
+
+
+/*G2.1 New pages*/
+
+.chartBoxImage{
+	margin-top: 4px;
+    margin-right: -3px;
+}
+
+.assetLeftRowPadding{
+padding: 0px ! important;
+}
+.fundNameChartTable{
+border: 0 none ! important ; 
+}
+.fundNameChartImg{
+border: 0 none ! important; 
+width:10% ! important;
+}
+.fundNameChartFundName{
+border: 0 none  ! important; 
+text-align: left ! important; 
+padding-left: 0px ! important;
+width:auto;
+}
+.faeSalesRedemptions table.fundNameChartTable tr td.lc,
+.faeSalesRedemptions table.fundNameChartTable tr td:last-child { 
+border-right:0px !important;}
+
+.relatedUl {margin:0;list-style-image:none;list-style-position:outside;list-style-type:disc;margin-left:14px;}
+.relatedLi {margin:0 0 3px;padding:0;border:0;}
+/*should not be here*/
+.legalinfo table {border-collapse: collapse;}
+.legalinfo table td, .legalinfo table th {padding:0px;border: 0px;}
+.legalinfo p { font-size:13px !important;}
+.promoImage{
+	border-bottom:1px solid #DDDDDD;
+	padding-bottom:15px;
+	width:194px;	
+	margin-left:10px;
+	margin-right:auto;
+	margin-bottom:15px;
+}
+#fundTabs .tabList{margin:0;border:0;top:0;}
+#fundTabs .tabList a {position:relative;display:block;text-align:center;background:#F2F2EB;
+margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+border:0;border-right:1px solid #fff;
+}
+#fundTabs .tabList a:hover {text-decoration:underline !important;}
+#fundTabs .tabList li {margin-right:1px;list-style:none;position:relative;float:left;margin-top:-1px;}
+
+#fundTabs .tabList li.offset {margin-left:25px;}
+#fundTabs .tabList span {position:relative;display:block;padding:7px 25px;font:700 12px arial;border:0;border-top:5px solid #ddc;}
+#fundTabs .tabList li.active a {margin-top:0;color:#b50;font-size:1em;text-decoration:none;bottom:-1px;cursor:text;text-decoration:none !important;}
+
+#fundTabs .tabList li.active span {background:#F2F2EB;border-bottom:1px solid #F2F2EB;border-top:5px solid #ea0;}
+#fundTabs .tabList li.shadow a {padding-right:12px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-tab-r.png') right -5px no-repeat #F2F2EB;border:0;}
+
+div.tabContainer {border-top:5px solid #666;background:#fff;position:relative;}
+#fundTabs {background:#fff;position:relative;border-bottom:1px solid #ddd;}
+
+  
+
+/******
+ * Fund Details/Story
+******/
+
+#fundInfo {margin:0;position:relative;padding-top:10px;}
+#fundInfo td {vertical-align:top;}
+#fundInfo a {color:#369;}
+
+#fundInfo .headSearch {position:absolute;right:10px;top:40px;zoom:1;width:350px;text-align:right;z-index:60;_padding-right:10px;}
+#fundInfo .headSearch input.txt {margin-right:4px;width:160px;}
+#fundInfo .headSearch label {display:inline-block;font:700 15px arial;margin-right:5px;}
+
+#fundInfo .head {float:left;margin-bottom:15px;margin-left:10px;background:#fff;}
+#fundInfo .head h1 {margin:0;}
+#mainContent #fundInfo .head h1.offset {padding-left:10px !important;}
+#fundInfo .head h2 {color:#666;font:400 13px arial;padding-left:10px;}
+#fundInfo .head h2 span {color:#333;font-weight:700;}
+
+#fundInfo .overview {padding:10px 14px 10px 24px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-bot-b.gif') -600px top no-repeat #F2F2EB;margin:0 0 27px;}
+#fundInfo .overview .wrap {display:table-row;}
+#fundInfo .overview .content {padding:10px 10px 0;border-left:1px solid #fff;vertical-align:top;float:left;width:210px;}
+#fundInfo .overview div.fc {border-left:0;padding-left:0;width:205px;}
+#fundInfo .overview div.nav {width:250px;}
+
+
+
+#fundInfo .overview h3 {margin-bottom:1em;}
+#fundInfo .overview table {width:100%;}
+#fundInfo .overview table th {padding:2px 5px;font-weight:400;}
+#fundInfo .overview table td {padding:3px 5px;font-weight:700;line-height:1em;}
+#fundInfo .overview table td.fc {padding-left:0;font-weight:400;text-align:left;}
+#fundInfo .asof {font:11px arial;color:#666;}
+
+#fundInfo .overview div.fund td {padding:3px 0;}
+
+#fundInfo .overview div.fund td.fc {width:108px;}
+
+#fundInfo .overview div.nav td.fc {width:160px;}
+#fundInfo .overview div.nav td.lc {width:75px;}
+
+#fundInfo .overview div.nav .asof {display:-moz-inline-stack;display:inline-block;_top:3px;}
+
+#fundInfo .overview div.attr {width:200px;}
+#fundInfo .overview div.attr table {margin-top:-2px;}
+
+#fundInfo .overview table.num th,
+#fundInfo .overview table.num td {text-align:right;}
+#fundInfo .overview table.num td.fc {text-align:left;}
+
+#fundInfo .overview .legal {color:#666;padding:10px 0 0;clear:both;}
+
+
+
+#fundInfo .action {margin:5px 0;position:absolute;right:0;}
+#fundInfo .action a.btn {margin-left:10px;zoom:1;}
+
+#fundTabs .tabList{margin:0;border:0;top:0;}
+#fundTabs .tabList a {position:relative;display:block;text-align:center;background:#F2F2EB;
+margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+border:0;border-right:1px solid #fff;
+}
+#fundTabs .tabList a:hover {text-decoration:underline !important;}
+#fundTabs .tabList li {margin-right:1px;list-style:none;position:relative;float:left;margin-top:-1px; margin-bottom:0px;}
+
+#fundTabs .tabList li.offset {margin-left:25px;}
+#fundTabs .tabList span {position:relative;display:block;padding:7px 25px;font:700 12px arial;border:0;border-top:5px solid #ddc;}
+#fundTabs .tabList li.active a {margin-top:0;color:#b50;font-size:1em;text-decoration:none;bottom:-1px;cursor:text;text-decoration:none !important;}
+
+#fundTabs .tabList li.active span {background:#F2F2EB;border-bottom:1px solid #F2F2EB;border-top:5px solid #ea0;}
+#fundTabs .tabList li.shadow a {padding-right:12px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-tab-r.png') right -5px no-repeat #F2F2EB;border:0;}
+
+div.tabContainer {border-top:5px solid #666;background:#fff;position:relative;}
+#fundTabs {background:#fff;position:relative;border-bottom:1px solid #ddd;}
+
+#fundContent {padding:0px 0 15px 15px;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-l-b.gif') 725px top no-repeat #F2F2EB;}
+
+#fundContent .content {width:710px;float:left;}
+#fundContent .content .panel {padding:0 19px;background:#fff;margin:0 0 20px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-fundpanel.gif') 0 0 repeat-y;width:661px;}
+#fundContent .content div.lc {margin:0;}
+
+#fundContent .content .panel .h {display:block;background:url('https://www.franklintempleton.com/retail/new/img/common/fundpanel-t.gif') 0 top no-repeat;height:8px;width:699px;margin:0 -19px 10px;;}
+#fundContent .content .panel .f {display:block;background:url('https://www.franklintempleton.com/retail/new/img/common/fundpanel-b.gif') 0 bottom no-repeat;height:8px;width:699px;margin:0 -19px;clear:both;padding-top:10px;border:0;}
+
+#fundContent .content #invest .con {width:450px;float:left;}
+#fundContent .content #invest h3 {margin-top:0;}
+
+#fundContent .content .panel > h2 {font:400 20px georgia;color:#b50;margin:-10px -15px 0;padding:10px 15px;margin-bottom:10px;border-bottom:2px solid #EAEBE3;}
+#fundContent .content h3 {font:700 15px arial;margin-top:20px;margin-bottom:.5em;}
+#fundContent .chartGraphic {margin-top:5px;}
+#fundContent .chartGraphic h3 {font:700 13px arial;margin:0;}
+#fundContent .content h2 + h3 {margin-top:0;}
+#fundContent .content ul {list-style:disc;margin-left:15px;}
+#fundContent .content ul.comm {}
+#fundContent .content ol {list-style:decimal;margin-left:30px;}
+
+#fundContent .content ol.steps {list-style:none;margin-left:23px;width:410px;}
+#fundContent .content ol.steps li {margin-bottom:1em;position:relative;}
+#fundContent .content ol.steps li span {display:block;height:50px;line-height:normal;position:absolute;top:-7px;left:-23px;font:28px georgia;color:#c60;line-height:1em;_padding-bottom:2px;}
+
+#fundContent .content ol.steps li p {font:12px arial !important;color:#000;}
+#fundContent .content ol.steps li.lc {margin:0;}
+
+#fundContent .content .docs {width:180px;padding:0 0 0 15px;float:right;margin-left:15px;border-left:1px solid #ddd;}
+#fundContent .content .moreinfo {width:145px;padding:0 20px;float:right;margin-left:15px;margin-top:2px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') right bottom no-repeat;}
+#fundContent .content .moreinfo h3 {font:700 13px arial;margin:0 0 5px;}
+#fundContent .content .moreinfo div {background:url('https://www.franklintempleton.com/retail/new/img/common/bg-moreinfo.png') 0 0 no-repeat;margin:0 -20px;padding:20px 20px;}
+#fundContent .content .moreinfo ul {list-style:none;margin:0;}
+#fundContent .content .moreinfo ul li {margin:0 0 5px;}
+
+#fundContent .content .tabinfo {width:300px;float:right;margin-left:15px;margin-bottom:1em;}
+#fundContent .content .tabinfo ul {margin:0;padding:0;list-style:none;}
+#fundContent .content .tabinfo ul li {float:left;margin:0;padding:0;}
+#fundContent .content .tabinfo ul li a {display:block;text-decoration:none;padding:6px 0;width:149px;text-align:center;background:#F2F2EB;color:#666;border-bottom:1px solid #ddd;font:700 11px arial;}
+#fundContent .content .tabinfo ul li a:hover {text-decoration:none !important;}
+#fundContent .content .tabinfo ul li a.sel {border:1px solid #ddd;border-bottom:0;background:#FCFDF8;color:#000;margin-bottom:-1px;cursor:text;}
+
+#fundContent .content .tabinfo .con {padding:10px;background:#FCFDF8;border:1px solid #ddd;font:10px verdana;border-top:0;}
+#fundContent .content #statement img {float:left;width:88px;height:88px;border:1px solid #666;}
+#fundContent .content #statement p {float:right;width:178px;}
+
+#fundContent .content li > ol {margin-top:5px;}
+#fundContent form * {_vertical-align:middle !important;}
+#fundContent form.hist {position:relative;_top:-2px;}
+#fundContent a.setDate {_padding-bottom:2px;}
+
+#fundContent .panel th {font-weight:400 !important;text-align:center;}
+
+#fundContent h2 img,
+#fundContent h3 img {vertical-align:bottom;}
+
+/*inner tabs*/
+#fundContent .panel .tabContainer {border-top:5px solid #666;padding:0;top:5px;}
+#fundContent .panel .tabList {margin:0;display:block;position:relative;z-index:1;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-tab-inner.gif') 0 bottom repeat-x;}
+#fundContent .panel .tabList:after {content: ".";display:block;height:0;clear:both;visibility:hidden;}
+#fundContent .panel .tabList li {float:left;margin:0;margin-top:-1px;/* be nice to Opera */}
+
+#fundContent .panel .tabList a {position:relative;display:inline-block;text-align:left;text-decoration:none;color:#666;
+white-space: nowrap;border:0;margin-right:0;padding-bottom:18px;background:url('https://www.franklintempleton.com/retail/new/img/common/bg-tab-inner.gif') 0 bottom repeat-x #fff;}
+
+#fundContent .panel .tabList span {position:relative;display:block;padding:7px 20px;font:700 12px arial;border-right:1px solid #ddd;border-top:0;}
+
+#fundContent .panel .tabList li.lc span,
+#fundContent .panel .tabList li:last-child span {border:0;}
+
+#fundContent .panel .tabList .ui-tabs-selected a {font-size:1.1em;text-decoration:none;background-image:none;background:#eee;margin-top:-9px;border-top:5px solid #ea0;}
+#fundContent .panel .tabList .ui-tabs-selected a span {color:#b50;text-decoration:none;border-bottom:0;background:#fff;padding:10px 20px;}
+#fundContent .panel .viewHistorical {float:right;}
+
+/* Safari hack*/
+html[xmlns*=""] body:last-child #fundContent #con-perf .tabList li.lc span {width:152px;}
+
+
+#fundContent .legalinfo {margin-top:20px;}
+#fundContent .panel #histData th {font-weight:700 !important;}
+#fundContent .chartGraphic div.caveat ol {margin-left:19px;}
+#fundContent .ratio43 {width:221px;height:196px;}
+#fundContent .ratio169 {width:221px;height:130px;}
+
+#fundTabs .tabList li#taxTab { margin-right:0px; }
+#fundTabs .tabList li#taxTab a { border-right:0px; }
+#fundTabs .tabList li.shadow { margin-right:0px; height:35px; background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-tab-r.png') 0 0 no-repeat #fff; width:12px; }
+#fundTabs .printTabHolder { width:220px; }
+#fundCompare #qe_nsales_chrg .asof, #fundCompare #me_nsales_chrg .asof { display: block; }
+
+/*addThis Widget*/ 
+.addthis_con {position:relative;z-index:10;display:inline-block;background:#fff;padding:1px;border:1px solid #ccc;}
+.shareButton {display:inline-block;color:#369;background:url('https://www.franklintempleton.com/retail/img/common/icon_share.gif') 2px 4px no-repeat #eee;padding:3px 5px 3px 21px;}
+.addthis_toolbox {display:none;position:absolute;top:26px;left:-1px;}
+.addthis_toolbox {background: #fff;width: 150px;border: 2px solid #ccc;border-top:1px solid #ccc;}
+.addthis_toolbox a {position: relative;display: block;background: #fff;padding: 4px 0 4px 40px;text-decoration: none;}
+.addthis_toolbox .addthis_close{font:11px arial;text-align:right;background:#eee;padding:3px;color:#000;}
+.addthis_toolbox a:hover {background: #f5f5f5;color: #027999;text-decoration: none;}
+.addthis_toolbox span {position:absolute;left:20px;top:5px;}
+
+#ltBox-shareSite {background:none repeat scroll 0 0 #FFFFFF;padding:20px;text-align:left;width:400px;}
+#ltBox-shareSite .close {display:inline;}
+/*end widget*/ 
+
+/*novrelease*/
+.tooltiptop-fs {background:url("https://www.franklintempleton.com/retail/new/img/common/bg-commtip-fs-t.png") no-repeat scroll 1px top transparent;font:400 12px arial;padding-top:10px;position:absolute;text-align:left;visibility:hidden;width:339px;left:590px !important;width:350px !important;}
+.tooltipmiddle-fs {padding-top:8px;}
+.tooltipbottom-fs {background:url("https://www.franklintempleton.com/retail/new/img/common/bg-commtip-fs-b.png") no-repeat scroll 0 bottom transparent; }
+.innerTooltip-fs {padding:1px 25px 27px 24px; }
+
+/*Order Lit release*/
+/*enhancement Quickwins FTOL-3*/
+/******
+ * Order Lit
+******/
+
+/*enhancement Quickwins FTOL-2*/
+#orderlitSearch select {width:370px}
+#litSearch .tabList .other{color:#369;left:130px;top:11px;}
+#litSearch .tabList .other:hover{text-decoration:underline !important;}
+#orderlitSearch .related {border:none;padding:0 15px 10px;width:200px;}
+#orderlitSearch .related h2{font:700 13px arial;margin-top:15px;margin-bottom:5px;}
+
+#orderlitSearch .search {float:left;width:460px;}
+#orderlitSearch .related ul {color:#336699;margin-left:0;list-style-type:none;}
+#orderlitSearch .note{color:#666;font:11px arial;}
+#orderlitSearch .related #litCartDetail{width:180px;}
+/*new */
+#litSearch .tabContainer {background:none;border-top:5px solid #666666;padding:0;top:5px;position:relative;}
+#litSearch .tabList {display:block;margin-top:-4px;position:relative;z-index:1;}
+#litSearch .tabList:after {clear:both;content:".";display:block;height:0;visibility:hidden;}
+#litSearch .tabList li {float:left;margin:-1px 0 0;}
+#litSearch .tabList a {border:none;color:#333333;display:block;margin-right:0;position:relative;text-align:left;text-decoration:none;white-space:nowrap;}
+#litSearch .tabList span {border-right:1px solid #DDDDDD;border-top:5px solid #666666;display:block;font:700 12px arial;padding:8px 19px;position:relative;}
+#litSearch .tabList .ui-tabs-selected a {background:none;text-decoration:none;}
+#litSearch .tabList .ui-tabs-selected a span {background:none repeat scroll 0 0 #FFFFFF;border-bottom:0 none;border-top:5px solid #EEAA00;color:#BB5500;margin-top:-5px;text-decoration:none;padding-top:12px;}
+#litSearch .tabCon {padding:15px;/*background:url("../img/common/shadow-bot-w.gif") repeat-x scroll 0 bottom transparent;*/}
+#litSearch .con{background:#FFFFFF;padding:20px 15px;height:190px;}
+#litSearch  .f{background:url("https://www.franklintempleton.com/retail/new/img/common/shadow-bot-w.gif") repeat-x scroll 0 bottom transparent;}
+#litSearch form p{margin-bottom:15px;}
+#litSearch h4{margin-bottom:5px;}
+#litSearch .aSearch{margin-top:100px;}
+#litSearch p.shade-tl{margin:0;padding:5px 0 0 0;background-position:-50px top;left:15px;top:14px;background:url("https://www.franklintempleton.com/retail/new/img/common/shadow-top-b.gif") repeat-x scroll 0 bottom transparent;}
+.chartTable table tbody td.faNote{background:#ffd;padding-top:15px;padding-bottom:15px;}
+
+
+/*ie7*/
+*+html #litSearch .tabList a{margin-top:-4px;}
+*+html #litSearch .tabList .ui-tabs-selected a span {margin-top:-8px;}
+/*end enhancement*/
+
+
+/*enhancement Quickwins FTOL-3*/
+#findLiteratureByFund{padding-top:20px;}
+#findLiteratureByFund .search {float:left;width:711px;}
+#findLiteratureByFund .searchResults {margin-top:2em;}
+#findLiteratureByFund .searchResults ul {width:451px;}
+
+#litSearchByFund .tabContainer {background:none;border-top:5px solid #666666;padding:0;top:5px;position:relative;}
+#litSearchByFund .tabList {display:block;margin-top:-4px;position:relative;z-index:1;}
+#litSearchByFund .tabList:after {clear:both;content:".";display:block;height:0;visibility:hidden;}
+#litSearchByFund .tabList li {float:left;margin:-1px 0 0;}
+#litSearchByFund .tabList a {position:relative;display:block;text-align:center;text-decoration:none;background:#F2F2EB;
+margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+border:0;border-right:1px solid #fff;color:#666;
+}
+#litSearchByFund .tabList span {display:block;padding:7px 25px;font:700 12px arial;border:0;border-top:5px solid #DCDDCD;}
+#litSearchByFund .tabList .ui-tabs-selected a {margin-top:0;color:#b50;font-size:1.1em;text-decoration:none;bottom:-1px;}
+#litSearchByFund .tabList .ui-tabs-selected span {background:#F2F2EB;border-top:5px solid #ea0;border-bottom:1px solid #F2F2EB;}
+#litSearchByFund .tabList .ui-tabs-selected a {font-size:1em;}
+#litSearchByFund .tabList li.shadow a {padding-right:11px !important;background:url('https://www.franklintempleton.com/retail/new/img/common/shadow-tab-r.png') right -5px no-repeat #F2F2EB;}
+#litSearchByFund .tabCon {background:#F2F2EB; border-top:1px solid #ddd; padding:15px;/*background:url("../img/common/shadow-bot-w.gif") repeat-x scroll 0 bottom transparent;*/}
+#litSearchByFund .con{background:#FFFFFF;padding:20px 15px;}
+#litSearchByFundCartDetail {border:1px solid #ddd;background:#F2F2EB;margin:10px 10px 0 0;padding:8px 10px;width:175px;}
+#litSearchByFundCartDetail p {padding:2px 0;padding-left:20px;background:url('https://www.franklintempleton.com/retail/new/img/common/icon-doc.gif') 0 2px no-repeat;font:12px arial;margin:0;}
+
+#litSearchByFund form p{margin-bottom:15px;}
+#litSearchByFund h4{margin-bottom:5px;}
+
+/*ie7*/
+*+html #litSearchByFund .tabList a{margin-top:-4px;}
+*+html #litSearchByFund .tabList .ui-tabs-selected a span {margin-top:-8px;}
+#litSearchByFund table.fundCategFamily {}
+#litSearchByFund table.fundCategFamily td {width:130px; padding: 0 0 10px 0;}
+#litSearchByFund table.fundCategFamily td a{text-decoration:underline;}
+/*end enhancement*/
+
+
+#orderlitFeature {margin-top:2em;}
+#orderlitFeature h2 {font:18px georgia;color:#b50;margin-bottom:10px;}
+
+#orderlitFeature table {empty-cells:hide;}
+#orderlitFeature table td {width:334px;padding:10px;border-right:1px solid #DEDDCB;border-top:1px solid #DEDDCB;vertical-align:top;}
+#orderlitFeature table tr.lc td {border-bottom:0;}
+
+#orderlitFeature table td.fc {padding-left:0;width:344px;}
+#orderlitFeature table td.lc {border-right:0;}
+#orderlitFeature p.litcode {font:11px arial;}
+/*FTOL-2 Enhancement*/
+#orderlitFeature .con img {display:-moz-inline-stack;display:inline-block;float:left;margin-top:3px;margin-right:5px;}
+#orderlitFeature .con p {float:right;width:270px;padding:0 !important;}
+/*end*/
+#orderlitFeature table td.lc p {width:270px;}
+.orderlit .skip{background-attachment:scroll;background-color:transparent;
+background-image:url("https://www.franklintempleton.com/retail/new/img/common/arrowArray.gif");
+background-position:-492px -41px;
+background-repeat:no-repeat;
+line-height:1.1em;margin:0 0 5px 580px;width:120px;}
+/*end enhancement*/  
+
+
+/* fund facts table style */
+.ff {width:100%;}
+.ff th{padding:7px 10px;font:400 12px arial;vertical-align:top; background: #EEEEEE; border-bottom: 3px solid #CCCCCC; border-top: 1px solid #CCCCCC;  border-left: 1px solid #CCCCCC;}
+.ff td{text-align:center; font:12px arial;padding:7px 10px;border-bottom:1px solid #ddd;}
+.ff th:first-child{text-align:left;}
+.ff td:first-child{text-align:left;padding-left:3px;}
+
+/*Risk Management form */
+.riskMgmtForm {position:relative;width: 671px!important;width: 671px;border: none;background: #F4F5EF;margin: 0;padding: 20px 20px 0px;}
+div.riskMgmtFormTable{background:#fff;width: 651px;border:none;padding:10px;margin:0;}
+div.riskMgmtFormSubmit{background:#F4F5EF;width: 671px;border:none;padding:20px;}
+
+/*SEO-VML project Page Not found*/
+#pageNotFound{margin:24px;padding:15px 24px 35px;border:3px solid #EE9922;font:13px Arial;line-height: 1.4 em;width:auto;}
+#pageNotFound ul {margin-left: 0;padding-left: 0;margin-bottom:55px;margin-top:30px;}
+#pageNotFound ul li{padding: 0px 15px;border-left: 1px solid #ccc;list-style: none;float:left;}
+#pageNotFound ul li p{width:355px;padding:0 20px;line-height: 1.4em;}
+#pageNotFound ul li.first{border-left: none;list-style: none;}
+#pageNotFound li h2{font:18px Georgia;width:310px;padding:0 20px 0;}
+#mainContent #pageNotFound h1 {padding-left: 0;}
+
+/*investment philosophy*/
+.expContainer .expContent .investmentStyle{padding:15px;}
+.expContainer .expContent .investmentStyle li{list-style-position:outside;list-style-type:disc;}
+#philosophy {_margin-right:-3px;margin-left:-2px;_margin-left:-3px;}
+#philosophy .expControl {margin:0 0 15px 0;text-align:left;}
+
+#invPhilosophy .expContainer .expPane {width:687px;border:0;background:url(https://www.franklintempleton.com/retail/img/common/bg-drawersh.gif) repeat-y scroll 0 0;margin:0 0 10px;padding:0 3px 0 4px !important;position:relative;}
+#invPhilosophy .expContainer .expPane b.h {background:transparent url(https://www.franklintempleton.com/retail/img/common/bg-drawersh-t.gif) no-repeat scroll 0 0;display:block;height:5px;margin:0 -4px;overflow:hidden;width:695px;}
+#invPhilosophy .expContainer .expPane b.f {background:transparent url(https://www.franklintempleton.com/retail/img/common/bg-drawersh-b.gif) no-repeat scroll 0 0;display:block;height:5px;margin:0 -4px;overflow:hidden;width:695px;}
+
+#invPhilosophy .expContainer .expItem {margin-top:-1px;width:687px;background:url('https://www.franklintempleton.com/retail/img/common/bg-drawer_ISR.png') no-repeat transparent;}
+#invPhilosophy .expContainer .expItem a {height:1%;display:block;padding:7px 10px;padding-left:15px;text-decoration:none;font:400 17px arial;color:#000;background:url('https://www.franklintempleton.com/retail/img/common/ICON_arrowClose_10x10.gif') 10px 10px no-repeat transparent;padding-left:25px;}
+#invPhilosophy .expContainer .expItem a:hover{background:url('https://www.franklintempleton.com/retail/img/common/ICON_arrowClose_10x10.gif') 10px 10px no-repeat #ffd;}
+#invPhilosophy .expContainer .active a {background:url('https://www.franklintempleton.com/retail/img/common/ICON_arrowOpen_10x10.gif') 10px 10px no-repeat #d3e5e5;}
+#invPhilosophy .expContainer .active a:hover {background:url('https://www.franklintempleton.com/retail/img/common/ICON_arrowOpen_10x10.gif') 10px 10px no-repeat #ffd;background-color:#ffd !important;}
+#invPhilosophy .expContainer .current a {background-color:#ffd !important;}
+#invPhilosophy .chartTable table {border-bottom:3px solid #ccc;}
+#invPhilosophy .expContainer .active p a,
+#invPhilosophy .expContainer .active p a:hover {background:none;}
+#invPhilosophy .expContainer .active .expContent a,
+#invPhilosophy .expContainer .active .expContent a:hover {background:none;}
+#invPhilosophy .expContainer .expContent{width:687px;}
+#invPhilosophy table caption{font:700 15px arial;padding-bottom:5px;}

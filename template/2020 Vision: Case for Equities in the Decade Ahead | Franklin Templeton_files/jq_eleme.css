@@ -1,0 +1,130 @@
+/*********************
+ggao - 04/2008
+*********************/
+
+
+/*standard site Tabs*/
+
+/* tabs reset */
+ul.ui-tabs-nav,
+ul.ui-tabs-nav li {padding:0;margin:0;list-style:none;position:relative;}
+ul.ui-tabs-nav li a {text-decoration:none;}
+
+
+div.ui-tabs-hide, 
+div.tabContainer div.ui-tabs-hide{display:none;}
+
+ul.ui-tabs-nav {position:relative;z-index:1;}
+
+ul.ui-tabs-nav:after {content: ".";display:block;height:0;clear:both;visibility:hidden;}
+
+ul.ui-tabs-nav li {float:left;margin-top:-1px;/* be nice to Opera */}
+
+
+
+ul.ui-tabs-nav a {position:relative;display:block;text-align:center;
+margin:0; /* position: relative makes opacity fail for disabled tab in IE */
+white-space: nowrap; /* required in IE 6 */
+}
+
+
+.ui-tabs-nav .ui-tabs-selected a:link, .ui-tabs-nav .ui-tabs-selected a:visited, .ui-tabs-nav .ui-tabs-disabled a:link, .ui-tabs-nav .ui-tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+    cursor: text;
+}
+
+.ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active,
+.ui-tabs-nav .ui-tabs-unselect a:hover, .ui-tabs-nav .ui-tabs-unselect a:focus, .ui-tabs-nav .ui-tabs-unselect a:active { /* @ Opera, we need to be explicit again */
+cursor: pointer;}
+
+/* auto clear, @ IE 6 & IE 7 Quirks Mode */
+* html .ui-tabs-nav {display:inline-block;min-height:1%;}
+
+/* @ IE 7 Standards Mode - do not group selectors, otherwise IE 6 will ignore complete rule (because of the unknown + combinator)...*/
+*:first-child+html .ui-tabs-nav  {display:inline-block;}
+
+
+
+
+
+/*auto-complete search*/
+.ac_results {width:700px;border:1px solid #ccc;background:#fff;overflow:hidden;z-index:99999;}
+
+.ac_results ul {list-style-position:outside;list-style:none;padding:0;margin:0;text-align:left;}
+
+.ac_results li {margin:0 5px;padding:10px;cursor:pointer;display:block;font:13px arial;color:#369;border-bottom:1px solid #ddd;}
+.ac_results li strong {color:#006;}
+
+
+.ac_loading {background : Window url('https://www.franklintempleton.com/retail/new/css/indicator.gif') right center no-repeat;}
+
+.ac_results li.ac_odd {}
+.ac_results li.ac_over {background:#ffd;}
+
+.ac_moreItems {
+	text-align: center;
+	background-color: InactiveCaption;
+	color: InactiveCaptionText;
+	margin: 0px;
+	padding: 0px 5px;
+	cursor: default;
+	display: block;
+	width: 100%;
+	font: bold menu 12px;
+	overflow: hidden;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+
+
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+    padding:0;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+
+
+

@@ -1,0 +1,82 @@
+﻿/*********************
+author: ggao
+
+IE 7.0 hacks
+*********************/
+
+button {outline:0;zoom:1;}
+button span {position:relative;margin-top:-2px;}
+
+input.go {vertical-align:baseline;}
+
+.cancel {margin:0 10px;vertical-align:middle;zoom:1;outline:0;}
+
+
+
+span.btn {vertical-align:top;}
+
+.subItem{padding-bottom:37px;}
+.divider{width:300px;}
+.subItemContainer{position:relative;}
+/* Secondary & Tertiary Landing Page styles - Starts here */
+#secLandPageContainer{margin-left:0px;}
+.secLandPageDataGrid{margin-left:0px;width:710px;}
+.terColumns0{border:0px solid #ffffff;width:320px;border-right:23px #ffffff;padding-right:0px;}
+.terColumns1{border:0px solid #ffffff;width:320px;padding-right:0px;}
+#terContent{width:310px;}
+.terImage{width:343px;background: #FFFFFF;}
+#terContentGroup{width:300px;}
+/* Secondary & Tertiary Landing Page styles - Ends here */
+
+
+.fundnamecol{padding:7px 0 0 !important}
+
+span.btn input,
+a.btn span,
+a.btn:hover span,
+span.inactivebtn input,
+a.inactivebtn span {width:1%;!important;}
+
+#capGains .asOf {margin-bottom:6px;}
+
+#campaignsList li div.portrait {margin-left:-11px;}
+
+#faMyFunds #fundList tbody td a.alert {display:inline-block;}
+#fundDetail .expContent .tabList li {margin-top:-6px;}
+table.fundperf thead th.fundCol {text-align:left;border-left:0;width:348px;}
+
+select, input.txt, button, input {vertical-align:top;}
+
+#sideNav ul.secLevel li a {display:inline-block;width:195px;}
+#sideNav ul.terLevel li a {display:inline-block;width:188px;}
+#sideNav ul.quatLevel li a {display:inline-block;width:168px;}
+
+/**global footer**/
+#footer {zoom:1;}
+
+div.legalinfo ol {margin-left:28px;}
+div.legalinfo ul {margin-left:15px;}
+
+
+#hmBodyLow{zoom:1;}
+div.fundMessage {text-align: left;}
+
+#faMyFunds div.scroll {height:243px;}
+
+#spotlightFlash {left:0;}
+
+th.headerSortUp span,
+th.headerSortDown span {margin-bottom:3px;}
+
+#searchExp #results ul li {margin-top:-3px;}
+#searchExp #results ul {margin-top:6px;}
+
+#changeMail .chartTable table td input {margin-top:0;}
+#siteSearchResult .previewAll .section ol li p {margin-left:16px;}
+
+/*all funds hacks*/
+.divided li.first {position:relative;background:transparent;}
+.has-tip { height: 1%; }
+.tip {border: 1px solid #999; border-right: 7px solid #ccc; border-bottom: 7px solid #ccc;background: #fff url('/retail/img/common/s.gif') repeat 0 0;z-index:1000;filter: alpha(opacity=1);} 
+.tip .pointer { background: #fff; border-width: 10px 20px 10px 0; border-color: #999; border-style: solid; width: 0; height: 0; display: none; }
+.tip .pointer-flipped { background: #fff; border-width: 10px 20px 10px 0; border-color: #999; border-style: solid; width: 0; height: 0; display: none; }

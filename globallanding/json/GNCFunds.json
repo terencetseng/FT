@@ -1,0 +1,632 @@
+{
+     "market":
+	 	[
+			{
+				 "name": "Australia",
+				 "categories": 
+				 [
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							{
+								"name":"Franklin Global Real Estate Fund",
+								"region":["Australia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=495"
+
+							},
+							{
+								"name":"Franklin International Growth Fund",
+								"region":["Australia","Europe"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=429"
+
+							},
+
+							{
+								"name":"Franklin World Perspectives Fund",
+								"region":["Australia","Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=097"
+
+							},
+							{
+								"name":"Templeton Foreign Smaller Companies Fund",
+								"region":["Australia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=191"
+
+							},
+							{
+								"name":"Mutual International Fund",
+								"region":["Australia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=373"
+
+							}
+						
+
+						]
+					},
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							{
+								"name":"Franklin Templeton Hard Currency Fund",
+								"region":["Australia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=412"
+
+							},
+							{
+								"name":"Templeton Global Bond Fund",
+								"region":["Australia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=406"
+
+							}
+						
+						]
+					}
+
+				 ]
+			},
+			{
+				 "name": "Belgium",
+				 "categories": 
+				 [
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							{
+								"name":"Franklin International Growth Fund",
+								"region":["Australia","Europe"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=429"
+
+							},
+							{
+								"name":"Franklin International Small Cap Growth Fund",
+								"region":["Europe"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=195"
+
+							},
+							{
+								"name":"Templeton Foreign Smaller Companies Fund",
+								"region":["Europe"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=191"
+
+							}
+
+						
+						]
+					}
+					
+
+				 ]
+			},
+			{
+				 "name": "Brazil",
+				 "categories": 
+				 [
+					{
+						"name":"Emerging Markets",
+						"funds":
+						[
+							
+							{
+								"name":"Templeton BRIC Fund",
+								"region":["South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=405"
+
+							}
+
+						
+						]
+					},
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							
+							{
+								"name":"Templeton Global Opportunities Trust",
+								"region":["South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=415"
+
+							}
+
+						
+						]
+					},
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							{
+								"name":"Templeton Global Balanced Fund",
+								"region":["Asia","Europe","South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=425"
+							}
+						
+						]
+					}
+
+				 ]
+			},
+			{
+				 "name": "Cambodia",
+				 "categories": 
+				 [
+					{
+						"name":"Emerging Markets",
+						"funds":
+						[
+							
+							{
+								"name":"Templeton Frontier Markets Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=096"
+
+							}
+
+						
+						]
+					}
+				 ]
+			},
+			{
+				 "name": "Canada",
+				 "categories": 
+				 [
+					{
+						"name":"Emerging Markets",
+						"funds":
+						[
+							
+							{
+								"name":"Templeton Frontier Markets Fund",
+								"region":["North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=096"
+
+							}
+
+						
+						]
+					},
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							
+							{
+								"name":"Franklin Global Real Estate Fund",
+								"region":["Asia","North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=495"
+
+							},
+							{
+								"name":"Franklin International Growth Fund",
+								"region":["Asia","North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=429"
+
+							},
+							{
+								"name":"Franklin International Small Cap Growth Fund",
+								"region":["Asia","North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=195"
+
+							},
+							{
+								"name":"Franklin World Perspectives Fund",
+								"region":["Asia","North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=097"
+
+							},
+							{
+								"name":"Templeton Global Smaller Companies Fund",
+								"region":["Asia","North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=103"
+
+							},
+							{
+								"name":"Templeton Foreign Smaller Companies Fund",
+								"region":["Asia","North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=191"
+
+							}
+
+						
+						]
+					},
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							{
+								"name":"Franklin Templeton Hard Currency Fund",
+								"region":["North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=412"
+							}
+						
+						]
+					}
+
+				 ]
+			},			
+			{
+				 "name": "China",
+				 "categories": 
+				 [
+					{
+						"name":"Emerging Markets",
+						"funds":
+						[
+							{
+								"name":"Templeton China World Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=188"
+							},
+							{
+								"name":"Templeton Asian Growth Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=490"
+							}
+						]
+					},
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							{
+								"name":"Mutual Interanational Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=373"
+
+							},
+							{
+								"name":"Templeton Global Opportunities Trust",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=415"
+
+							},
+
+							{
+								"name":"Templeton Foreign Smaller Companies Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=191"
+
+							},
+							{
+								"name":"Franklin World Perspectives Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=097"
+
+							},
+							{
+								"name":"Franklin International Growth Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=429"
+
+							}
+						
+
+						]
+					},
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							{
+								"name":"Templeton Global Balanced Fund",
+								"region":["Asia","Europe","South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=425"
+							}
+						
+						]
+					}
+
+				 ]
+			},		
+			{
+				 "name": "Germany",
+				 "categories": 
+				 [
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							{
+								"name":"Mutual Interanational Fund",
+								"region":["Europe"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=373"
+
+							},
+							{
+								"name":"Mutual European Fund",
+								"region":["Europe"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=478"
+
+							},
+							{
+								"name":"Templeton Global Opportunities Trust",
+								"region":["Europe"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=415"
+
+							}
+
+						
+						]
+					},
+					
+
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							{
+								"name":"Templeton Global Balanced Fund",
+								"region":["Asia","Europe","South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=425"
+							}
+						
+						]
+					}
+
+				 ]
+			},
+			{
+				 "name": "Ghana",
+				 "categories": 
+				 [
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							
+							{
+								"name":"Templeton Global Total Return Fund",
+								"region":["Africa"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=407"
+
+							}
+
+						
+						]
+					}
+				]
+			},
+			{
+				 "name": "Hong Kong",
+				 "categories": 
+				 [
+					{
+						"name":"Emerging Markets",
+						"funds":
+						[
+							{
+								"name":"Templeton Asian Growth Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=490"
+							},
+							{
+								"name":"Templeton China World Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=188"
+							},
+							{
+								"name":"Templeton Developing Markets Trust",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=711"
+							},
+							{
+								"name":"Templeton Emerging Markets Small Cap Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=426"
+							}
+						]
+					},
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							{
+								"name":"Franklin Global Real Estate Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=495"
+
+							},
+							{
+								"name":"Franklin International Growth Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=429"
+
+							},
+							{
+								"name":"Mutual Global Discovery Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=477"
+
+							},
+							{
+								"name":"Mutual International Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=373"
+
+							},
+							{
+								"name":"Templeton Foreign Smaller Companies Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=191"
+
+							},
+							{
+								"name":"Templeton Global Balanced Fund",
+								"region":["Asia","Europe","South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=425"
+
+							},
+							{
+								"name":"Templeton Global Smaller Companies Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=103"
+
+							},
+							{
+								"name":"Templeton World Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=102"
+
+							}
+
+						
+						]
+					},
+					
+
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							{
+								"name":"Templeton Global Balanced Fund",
+								"region":["Asia","Europe","South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=425"
+							}
+						
+						]
+					}
+
+				 ]
+			},
+			{
+				 "name": "Indonesia",
+				 "categories": 
+				 [
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							
+							{
+								"name":"Templeton Global Balanced Fund",
+								"region":["Asia","Europe","South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=425"
+
+							}
+
+						
+						]
+					},
+					{
+						"name":"Emerging Markets",
+						"funds":
+						[
+							
+							{
+								"name":"Templeton Asian Growth Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=490"
+
+							}
+
+						
+						]
+					},
+
+
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							{
+								"name":"Templeton International Bond Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=447"
+							}
+						
+						]
+					}
+
+				 ]
+			},
+			{
+				 "name": "Japan",
+				 "categories": 
+				 [
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							
+							{
+								"name":"Franklin International Small Cap Growth Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=195"
+
+							}
+
+						
+						]
+					},
+					
+					{
+						"name":"Global Fixed Income",
+						"funds":
+						[
+							{
+								"name":"Templeton Global Balanced Fund",
+								"region":["Asia","Europe","South America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=425"
+							}
+						
+						]
+					}
+
+				 ]
+			},
+
+			{
+				 "name": "Thailand",
+				 "categories": 
+				 [
+					{
+						"name":"Emerging Markets",
+						"funds":
+						[
+							{
+								"name":"Templeton Asian Growth Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=490"
+							},
+							{
+								"name":"Templeton Developing Markets Trust",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=711"
+							}
+						
+						]
+					},
+					{
+						"name":"Global Equity",
+						"funds":
+						[
+							
+							{
+								"name":"Templeton Foreign Smaller Companies Fund",
+								"region":["Asia","North America"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=191"
+
+							},
+							{
+								"name":"Templeton Global Smaller Companies Fund",
+								"region":["Asia"],
+								"url":"/retail/app/product/views/fund_page.jsf?fundNumber=103"
+
+							}
+
+						
+						]
+					}
+
+				 ]
+			}
+
+	
+		]
+}

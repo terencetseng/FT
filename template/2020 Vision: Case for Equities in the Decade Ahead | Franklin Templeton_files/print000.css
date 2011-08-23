@@ -1,0 +1,131 @@
+@import url(reset000.css);
+
+body {background:#fff;margin:0;padding:0;line-height:1.4em;font:10pt arial;}
+
+#siteWrapper, #tagline, #contentWrapper {width:100%;border:0;line-height:1.4em;}
+
+
+#contentWrapper {background:transparent;}
+
+.prominent {font:700 10pt arial;color:#000;}
+.asof,.instruction,.subdesc {font:8pt arial;line-height:1em;vertical-align:baseline;}
+
+a {color:#666;}
+ul,ol {margin-left:.2in;}
+h1 {font:700 14pt 'Times NR';margin:0 0 1em;}
+h2 {font:700 12pt arial;}
+h3 {font:700 10pt arial;}
+
+p+h2,
+ul+h2,
+ol+h2 {margin-top:2em;}
+
+p+h3,
+ul+h3,
+ol+h3 {margin-top:1em;}
+
+td {vertical-align:top !important;text-align:left;}
+
+p{padding:0;margin:0 0 1em;}
+
+li {margin-bottom:.5em;}
+
+#printMasthead{display:block; padding-bottom:.5em;margin-bottom:.125in;border-bottom:1px solid #000;}
+#printMasthead img {margin-right:10px;float:left;display:block;vertical-align:bottom;}
+#printMasthead h1{font:700 18px Arial; display:inline-block;margin:.6in .1in 0;vertical-align:bottom;}
+
+#mainContent {border:0;}
+
+#printHead {border-bottom:1px solid #000;margin-bottom:.125in;padding-bottom:5px;}
+#printHead h1 {font:700 14pt 'Times NR';margin:0;}
+#printHead img {margin-right:20px;}
+
+#masthead,
+#siteSearch,
+#navigation,
+#sideNav,
+#tagline,
+#sideBar {display:none;}
+
+div.anchor,
+#nav,
+p.top {display:none;}
+
+#mainContent {width:100%;}
+
+#sideBar img {width:100%;}
+#sideBar .content {padding:1em;}
+#sideBar ul {margin-left:.25in;padding:0;}
+
+#footer {clear:both;margin-top:.125in;padding-top:.125in;border-top:1px solid #000;}
+#footer p {display:none;float:none !important;}
+#footer p:first-child {display:block;}
+#footer ul {display:none;}
+
+#sideNav, #advisorbar, b.sn-shad{display:none !important;}
+
+
+span.btn,
+span.btn input,
+button.btn,
+button.btn span {background:#555 !important;}
+
+span.btn, button.btn {border:1px solid #000 !important;}
+
+.intro {margin-bottom:2em;}
+
+div.legalinfo,
+div.footnote {margin-top:3em;}
+
+div.footnote h2 {font:700 10pt arial;}
+div.legalinfo ol,
+div.footnote ol {margin-left:30px;}
+
+input.txt, select, option {border:1px solid #000 !important;}
+
+.chartGraphic {margin:2em 0;border:1px solid #ddd;padding:5px;text-align:center;}
+.chartGraphic h3{margin:0 0 10px;padding:10px;background:#eee;}
+.chartGraphic h3 span{display:block;font-weight:400;}
+.chartGraphic img{display:block;margin:0 auto;}
+.chartGraphic div.caveat {margin-top:25px;text-align:left;}
+
+
+.chartTable {margin:2em 0;}
+.chartTable table {border-top:1px solid #555;border-bottom:1px solid #555;width:100%;}
+.chartTable table caption {text-align:left;padding-bottom:5px;}
+.chartTable tfoot td {padding-top:25px;text-align:left;color:#666;}
+
+.chartTable table th,
+.chartTable table td {padding:5px 10px;}
+
+.chartTable table thead th {background:#eee;border-left:1px solid #555;border-bottom:2px solid #555;text-align:center;vertical-align:bottom;padding-top:20px;text-align:left;}
+.chartTable table tbody td {border-left:1px solid #555;border-top:1px solid #555;vertical-align:top !important;text-align:left;}
+
+.chartTable table thead th.fc,
+.chartTable table tbody td.fc,
+.chartTable table td:first-child,
+.chartTable table th:first-child {border-left:0;text-align:left;}
+
+
+.expContainer .expItem {background:#eee;border-top:5px solid #ccc;font:700 10pt arial;padding:10px;}
+.expContainer .expControl {display:none;}
+
+
+.tabList {display:block;margin-top:10px;}
+.tabList li {display:none;}
+.tabList li a {font:700 12pt arial;text-decoration:none;}
+.tabList li a:after  {
+   content: "" !important;
+   }
+.tabList li.ui-tabs-selected {display:block;font:700 13pt georgia;}
+
+.ui-tabs-hide {display:none;}
+
+/* clearing floated elements */
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-block; min-height:1%;}
+/* IE 7 standards mode */
+*:first-child+html .clearfix{display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
