@@ -239,6 +239,8 @@ var tabContent = function(){
             that.initImages(apiTabs.getCurrentPane());
         }
         
+		/*
+		this is what needs to be added to FTs copy on teamsite.
 		apiTabs.onBeforeClick(function(ev,ix){
 			if(master_initload){
 				console.log("cancel tab switch");
@@ -246,7 +248,7 @@ var tabContent = function(){
 			}
 			else
 				return true;
-		});
+		});*/
 
         apiTabs.onClick(function(ev,ix){
 			
