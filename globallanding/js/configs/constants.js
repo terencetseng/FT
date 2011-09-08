@@ -1,4 +1,4 @@
-/* template config */
+/* template config 
 
     // The path to the GNC API directory
 var GL_API_PATH = '/api/gnc/',
@@ -14,7 +14,7 @@ var GL_API_PATH = '/api/gnc/',
     GL_IMG_CONTENT_PATH = GL_WEB_PATH + 'img/content/';
     
     GL_FILE_CONTENT_PATH = GL_WEB_PATH + 'files/content/';
-
+*/
 /* stage env 
 var GL_API_PATH = '/stage/081011/api/gnc/',
     GL_WEB_PATH = '/stage/081011/globallanding/',
@@ -23,10 +23,9 @@ var GL_API_PATH = '/stage/081011/api/gnc/',
     GL_FILE_CONTENT_PATH = GL_WEB_PATH + 'files/content/';
 */
 
-/* dev (personal)
+/* dev (personal)*/
 var GL_API_PATH = '/api/gnc/',
-    GL_WEB_PATH = '/globallanding/',
+    GL_WEB_PATH = '/Sandbox/franklin/FT/globallanding/',
     GL_IMG_PATH = GL_WEB_PATH + 'img/',
     GL_IMG_CONTENT_PATH = GL_WEB_PATH + 'img/content/';
     GL_FILE_CONTENT_PATH = GL_WEB_PATH + 'files/content/';
-*/

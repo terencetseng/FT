@@ -1,7 +1,8 @@
 var gncEventMed = new gncEventMediator(),
     gncFundFinder = new gncFundFinder(),
     tabContent = new tabContent(),
-    gncAnalytics = new gncAnalytics();
+    gncAnalytics = new gncAnalytics(),
+	master_initload = false;
 
 var gnc = {
     /* Takes a URL String and returns an Object out of it

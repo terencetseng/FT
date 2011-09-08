@@ -218,14 +218,15 @@ var tabContent = function(){
         var apiTabs,
             opts = {
                 // IE7 doesn't support anti-alias text on dynamic DOM elements
-                effect: ($.browser.version.substr(0,1) === 7) ? 'default' : 'fade'
+                //effect: ($.browser.version.substr(0,1) === 7) ? 'default' : 'fade'
+				effect: 'fade'
             },
             $currPane = {};
             
         $('.tabs').tabs('.panes > .pane', opts);
         
         apiTabs = $('.tabs').data('tabs');
-        
+		master_initload = true;
         // Set default tab 
         apiTabs.click(that.getTab().tabPos);
         
@@ -238,27 +239,38 @@ var tabContent = function(){
             that.initImages(apiTabs.getCurrentPane());
         }
         
+		apiTabs.onBeforeClick(function(ev,ix){
+			if(master_initload){
+				console.log("cancel tab switch");
+				return false;
+			}
+			else
+				return true;
+		});
+
         apiTabs.onClick(function(ev,ix){
-            var $currPane = $(this.getCurrentPane()),
-                $currTab = $(this.getCurrentTab()),
-                replaceStr = 'pane_';
+			
+      	 	var $currPane = $(this.getCurrentPane()),
+            $currTab = $(this.getCurrentTab()),
+            replaceStr = 'pane_';
 
             that.initImages($currPane);
-            
+           
             // Store tab history
             $('body').data('historyTab', $currPane.attr('id').replace(replaceStr, '' ) );
-            
+           
             // Reset pane position (always show first pane on Tab click)
             if (that.getTab().tabPos !== apiTabs.getIndex()) {
                 $('body').data('historyPane', 0);
             }
-            
+           
             // update hash url with current tab and pane
             // note: pane only updates when scrollable.onseek triggered
             //     <currentTab>.data('historyPaneInThisTab')
             that.putHistory();
-            
+           
             that.getPane( $('#pane_'+that.getTab().tabName) );
+
 
         });
     }
